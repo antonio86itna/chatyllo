@@ -1,0 +1,265 @@
+/* ═══════════════════════════════════════════════════════════════
+   CHATYLLO — Admin Dashboard Styles
+   ═══════════════════════════════════════════════════════════════ */
+:root {
+    --chy-primary: #4F46E5;
+    --chy-primary-hover: #4338CA;
+    --chy-green: #10B981;
+    --chy-red: #EF4444;
+    --chy-orange: #F59E0B;
+    --chy-purple: #8B5CF6;
+    --chy-blue: #3B82F6;
+    --chy-dark: #1E293B;
+    --chy-text: #334155;
+    --chy-muted: #94A3B8;
+    --chy-border: #E2E8F0;
+    --chy-bg: #F8FAFC;
+    --chy-white: #FFFFFF;
+    --chy-radius: 12px;
+    --chy-radius-sm: 8px;
+    --chy-shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+    --chy-shadow-lg: 0 10px 15px -3px rgba(0,0,0,.08), 0 4px 6px -4px rgba(0,0,0,.06);
+}
+
+.chatyllo-wrap { max-width: 100%; padding: 0 20px 0 0; }
+
+/* ── Header ──────────────────────────────────────────────────── */
+.chatyllo-header { display: flex; justify-content: space-between; align-items: center; margin: 20px 0 24px; padding: 20px 24px; background: var(--chy-white); border-radius: var(--chy-radius); box-shadow: var(--chy-shadow); }
+.chatyllo-header__left { display: flex; align-items: center; gap: 12px; }
+.chatyllo-header__title { font-size: 22px !important; font-weight: 700 !important; color: var(--chy-dark) !important; margin: 0 !important; padding: 0 !important; display: flex; align-items: center; gap: 8px; }
+.chatyllo-header__title .dashicons { color: var(--chy-primary); font-size: 26px; width: 26px; height: 26px; }
+.chatyllo-header__right { display: flex; align-items: center; gap: 10px; }
+.chatyllo-version { font-size: 12px; color: var(--chy-muted); background: var(--chy-bg); padding: 2px 8px; border-radius: 20px; }
+
+/* ── AI Status Badge ─────────────────────────────────────────── */
+.chatyllo-ai-badge { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 50px; font-size: 13px; font-weight: 600; transition: all .3s; }
+.chatyllo-ai-badge--active { background: #ECFDF5; color: #065F46; border: 1px solid #A7F3D0; }
+.chatyllo-ai-badge--inactive { background: #FEF2F2; color: #991B1B; border: 1px solid #FECACA; }
+.chatyllo-ai-badge__dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.chatyllo-ai-badge--active .chatyllo-ai-badge__dot { background: var(--chy-green); animation: chatyllo-pulse 2s ease-in-out infinite; }
+.chatyllo-ai-badge--inactive .chatyllo-ai-badge__dot { background: var(--chy-red); }
+
+@keyframes chatyllo-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(16,185,129,.5); }
+    50% { box-shadow: 0 0 0 6px rgba(16,185,129,0); }
+}
+
+/* ── Stats Grid ──────────────────────────────────────────────── */
+.chatyllo-stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 24px; }
+.chatyllo-stat-card { display: flex; align-items: center; gap: 16px; padding: 20px; background: var(--chy-white); border-radius: var(--chy-radius); box-shadow: var(--chy-shadow); transition: transform .2s, box-shadow .2s; }
+.chatyllo-stat-card:hover { transform: translateY(-2px); box-shadow: var(--chy-shadow-lg); }
+.chatyllo-stat-card__icon { width: 48px; height: 48px; border-radius: var(--chy-radius-sm); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.chatyllo-stat-card__icon .dashicons { font-size: 22px; width: 22px; height: 22px; color: #fff; }
+.chatyllo-stat-card__icon--blue { background: linear-gradient(135deg, #3B82F6, #2563EB); }
+.chatyllo-stat-card__icon--green { background: linear-gradient(135deg, #10B981, #059669); }
+.chatyllo-stat-card__icon--purple { background: linear-gradient(135deg, #8B5CF6, #7C3AED); }
+.chatyllo-stat-card__icon--orange { background: linear-gradient(135deg, #F59E0B, #D97706); }
+.chatyllo-stat-card__number { font-size: 28px; font-weight: 800; color: var(--chy-dark); line-height: 1; }
+.chatyllo-stat-card__label { font-size: 13px; color: var(--chy-muted); margin-top: 4px; }
+
+/* ── Cards ────────────────────────────────────────────────────── */
+.chatyllo-card { background: var(--chy-white); border-radius: var(--chy-radius); box-shadow: var(--chy-shadow); margin-bottom: 20px; overflow: hidden; }
+.chatyllo-card__title { font-size: 15px !important; font-weight: 600; color: var(--chy-dark); margin: 0; padding: 16px 24px; border-bottom: 1px solid var(--chy-border); display: flex; align-items: center; gap: 8px; }
+.chatyllo-card__title .dashicons { color: var(--chy-primary); }
+.chatyllo-card__body { padding: 24px; }
+
+/* ── Row / Col Grid ──────────────────────────────────────────── */
+.chatyllo-row { display: flex; gap: 20px; margin-bottom: 0; flex-wrap: wrap; }
+.chatyllo-col { flex: 1; min-width: 200px; }
+.chatyllo-col--4 { flex: 0 0 calc(33.333% - 14px); }
+.chatyllo-col--6 { flex: 0 0 calc(50% - 10px); }
+.chatyllo-col--8 { flex: 0 0 calc(66.666% - 7px); }
+@media (max-width: 782px) { .chatyllo-col--4, .chatyllo-col--6, .chatyllo-col--8 { flex: 0 0 100%; } }
+
+/* ── Tabs ─────────────────────────────────────────────────────── */
+.chatyllo-tabs { display: flex; gap: 4px; margin-bottom: 20px; background: var(--chy-white); border-radius: var(--chy-radius); padding: 4px; box-shadow: var(--chy-shadow); flex-wrap: wrap; }
+.chatyllo-tab { padding: 10px 18px; border-radius: var(--chy-radius-sm); font-size: 13px; font-weight: 500; color: var(--chy-text); text-decoration: none; display: flex; align-items: center; gap: 6px; transition: all .2s; }
+.chatyllo-tab:hover { background: var(--chy-bg); color: var(--chy-primary); }
+.chatyllo-tab--active { background: var(--chy-primary) !important; color: #fff !important; }
+.chatyllo-tab--active .dashicons { color: #fff; }
+.chatyllo-tab .dashicons { font-size: 16px; width: 16px; height: 16px; }
+.chatyllo-tab-panel { display: none; }
+.chatyllo-tab-panel--active { display: block; }
+
+/* ── Form Fields ─────────────────────────────────────────────── */
+.chatyllo-field { margin-bottom: 18px; }
+.chatyllo-field > label { display: block; font-size: 13px; font-weight: 600; color: var(--chy-dark); margin-bottom: 6px; }
+.chatyllo-field input[type="text"],
+.chatyllo-field input[type="url"],
+.chatyllo-field input[type="number"],
+.chatyllo-field input[type="email"],
+.chatyllo-field select,
+.chatyllo-field textarea { width: 100%; max-width: 500px; padding: 10px 14px; border: 1px solid var(--chy-border); border-radius: var(--chy-radius-sm); font-size: 14px; color: var(--chy-text); background: var(--chy-white); transition: border-color .2s, box-shadow .2s; }
+.chatyllo-field input:focus, .chatyllo-field select:focus, .chatyllo-field textarea:focus { border-color: var(--chy-primary); box-shadow: 0 0 0 3px rgba(79,70,229,.1); outline: none; }
+.chatyllo-field__desc { font-size: 12px; color: var(--chy-muted); margin-top: 4px; }
+.chatyllo-desc { color: var(--chy-muted); font-size: 14px; margin-bottom: 20px; }
+
+/* ── Toggle Switch ───────────────────────────────────────────── */
+.chatyllo-field--toggle { display: flex; align-items: center; justify-content: space-between; max-width: 500px; }
+.chatyllo-switch { position: relative; display: inline-block; width: 44px; height: 24px; flex-shrink: 0; }
+.chatyllo-switch input { opacity: 0; width: 0; height: 0; }
+.chatyllo-switch__slider { position: absolute; cursor: pointer; inset: 0; background: #CBD5E1; border-radius: 24px; transition: .3s; }
+.chatyllo-switch__slider::before { content: ''; position: absolute; height: 18px; width: 18px; left: 3px; bottom: 3px; background: #fff; border-radius: 50%; transition: .3s; }
+.chatyllo-switch input:checked + .chatyllo-switch__slider { background: var(--chy-primary); }
+.chatyllo-switch input:checked + .chatyllo-switch__slider::before { transform: translateX(20px); }
+
+/* ── Action Buttons Grid ─────────────────────────────────────── */
+.chatyllo-actions-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.chatyllo-action-btn { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; padding: 16px; border-radius: var(--chy-radius-sm); border: 1px solid var(--chy-border); background: var(--chy-white); cursor: pointer; text-decoration: none; transition: all .2s; text-align: left; font-size: 14px; font-weight: 600; color: var(--chy-dark); }
+.chatyllo-action-btn .dashicons { font-size: 20px; width: 20px; height: 20px; margin-bottom: 4px; }
+.chatyllo-action-btn small { font-weight: 400; font-size: 12px; color: var(--chy-muted); }
+.chatyllo-action-btn:hover { border-color: var(--chy-primary); box-shadow: var(--chy-shadow); transform: translateY(-1px); }
+.chatyllo-action-btn--primary { background: var(--chy-primary); color: #fff; border-color: var(--chy-primary); }
+.chatyllo-action-btn--primary small { color: rgba(255,255,255,.7); }
+.chatyllo-action-btn--primary .dashicons { color: #fff; }
+.chatyllo-action-btn--primary:hover { background: var(--chy-primary-hover); color: #fff; }
+.chatyllo-action-btn--secondary { background: var(--chy-bg); }
+
+/* ── Info Table ──────────────────────────────────────────────── */
+.chatyllo-info-table { width: 100%; border-collapse: collapse; }
+.chatyllo-info-table td { padding: 8px 0; font-size: 13px; border-bottom: 1px solid var(--chy-border); }
+.chatyllo-info-table td:first-child { color: var(--chy-muted); width: 45%; }
+.chatyllo-info-table td:last-child { color: var(--chy-dark); font-weight: 500; }
+
+/* ── Dot indicators ──────────────────────────────────────────── */
+.chatyllo-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
+.chatyllo-dot--green { background: var(--chy-green); }
+.chatyllo-dot--red { background: var(--chy-red); }
+
+/* ── Form Footer ─────────────────────────────────────────────── */
+.chatyllo-form-footer { margin-top: 8px; padding: 20px 0; }
+.chatyllo-form-footer .button-hero { display: inline-flex; align-items: center; gap: 8px; }
+
+/* ── Toast ────────────────────────────────────────────────────── */
+.chatyllo-toast { position: fixed; top: 40px; right: 20px; z-index: 999999; padding: 12px 20px; border-radius: var(--chy-radius-sm); font-size: 14px; font-weight: 500; color: #fff; transform: translateX(120%); transition: transform .3s ease; box-shadow: var(--chy-shadow-lg); }
+.chatyllo-toast--show { transform: translateX(0); }
+.chatyllo-toast--success { background: var(--chy-green); }
+.chatyllo-toast--error { background: var(--chy-red); }
+.chatyllo-toast--info { background: var(--chy-blue); }
+
+/* ── Pagination ──────────────────────────────────────────────── */
+.chatyllo-pagination { display: flex; gap: 6px; margin-top: 16px; justify-content: center; }
+.chatyllo-pagination button { padding: 6px 12px; border: 1px solid var(--chy-border); border-radius: var(--chy-radius-sm); background: var(--chy-white); cursor: pointer; font-size: 13px; }
+.chatyllo-pagination button.active { background: var(--chy-primary); color: #fff; border-color: var(--chy-primary); }
+
+/* ── Spinner ──────────────────────────────────────────────────── */
+.chatyllo-spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid rgba(255,255,255,.3); border-top-color: #fff; border-radius: 50%; animation: chatyllo-spin .6s linear infinite; vertical-align: middle; margin-right: 6px; }
+@keyframes chatyllo-spin { to { transform: rotate(360deg); } }
+
+/* ── Upgrade Banner ──────────────────────────────────────────── */
+.chatyllo-upgrade-banner { display: flex; align-items: flex-start; gap: 20px; padding: 24px; margin-bottom: 24px; background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 50%, #C7D2FE 100%); border: 2px solid #A5B4FC; border-radius: var(--chy-radius); position: relative; overflow: hidden; }
+.chatyllo-upgrade-banner::before { content: ''; position: absolute; top: -50px; right: -50px; width: 180px; height: 180px; background: rgba(79,70,229,.08); border-radius: 50%; }
+.chatyllo-upgrade-banner__icon { font-size: 40px; flex-shrink: 0; line-height: 1; }
+.chatyllo-upgrade-banner__content { flex: 1; }
+.chatyllo-upgrade-banner__content h3 { font-size: 18px; font-weight: 700; color: #312E81; margin: 0 0 8px; }
+.chatyllo-upgrade-banner__content p { font-size: 14px; color: #4338CA; margin: 0 0 12px; }
+.chatyllo-upgrade-banner__content ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.chatyllo-upgrade-banner__content li { font-size: 13px; color: #4338CA; }
+.chatyllo-upgrade-banner__action { flex-shrink: 0; padding-top: 10px; }
+.chatyllo-upgrade-btn { background: var(--chy-primary) !important; border-color: var(--chy-primary) !important; color: #fff !important; font-size: 14px !important; padding: 10px 24px !important; border-radius: var(--chy-radius-sm) !important; box-shadow: 0 4px 14px rgba(79,70,229,.3) !important; transition: all .2s !important; text-decoration: none !important; white-space: nowrap !important; }
+.chatyllo-upgrade-btn:hover { background: var(--chy-primary-hover) !important; transform: translateY(-1px) !important; box-shadow: 0 6px 20px rgba(79,70,229,.4) !important; color: #fff !important; }
+@media (max-width: 782px) {
+    .chatyllo-upgrade-banner { flex-direction: column; }
+    .chatyllo-upgrade-banner__content ul { grid-template-columns: 1fr; }
+}
+
+/* ── Premium Lock Overlay (full card) ───────────────────────── */
+.chatyllo-premium-lock { position: relative; }
+.chatyllo-premium-lock::after { content: '🔒 Premium'; position: absolute; inset: 0; background: rgba(255,255,255,.8); display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 600; color: var(--chy-primary); border-radius: var(--chy-radius); backdrop-filter: blur(2px); z-index: 2; }
+
+/* ── Plan Lock (inline field lock — readable but locked) ───── */
+.chatyllo-plan-lock { position: relative; opacity: .75; }
+.chatyllo-plan-lock input:disabled,
+.chatyllo-plan-lock select:disabled,
+.chatyllo-plan-lock button:disabled { cursor: not-allowed !important; background: #F1F5F9 !important; color: #94A3B8 !important; }
+.chatyllo-plan-lock__badge { display: inline-flex; align-items: center; gap: 4px; background: linear-gradient(135deg, #EEF2FF, #E0E7FF); color: #4F46E5; font-size: 12px; font-weight: 600; padding: 2px 10px; border-radius: 12px; margin-left: 8px; white-space: nowrap; }
+.chatyllo-plan-lock__badge a { color: #4F46E5; text-decoration: underline; font-weight: 700; }
+.chatyllo-plan-lock__badge a:hover { color: #3730A3; }
+
+/* ── Avatar Picker ─────────────────────────────────────────── */
+.chatyllo-avatar-picker { display: flex; align-items: center; gap: 16px; margin-top: 6px; }
+.chatyllo-avatar-picker__preview { width: 64px; height: 64px; border-radius: 50%; background: #F1F5F9; border: 2px solid #E2E8F0; display: flex; align-items: center; justify-content: center; overflow: hidden; flex-shrink: 0; }
+.chatyllo-avatar-picker__preview img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+.chatyllo-avatar-picker__preview svg { width: 48px; height: 48px; }
+.chatyllo-avatar-picker__actions { display: flex; flex-direction: column; gap: 6px; }
+.chatyllo-avatar-remove { color: #DC2626 !important; border-color: #FECACA !important; }
+.chatyllo-avatar-remove:hover { background: #FEF2F2 !important; }
+
+/* ── Search-Pick Widget ─────────────────────────────────────── */
+.chatyllo-picker { position: relative; }
+.chatyllo-picker__input { width: 100%; padding: 8px 12px; border: 1px solid #CBD5E1; border-radius: 6px; font-size: 13px; background: #fff; transition: border-color .2s; }
+.chatyllo-picker__input:focus { border-color: var(--chy-primary); box-shadow: 0 0 0 2px rgba(79,70,229,.12); outline: none; }
+.chatyllo-picker__input:disabled { background: #F1F5F9; cursor: not-allowed; }
+.chatyllo-picker__dropdown { position: absolute; top: 100%; left: 0; right: 0; z-index: 100; background: #fff; border: 1px solid #CBD5E1; border-top: none; border-radius: 0 0 8px 8px; max-height: 200px; overflow-y: auto; display: none; box-shadow: 0 8px 24px rgba(0,0,0,.08); }
+.chatyllo-picker__dropdown--open { display: block; }
+.chatyllo-picker__item { padding: 9px 14px; cursor: pointer; font-size: 13px; border-bottom: 1px solid #F1F5F9; }
+.chatyllo-picker__item:last-child { border-bottom: none; }
+.chatyllo-picker__item:hover { background: #EEF2FF; color: #4338CA; }
+.chatyllo-picker__empty { padding: 14px; text-align: center; color: #94A3B8; font-size: 13px; }
+.chatyllo-picker__tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.chatyllo-picker__tag { display: inline-flex; align-items: center; gap: 5px; background: #EEF2FF; color: #4338CA; font-size: 12px; font-weight: 500; padding: 4px 10px; border-radius: 20px; }
+.chatyllo-picker__tag-x { cursor: pointer; color: #818CF8; font-size: 15px; font-weight: 700; line-height: 1; margin-left: 2px; }
+.chatyllo-picker__tag-x:hover { color: #DC2626; }
+
+/* ── Branding Radio Options ────────────────────────────────── */
+.chatyllo-branding-options { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+.chatyllo-branding-option { display: flex; align-items: center; gap: 10px; padding: 10px 14px; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; transition: border-color .2s, background .2s; }
+.chatyllo-branding-option:hover { border-color: #CBD5E1; background: #F8FAFC; }
+.chatyllo-branding-option--active { border-color: var(--chy-primary) !important; background: #EEF2FF !important; }
+.chatyllo-branding-option--locked { opacity: .65; cursor: pointer; }
+.chatyllo-branding-option--locked:hover { border-color: #94A3B8; }
+.chatyllo-branding-option input[type="radio"] { margin: 0; accent-color: var(--chy-primary); }
+.chatyllo-branding-option__content { display: flex; align-items: center; gap: 8px; flex: 1; }
+.chatyllo-branding-option__label { font-size: 14px; font-weight: 600; color: #1E293B; }
+.chatyllo-branding-option__desc { font-size: 12px; color: #64748B; margin-left: auto; white-space: nowrap; }
+
+/* ── AI FAQ Badge ──────────────────────────────────────────── */
+.chatyllo-ai-badge { display: inline-flex; align-items: center; gap: 3px; padding: 2px 8px; background: linear-gradient(135deg, #8B5CF6, #6D28D9); color: #fff; font-size: 10px; font-weight: 700; border-radius: 10px; letter-spacing: .5px; text-transform: uppercase; }
+
+/* ── FAQ Generation Progress Bar ───────────────────────────── */
+.chatyllo-faq-gen-bar { width: 100%; height: 6px; background: #E2E8F0; border-radius: 3px; overflow: hidden; }
+.chatyllo-faq-gen-bar__fill { height: 100%; background: linear-gradient(90deg, #8B5CF6, #6D28D9); border-radius: 3px; transition: width .4s ease; width: 0%; }
+
+/* ── Session Detail Modal ──────────────────────────────────── */
+.chatyllo-modal { position: fixed; inset: 0; z-index: 100100; display: flex; align-items: center; justify-content: center; }
+.chatyllo-modal__overlay { position: absolute; inset: 0; background: rgba(0,0,0,.5); backdrop-filter: blur(2px); }
+.chatyllo-modal__dialog { position: relative; background: #fff; border-radius: 12px; width: 90%; max-width: 700px; max-height: 85vh; display: flex; flex-direction: column; box-shadow: 0 20px 60px rgba(0,0,0,.2); }
+.chatyllo-modal__header { display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; border-bottom: 1px solid #E2E8F0; }
+.chatyllo-modal__close { background: none; border: none; font-size: 24px; cursor: pointer; color: #94A3B8; padding: 0 4px; line-height: 1; }
+.chatyllo-modal__close:hover { color: #1E293B; }
+.chatyllo-modal__body { padding: 20px; overflow-y: auto; flex: 1; }
+
+/* Conversation in modal */
+.chatyllo-modal__conversation { display: flex; flex-direction: column; gap: 12px; }
+.chatyllo-modal__msg { display: flex; flex-direction: column; max-width: 85%; }
+.chatyllo-modal__msg--user { align-self: flex-end; align-items: flex-end; }
+.chatyllo-modal__msg--bot { align-self: flex-start; align-items: flex-start; }
+.chatyllo-modal__msg-bubble { padding: 10px 14px; border-radius: 14px; font-size: 13px; line-height: 1.5; word-break: break-word; }
+.chatyllo-modal__msg-bubble--user { background: var(--chy-primary, #4F46E5); color: #fff; border-bottom-right-radius: 4px; }
+.chatyllo-modal__msg-bubble--bot { background: #F1F5F9; color: #1E293B; border-bottom-left-radius: 4px; }
+.chatyllo-modal__msg-meta { font-size: 11px; color: #94A3B8; margin-top: 3px; display: flex; align-items: center; gap: 2px; }
+
+/* Extra dot colors */
+.chatyllo-dot--blue { background: #3B82F6 !important; }
+.chatyllo-dot--purple { background: #8B5CF6 !important; }
+
+/* ── Log row clickable ─────────────────────────────────────── */
+.chatyllo-log-row:hover td { background: #F1F5F9 !important; }
+
+/* ── Status Timeline ───────────────────────────────────────── */
+.chatyllo-timeline-bar:hover { opacity: .7; transform: scaleY(1.15); }
+.chatyllo-timeline-bar { transition: opacity .2s, transform .2s; }
+
+/* ── AI Usage Meters ───────────────────────────────────────── */
+.chatyllo-meter { padding: 14px 16px; background: #F8FAFC; border-radius: 10px; border: 1px solid #E2E8F0; }
+.chatyllo-meter--inactive { opacity: .5; filter: grayscale(1); }
+.chatyllo-meter__header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.chatyllo-meter__label { font-size: 14px; font-weight: 600; color: #1E293B; }
+.chatyllo-meter__count { font-size: 13px; font-weight: 500; color: #64748B; }
+.chatyllo-meter__bar { width: 100%; height: 10px; background: #E2E8F0; border-radius: 5px; overflow: hidden; }
+.chatyllo-meter__fill { height: 100%; border-radius: 5px; transition: width .6s ease, background .3s; background: linear-gradient(90deg, #22C55E, #16A34A); }
+.chatyllo-meter__fill--warning { background: linear-gradient(90deg, #F59E0B, #D97706) !important; }
+.chatyllo-meter__fill--critical { background: linear-gradient(90deg, #EF4444, #DC2626) !important; }
+.chatyllo-meter__fill--empty { background: #CBD5E1 !important; width: 100% !important; }
+.chatyllo-meter__footer { font-size: 11px; color: #94A3B8; margin-top: 6px; }
+@media (max-width: 600px) { #chatyllo-usage-meters { grid-template-columns: 1fr; } }
