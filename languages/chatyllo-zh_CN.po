@@ -1,0 +1,1715 @@
+# Simplified Chinese translation for Chatyllo
+# Copyright (C) 2026 WPezo
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Chatyllo 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wpezo.com/support\n"
+"POT-Creation-Date: 2026-04-03 21:00:00+0000\n"
+"PO-Revision-Date: 2026-04-04 02:00:00+0000\n"
+"Last-Translator: WPezo <support@wpezo.com>\n"
+"Language-Team: Chinese (Simplified) <support@wpezo.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Chatyllo 1.2.0\n"
+
+#. translators: %1$d: completed steps, %2$d: total steps
+#: admin/views/dashboard.php:387
+msgid "%1$d of %2$d completed"
+msgstr "%2$d 中已完成 %1$d 项"
+
+#: includes/class-chatyllo-ajax.php:519
+msgid "(no title)"
+msgstr "（无标题）"
+
+#: admin/views/faq.php:172
+msgid "0 = default."
+msgstr "0 = 默认值。"
+
+#: admin/views/dashboard.php:103
+msgid "90-day log retention"
+msgstr "日志保留 90 天"
+
+#: admin/views/dashboard.php:299
+#: admin/views/faq.php:118
+msgid "AI + FAQ"
+msgstr "AI + FAQ"
+
+#: admin/views/dashboard.php:48
+#: admin/views/faq.php:23
+#: admin/views/settings.php:26
+#: includes/class-chatyllo-admin.php:170
+msgid "AI Active"
+msgstr "AI 已激活"
+
+#: admin/views/settings.php:124
+msgid "AI Behavior"
+msgstr "AI 行为"
+
+#: includes/class-chatyllo-ajax.php:357
+msgid "AI FAQ generation requires a Starter plan or higher."
+msgstr "AI FAQ 生成需要 Starter 或更高级别的计划。"
+
+#: admin/views/faq.php:202
+msgid "AI Generated"
+msgstr "AI 生成"
+
+#: admin/views/faq.php:37
+msgid "AI Generation:"
+msgstr "AI 生成："
+
+#: admin/views/dashboard.php:229
+msgid "AI Knowledge Base"
+msgstr "AI 知识库"
+
+#: admin/views/knowledge.php:61
+msgid "AI Knowledge Base — Paid Plan Required"
+msgstr "AI 知识库 — 需要付费计划"
+
+#: admin/views/dashboard.php:50
+#: admin/views/settings.php:27
+#: includes/class-chatyllo-admin.php:171
+msgid "AI Offline"
+msgstr "AI 离线"
+
+#: admin/views/settings.php:354
+msgid "AI Offline Message"
+msgstr "AI 离线消息"
+
+#: includes/class-chatyllo-widget.php:153
+msgid "AI Powered"
+msgstr "AI 驱动"
+
+#: admin/views/dashboard.php:146
+#: admin/views/logs.php:27
+msgid "AI Responses"
+msgstr "AI 回复"
+
+#: admin/views/dashboard.php:286
+msgid "AI Status"
+msgstr "AI 状态"
+
+#: admin/views/settings.php:135
+msgid "AI Tone"
+msgstr "AI 语气"
+
+#: admin/views/dashboard.php:172
+msgid "AI Usage"
+msgstr "AI 使用量"
+
+#: admin/views/faq.php:53
+msgid "AI analyzes your indexed content and creates relevant Q&A pairs automatically."
+msgstr "AI 会分析您索引的内容，并自动创建相关的问答对。"
+
+#: includes/class-chatyllo-proxy.php:65
+msgid "AI chat requires a paid plan."
+msgstr "AI 聊天需要付费计划。"
+
+#: admin/views/dashboard.php:101
+msgid "AI chatbot — 100 responses/day"
+msgstr "AI 聊天机器人 — 每天 100 次回复"
+
+#: includes/class-chatyllo-ajax.php:387
+msgid "AI did not generate any FAQs."
+msgstr "AI 未生成任何 FAQ。"
+
+#: admin/views/dashboard.php:72
+msgid "AI features are automatically included when you upgrade to any paid plan. No personal API key, no setup, just activate and the AI starts working with your content."
+msgstr "升级到任意付费计划即可自动获得 AI 功能。无需个人 API 密钥，无需配置，只需激活，AI 即可开始处理您的内容。"
+
+#: admin/views/faq.php:75
+msgid "AI is analyzing your content..."
+msgstr "AI 正在分析您的内容..."
+
+#: chatyllo.php:207
+msgid "AI service temporarily unavailable — FAQ mode is active as fallback"
+msgstr "AI 服务暂时不可用 — FAQ 模式已作为备用方案启用"
+
+#: includes/class-chatyllo-widget.php:160
+msgid "Accept & Chat"
+msgstr "接受并聊天"
+
+#: admin/views/faq.php:216
+msgid "Actions"
+msgstr "操作"
+
+#: admin/views/dashboard.php:291
+#: admin/views/faq.php:105
+#: admin/views/faq.php:177
+#: admin/views/faq.php:215
+msgid "Active"
+msgstr "已启用"
+
+#: admin/views/dashboard.php:363
+msgid "Add FAQ entries"
+msgstr "添加 FAQ 条目"
+
+#: admin/views/faq.php:128
+msgid "Add New FAQ"
+msgstr "新增 FAQ"
+
+#: admin/views/dashboard.php:246
+msgid "Add manual Q&A pairs"
+msgstr "添加手动问答对"
+
+#: admin/views/dashboard.php:378
+msgid "Add your privacy URL for GDPR compliance."
+msgstr "添加您的隐私政策 URL 以符合 GDPR 合规要求。"
+
+#: admin/views/settings.php:42
+msgid "Advanced"
+msgstr "高级"
+
+#: admin/views/dashboard.php:19
+msgid "Agency"
+msgstr "Agency"
+
+#: admin/views/faq.php:197
+msgid "All Categories"
+msgstr "所有分类"
+
+#: admin/views/faq.php:200
+msgid "All Sources"
+msgstr "所有来源"
+
+#: chatyllo.php:184
+msgid "All systems operational"
+msgstr "所有系统运行正常"
+
+#: admin/views/stats.php:12
+msgid "All time"
+msgstr "全部时间"
+
+#: includes/class-chatyllo-admin.php:166
+msgid "An error occurred. Please try again."
+msgstr "发生错误，请重试。"
+
+#: admin/views/settings.php:434
+msgid "Anonymize IP addresses"
+msgstr "匿名化 IP 地址"
+
+#: admin/views/settings.php:442
+msgid "Anonymize browser info"
+msgstr "匿名化浏览器信息"
+
+#: admin/views/faq.php:139
+msgid "Answer"
+msgstr "答案"
+
+#: admin/views/settings.php:36
+msgid "Appearance"
+msgstr "外观"
+
+#: admin/views/knowledge.php:22
+msgid "Approx. tokens:"
+msgstr "大约 token 数："
+
+#: includes/class-chatyllo-admin.php:167
+msgid "Are you sure?"
+msgstr "确定要继续吗？"
+
+#: admin/views/dashboard.php:277
+msgid "Auto 12h + Manual"
+msgstr "自动 12 小时 + 手动"
+
+#: admin/views/dashboard.php:279
+msgid "Auto weekly"
+msgstr "每周自动"
+
+#: admin/views/faq.php:147
+msgid "Auto-generated if empty"
+msgstr "留空时自动生成"
+
+#: admin/views/knowledge.php:25
+msgid "Auto-index schedule:"
+msgstr "自动索引计划："
+
+#: admin/views/dashboard.php:224
+msgid "Auto-indexes weekly"
+msgstr "每周自动索引"
+
+#: admin/views/knowledge.php:48
+msgid "Auto-indexing weekly"
+msgstr "每周自动索引中"
+
+#: admin/views/settings.php:488
+msgid "Automatic maintenance runs weekly: cleans expired logs and cache, removes orphan data, and optimizes database tables."
+msgstr "自动维护每周运行：清理过期日志和缓存，移除孤立数据，并优化数据库表。"
+
+#: admin/views/dashboard.php:330
+#: admin/views/logs.php:41
+#: admin/views/stats.php:25
+msgid "Avg Response"
+msgstr "平均回复"
+
+#: admin/views/settings.php:37
+msgid "Behavior"
+msgstr "行为"
+
+#: admin/views/settings.php:87
+msgid "Bot Avatar"
+msgstr "机器人头像"
+
+#: admin/views/settings.php:82
+msgid "Bot Name"
+msgstr "机器人名称"
+
+#: includes/class-chatyllo-core.php:179
+msgid "Bot Response"
+msgstr "机器人回复"
+
+#: admin/views/settings.php:58
+msgid "Bottom Left"
+msgstr "左下角"
+
+#: admin/views/settings.php:57
+msgid "Bottom Right"
+msgstr "右下角"
+
+#: admin/views/settings.php:39
+#: admin/views/settings.php:273
+msgid "Branding"
+msgstr "品牌标识"
+
+#: admin/views/stats.php:62
+msgid "Browsers"
+msgstr "浏览器"
+
+#: admin/views/dashboard.php:371
+msgid "Build the knowledge base for AI responses."
+msgstr "构建 AI 回复所需的知识库。"
+
+#: admin/views/dashboard.php:18
+msgid "Business"
+msgstr "Business"
+
+#: admin/views/settings.php:231
+msgid "Business+"
+msgstr "Business+"
+
+#: admin/views/settings.php:584
+msgid "Can I export my data?"
+msgstr "我可以导出数据吗？"
+
+#: includes/class-chatyllo-ajax.php:124
+msgid "Cache cleared."
+msgstr "缓存已清除。"
+
+#: admin/views/faq.php:185
+msgid "Cancel Edit"
+msgstr "取消编辑"
+
+#: admin/views/settings.php:141
+msgid "Casual"
+msgstr "随意"
+
+#: admin/views/faq.php:112
+msgid "Categories"
+msgstr "分类"
+
+#: admin/views/faq.php:153
+#: admin/views/faq.php:212
+msgid "Category"
+msgstr "分类"
+
+#: admin/views/logs.php:9
+#: includes/class-chatyllo-admin.php:77
+#: includes/class-chatyllo-admin.php:78
+msgid "Chat Logs"
+msgstr "聊天日志"
+
+#: includes/class-chatyllo-core.php:218
+msgid "Chatyllo Chat Assistant"
+msgstr "Chatyllo 聊天助手"
+
+#: includes/class-chatyllo-admin.php:31
+#: includes/class-chatyllo-admin.php:32
+msgid "Chatyllo"
+msgstr "Chatyllo"
+
+#: includes/class-chatyllo-core.php:175
+msgid "Chatyllo Chat Conversations"
+msgstr "Chatyllo 聊天对话"
+
+#: includes/class-chatyllo-core.php:153
+#: includes/class-chatyllo-core.php:191
+msgid "Chatyllo Chat Logs"
+msgstr "Chatyllo 聊天日志"
+
+#: admin/views/dashboard.php:35
+msgid "Chatyllo Dashboard"
+msgstr "Chatyllo 控制面板"
+
+#: admin/views/settings.php:19
+msgid "Chatyllo Settings"
+msgstr "Chatyllo 设置"
+
+#: admin/views/settings.php:451
+msgid "Chatyllo is compatible with WordPress Privacy Tools (Tools > Export/Erase Personal Data) and major cookie consent plugins (CookieYes, Complianz, CookieBot, iubenda). Storage used: localStorage keys \"chatyllo_sid\" (functional, session) and \"chatyllo_consent\" (functional, persistent)."
+msgstr "Chatyllo 兼容 WordPress 隐私工具（工具 > 导出/擦除个人数据）以及主流 Cookie 同意插件（CookieYes、Complianz、CookieBot、iubenda）。使用的存储：localStorage 键 \"chatyllo_sid\"（功能性，会话）和 \"chatyllo_consent\"（功能性，持久）。"
+
+#: admin/views/status.php:42
+msgid "Checking..."
+msgstr "检查中..."
+
+#: admin/views/settings.php:203
+msgid "Choose which content types the AI should learn from."
+msgstr "选择 AI 应从哪些内容类型中学习。"
+
+#: admin/views/dashboard.php:236
+msgid "Clear Response Cache"
+msgstr "清除回复缓存"
+
+#: admin/views/settings.php:402
+msgid "Click to select roles... (empty = everyone)"
+msgstr "点击选择角色...（留空 = 所有人）"
+
+#: includes/class-chatyllo-widget.php:150
+msgid "Close"
+msgstr "关闭"
+
+#: admin/views/settings.php:201
+msgid "Content Indexing"
+msgstr "内容索引"
+
+#: admin/views/settings.php:320
+msgid "Controls the branding text shown at the bottom of the chat widget."
+msgstr "控制聊天小部件底部显示的品牌标识文本。"
+
+#: admin/views/logs.php:88
+msgid "Conversation Details"
+msgstr "对话详情"
+
+#: admin/views/settings.php:153
+msgid "Conversation Memory"
+msgstr "对话记忆"
+
+#: admin/views/stats.php:24
+msgid "Conversations"
+msgstr "对话"
+
+#: admin/views/dashboard.php:364
+msgid "Create Q&A pairs for instant answers."
+msgstr "创建问答对以提供即时回复。"
+
+#: admin/views/faq.php:119
+msgid "Current Mode"
+msgstr "当前模式"
+
+#: admin/views/settings.php:295
+msgid "Custom / White-label"
+msgstr "自定义 / 白标"
+
+#: admin/views/settings.php:324
+msgid "Custom Branding Text"
+msgstr "自定义品牌文本"
+
+#: admin/views/settings.php:40
+msgid "Custom Messages"
+msgstr "自定义消息"
+
+#: admin/views/settings.php:229
+msgid "Custom Post Types"
+msgstr "自定义文章类型"
+
+#: admin/views/dashboard.php:242
+msgid "Customize appearance & behavior"
+msgstr "自定义外观和行为"
+
+#: admin/views/dashboard.php:181
+msgid "Daily"
+msgstr "每日"
+
+#: admin/views/stats.php:34
+msgid "Daily Activity"
+msgstr "每日活动"
+
+#: admin/views/status.php:109
+msgid "Daily and monthly usage limits reset automatically. Daily limits reset at midnight (server time), monthly limits reset on the 1st of each month."
+msgstr "每日和每月使用限额会自动重置。每日限额在午夜（服务器时间）重置，每月限额在每月 1 日重置。"
+
+#: includes/class-chatyllo-admin.php:42
+#: includes/class-chatyllo-admin.php:43
+#: includes/class-chatyllo-admin.php:221
+msgid "Dashboard"
+msgstr "控制面板"
+
+#: admin/views/settings.php:458
+msgid "Data Preservation"
+msgstr "数据保留"
+
+#: includes/class-chatyllo-core.php:178
+msgid "Date"
+msgstr "日期"
+
+#: admin/views/settings.php:282
+msgid "Default branding link"
+msgstr "默认品牌链接"
+
+#: admin/views/status.php:90
+msgid "Degraded / Maintenance"
+msgstr "降级 / 维护中"
+
+#: includes/class-chatyllo-admin.php:173
+msgid "Deleted successfully."
+msgstr "删除成功。"
+
+#: includes/class-chatyllo-admin.php:172
+msgid "Deleting..."
+msgstr "正在删除..."
+
+#: admin/views/stats.php:57
+msgid "Devices"
+msgstr "设备"
+
+#: admin/views/settings.php:76
+msgid "Dismiss"
+msgstr "关闭"
+
+#: admin/views/settings.php:41
+#: admin/views/settings.php:370
+msgid "Display Rules"
+msgstr "显示规则"
+
+#: admin/views/settings.php:84
+msgid "Display name shown in the chat header."
+msgstr "聊天顶栏中显示的名称。"
+
+#: admin/views/settings.php:110
+msgid "Display the chat widget on mobile devices."
+msgstr "在移动设备上显示聊天小部件。"
+
+#: admin/views/settings.php:447
+msgid "Do not store browser/device information in chat logs."
+msgstr "不在聊天日志中存储浏览器/设备信息。"
+
+#: admin/views/settings.php:439
+msgid "Do not store visitor IP addresses in chat logs. Recommended for GDPR compliance."
+msgstr "不在聊天日志中存储访客 IP 地址。建议启用以符合 GDPR 合规要求。"
+
+#. translators: %1$d: new FAQs created, %2$d: FAQs updated
+#: includes/class-chatyllo-ajax.php:437
+msgid "Done! %1$d new FAQs created, %2$d updated."
+msgstr "完成！新建 %1$d 条 FAQ，更新 %2$d 条。"
+
+#: admin/views/logs.php:69
+msgid "Duration"
+msgstr "时长"
+
+#: includes/class-chatyllo-ajax.php:61
+msgid "Empty message"
+msgstr "空消息"
+
+#: admin/views/settings.php:128
+msgid "Enable Chatyllo"
+msgstr "启用 Chatyllo"
+
+#: admin/views/dashboard.php:349
+msgid "Enable the chatbot"
+msgstr "启用聊天机器人"
+
+#: admin/views/knowledge.php:28
+msgid "Every 12 hours + manual anytime"
+msgstr "每 12 小时 + 随时手动"
+
+#: includes/chatyllo-premium__premium_only.php:166
+#: includes/class-chatyllo-proxy.php:39
+msgid "Every 5 minutes"
+msgstr "每 5 分钟"
+
+#: admin/views/settings.php:257
+msgid "Exclude Pages"
+msgstr "排除页面"
+
+#: admin/views/settings.php:245
+msgid "Exclude Posts"
+msgstr "排除文章"
+
+#: admin/views/stats.php:15
+msgid "Export"
+msgstr "导出"
+
+#: admin/views/settings.php:473
+msgid "Export / Import"
+msgstr "导出 / 导入"
+
+#: admin/views/stats.php:14
+msgid "Export CSV"
+msgstr "导出 CSV"
+
+#: admin/views/settings.php:478
+msgid "Export Data (JSON)"
+msgstr "导出数据 (JSON)"
+
+#: admin/views/settings.php:475
+msgid "Export your plugin configuration, FAQs, and statistics for backup or migration."
+msgstr "导出您的插件配置、FAQ 和统计数据以进行备份或迁移。"
+
+#: includes/class-chatyllo-admin.php:60
+#: includes/class-chatyllo-admin.php:61
+msgid "FAQ / Q&A"
+msgstr "FAQ / 问答"
+
+#: admin/views/faq.php:18
+msgid "FAQ / Smart Q&A"
+msgstr "FAQ / 智能问答"
+
+#: admin/views/dashboard.php:164
+msgid "FAQ Entries"
+msgstr "FAQ 条目"
+
+#: admin/views/dashboard.php:302
+msgid "FAQ Limit"
+msgstr "FAQ 上限"
+
+#: admin/views/faq.php:194
+msgid "FAQ List"
+msgstr "FAQ 列表"
+
+#: admin/views/dashboard.php:299
+#: admin/views/faq.php:118
+msgid "FAQ Only"
+msgstr "仅 FAQ"
+
+#: admin/views/faq.php:23
+msgid "FAQ Only Mode"
+msgstr "仅 FAQ 模式"
+
+#: includes/class-chatyllo-ajax.php:159
+msgid "FAQ created."
+msgstr "FAQ 已创建。"
+
+#: includes/class-chatyllo-ajax.php:175
+msgid "FAQ deleted."
+msgstr "FAQ 已删除。"
+
+#: admin/views/faq.php:165
+msgid "FAQ language."
+msgstr "FAQ 语言。"
+
+#. translators: %d: FAQ limit number
+#: includes/class-chatyllo-ajax.php:147
+msgid "FAQ limit reached (%d). Upgrade your plan for unlimited FAQs."
+msgstr "已达到 FAQ 上限 (%d)。升级您的计划以获取无限 FAQ。"
+
+#: includes/class-chatyllo-ajax.php:156
+msgid "FAQ updated."
+msgstr "FAQ 已更新。"
+
+#: admin/views/faq.php:33
+msgid "FAQs are powered by Chatyllo's built-in smart matching algorithm — no AI credits are consumed. They work on all plans, including Free. When AI responses are unavailable (daily/monthly limits reached, temporary service issues, or network errors), the chatbot automatically switches to FAQ mode. This ensures your visitors always get helpful answers."
+msgstr "FAQ 由 Chatyllo 内置的智能匹配算法驱动 — 不消耗任何 AI 额度。所有计划（包括免费版）均可使用。当 AI 回复不可用时（达到每日/每月限额、临时服务问题或网络错误），聊天机器人将自动切换到 FAQ 模式。这确保您的访客始终能获得有用的回答。"
+
+#: includes/chatyllo-premium__premium_only.php:305
+#: includes/chatyllo-premium__premium_only.php:383
+msgid "Failed to obtain API token."
+msgstr "无法获取 API token。"
+
+#: admin/views/logs.php:65
+msgid "First Message"
+msgstr "首条消息"
+
+#: admin/views/settings.php:341
+msgid "First message shown when the chat opens. Leave empty for default."
+msgstr "聊天窗口打开时显示的第一条消息。留空则使用默认值。"
+
+#: admin/views/settings.php:276
+msgid "Footer Branding"
+msgstr "底部品牌标识"
+
+#: admin/views/status.php:110
+msgid "For the best experience, keep your FAQ entries up to date — they serve as a reliable fallback whenever AI is not available."
+msgstr "为获得最佳体验，请保持 FAQ 条目为最新状态 — 它们在 AI 不可用时可作为可靠的备用方案。"
+
+#: admin/views/dashboard.php:237
+msgid "Force fresh AI responses"
+msgstr "强制刷新 AI 回复"
+
+#: admin/views/dashboard.php:16
+msgid "Free"
+msgstr "免费"
+
+#: admin/views/dashboard.php:46
+#: admin/views/settings.php:25
+msgid "Free — FAQ Only"
+msgstr "免费 — 仅 FAQ"
+
+#: includes/chatyllo-premium__premium_only.php:96
+msgid "Freemius install ID not available. Please activate the plugin first."
+msgstr "Freemius 安装 ID 不可用。请先激活插件。"
+
+#: admin/views/settings.php:140
+msgid "Friendly"
+msgstr "友好"
+
+#: admin/views/faq.php:61
+msgid "Generate"
+msgstr "生成"
+
+#: admin/views/faq.php:50
+msgid "Generate FAQs with AI"
+msgstr "使用 AI 生成 FAQ"
+
+#: admin/views/dashboard.php:118
+msgid "Get 300 AI responses/day, Knowledge Base indexing, custom post types, and remove Chatyllo branding."
+msgstr "获取每天 300 次 AI 回复、知识库索引、自定义文章类型，并移除 Chatyllo 品牌标识。"
+
+#: admin/views/dashboard.php:342
+msgid "Getting Started"
+msgstr "入门指南"
+
+#: admin/views/dashboard.php:350
+msgid "Go to Settings → Behavior and enable Chatyllo."
+msgstr "前往设置 → 行为，启用 Chatyllo。"
+
+#: admin/views/settings.php:556
+msgid "Go to the Appearance tab. You can change the Primary Color (chat bubble, header, user messages), the Header & User Message text color, and the Widget Size (Small, Medium, Large). Changes apply immediately after saving."
+msgstr "前往外观选项卡。您可以更改主颜色（聊天气泡、顶栏、用户消息）、顶栏和用户消息文本颜色以及小部件大小（小、中、大）。更改在保存后立即生效。"
+
+#: admin/views/settings.php:576
+msgid "Go to the Advanced tab. Enable \"Require consent before logging\" to show a privacy banner. Enable \"Anonymize IP\" (recommended). Add your Privacy Policy URL. Chatyllo also integrates with WordPress Privacy Tools and major cookie plugins (CookieYes, Complianz, CookieBot)."
+msgstr "前往高级选项卡。启用"记录前要求同意"以显示隐私横幅。启用"匿名化 IP"（推荐）。添加您的隐私政策 URL。Chatyllo 还集成了 WordPress 隐私工具和主流 Cookie 插件（CookieYes、Complianz、CookieBot）。"
+
+#: admin/views/status.php:101
+msgid "Good to Know"
+msgstr "温馨提示"
+
+#: admin/views/dashboard.php:357
+msgid "Greet visitors with a custom message."
+msgstr "使用自定义消息欢迎访客。"
+
+#: admin/views/faq.php:158
+msgid "Group related FAQs."
+msgstr "将相关 FAQ 分组。"
+
+#: admin/views/settings.php:68
+msgid "Header & User Message Color"
+msgstr "顶栏和用户消息颜色"
+
+#: admin/views/settings.php:536
+msgid "Hello!"
+msgstr "您好！"
+
+#: includes/class-chatyllo-settings.php:199
+msgid "Hi there! 👋 How can I help you today?"
+msgstr "您好！👋 今天有什么可以帮您的吗？"
+
+#: admin/views/settings.php:288
+msgid "Hidden"
+msgstr "隐藏"
+
+#: admin/views/settings.php:390
+msgid "Hide on Pages"
+msgstr "在指定页面隐藏"
+
+#: admin/views/settings.php:397
+msgid "Hide the widget on these specific pages (blacklist)."
+msgstr "在这些指定页面上隐藏小部件（blacklist）。"
+
+#: admin/views/faq.php:31
+msgid "How FAQ / Smart Q&A works"
+msgstr "FAQ / 智能问答的工作原理"
+
+#: admin/views/settings.php:571
+msgid "How can I remove the Chatyllo branding?"
+msgstr "如何移除 Chatyllo 品牌标识？"
+
+#: admin/views/settings.php:537
+msgid "How can I help you today?"
+msgstr "今天有什么可以帮您的吗？"
+
+#: admin/views/settings.php:555
+msgid "How do I customize colors and size?"
+msgstr "如何自定义颜色和大小？"
+
+#: admin/views/settings.php:575
+msgid "How do I set up GDPR compliance?"
+msgstr "如何设置 GDPR 合规？"
+
+#: admin/views/settings.php:579
+msgid "How do Display Rules work?"
+msgstr "显示规则是如何工作的？"
+
+#: admin/views/settings.php:567
+msgid "How do FAQ and AI work together?"
+msgstr "FAQ 和 AI 如何协同工作？"
+
+#: admin/views/settings.php:559
+msgid "How does the AI chatbot work?"
+msgstr "AI 聊天机器人是如何工作的？"
+
+#: includes/class-chatyllo-settings.php:215
+msgid "I appreciate your question, but I'm here to help specifically with topics related to this website. Could you please ask something about our products, services, or content?"
+msgstr "感谢您的提问，但我只能帮助回答与本网站相关的问题。您能提出关于我们产品、服务或内容的问题吗？"
+
+#: includes/class-chatyllo-settings.php:231
+msgid "I'm sorry, I don't have an answer for that right now. Please try rephrasing your question or contact us directly."
+msgstr "抱歉，目前我无法回答该问题。请尝试换一种方式提问，或直接联系我们。"
+
+#: admin/views/status.php:107
+msgid "If AI is temporarily unavailable, the chatbot automatically switches to FAQ mode — your visitors still get helpful answers from your manual Q&A pairs."
+msgstr "如果 AI 暂时不可用，聊天机器人将自动切换到 FAQ 模式 — 您的访客仍然可以从手动问答对中获得有用的回答。"
+
+#: admin/views/settings.php:218
+msgid "Include WooCommerce products (if available)."
+msgstr "包含 WooCommerce 产品（如果可用）。"
+
+#: admin/views/settings.php:208
+msgid "Include blog posts in the AI knowledge base."
+msgstr "将博客文章包含到 AI 知识库中。"
+
+#: admin/views/settings.php:213
+msgid "Include pages in the AI knowledge base."
+msgstr "将页面包含到 AI 知识库中。"
+
+#: admin/views/settings.php:223
+msgid "Include site name, description, menus, and contact info."
+msgstr "包含网站名称、描述、菜单和联系信息。"
+
+#: admin/views/settings.php:211
+msgid "Index Pages"
+msgstr "索引页面"
+
+#: admin/views/settings.php:206
+msgid "Index Posts"
+msgstr "索引文章"
+
+#: admin/views/settings.php:221
+msgid "Index Site Info"
+msgstr "索引网站信息"
+
+#: admin/views/settings.php:216
+msgid "Index WooCommerce Products"
+msgstr "索引 WooCommerce 产品"
+
+#: admin/views/dashboard.php:370
+msgid "Index your content"
+msgstr "索引您的内容"
+
+#: admin/views/dashboard.php:310
+msgid "Indexed Pages"
+msgstr "已索引页面"
+
+#: admin/views/dashboard.php:314
+msgid "Indexed Posts"
+msgstr "已索引文章"
+
+#: admin/views/dashboard.php:318
+msgid "Indexed Products"
+msgstr "已索引产品"
+
+#: admin/views/settings.php:344
+msgid "Input Placeholder"
+msgstr "输入框占位文本"
+
+#: includes/chatyllo-premium__premium_only.php:325
+#: includes/chatyllo-premium__premium_only.php:399
+msgid "Invalid JSON from proxy"
+msgstr "来自 proxy 的 JSON 无效"
+
+#: admin/views/settings.php:461
+msgid "Keep data when plugin is deleted"
+msgstr "删除插件时保留数据"
+
+#: admin/views/faq.php:146
+msgid "Keywords"
+msgstr "关键词"
+
+#: admin/views/settings.php:38
+msgid "Knowledge"
+msgstr "知识"
+
+#: admin/views/dashboard.php:223
+#: admin/views/dashboard.php:274
+#: admin/views/knowledge.php:10
+#: includes/class-chatyllo-admin.php:68
+#: includes/class-chatyllo-admin.php:69
+msgid "Knowledge Base"
+msgstr "知识库"
+
+#: admin/views/dashboard.php:155
+msgid "Knowledge Entries"
+msgstr "知识条目"
+
+#: includes/class-chatyllo-ajax.php:365
+msgid "Knowledge base is empty. Please index your content first from the Knowledge Base page."
+msgstr "知识库为空。请先从知识库页面索引您的内容。"
+
+#: includes/class-chatyllo-admin.php:169
+msgid "Knowledge base rebuilt!"
+msgstr "知识库已重建！"
+
+#: includes/class-chatyllo-ajax.php:112
+msgid "Knowledge base rebuilt."
+msgstr "知识库已重建。"
+
+#: admin/views/faq.php:213
+msgid "Lang"
+msgstr "语言"
+
+#: admin/views/faq.php:163
+msgid "Language"
+msgstr "语言"
+
+#: admin/views/settings.php:77
+msgid "Large"
+msgstr "大"
+
+#: admin/views/status.php:54
+msgid "Last 30 Days"
+msgstr "最近 30 天"
+
+#: admin/views/stats.php:10
+msgid "Last 30 days"
+msgstr "最近 30 天"
+
+#: admin/views/stats.php:9
+msgid "Last 7 days"
+msgstr "最近 7 天"
+
+#: admin/views/stats.php:11
+msgid "Last 90 days"
+msgstr "最近 90 天"
+
+#: admin/views/dashboard.php:322
+msgid "Last Indexed"
+msgstr "上次索引"
+
+#. translators: %s: last checked timestamp
+#: admin/views/status.php:39
+msgid "Last checked: %s"
+msgstr "上次检查：%s"
+
+#: admin/views/knowledge.php:21
+msgid "Last indexed:"
+msgstr "上次索引："
+
+#: admin/views/settings.php:491
+msgid "Last maintenance:"
+msgstr "上次维护："
+
+#: admin/views/settings.php:423
+msgid "Link to your privacy policy. Shown in the chat widget consent notice."
+msgstr "您的隐私政策链接。显示在聊天小部件的同意通知中。"
+
+#: admin/views/logs.php:93
+msgid "Loading conversation..."
+msgstr "正在加载对话..."
+
+#: admin/views/faq.php:219
+#: admin/views/logs.php:73
+msgid "Loading..."
+msgstr "加载中..."
+
+#: admin/views/settings.php:167
+msgid "Log Conversations"
+msgstr "记录对话"
+
+#: admin/views/dashboard.php:306
+msgid "Log Retention"
+msgstr "日志保留"
+
+#: admin/views/settings.php:172
+msgid "Log Retention (days)"
+msgstr "日志保留（天）"
+
+#. translators: %d: max retention days
+#: admin/views/logs.php:52
+msgid "Logs retained for %d days on your current plan."
+msgstr "当前计划下日志保留 %d 天。"
+
+#: admin/views/settings.php:65
+msgid "Main color for the chat bubble, header, and user messages."
+msgstr "聊天气泡、顶栏和用户消息的主颜色。"
+
+#: admin/views/settings.php:485
+msgid "Maintenance"
+msgstr "维护"
+
+#: includes/class-chatyllo-ajax.php:722
+msgid "Maintenance completed successfully."
+msgstr "维护已成功完成。"
+
+#: admin/views/dashboard.php:245
+msgid "Manage FAQ"
+msgstr "管理 FAQ"
+
+#: admin/views/faq.php:201
+msgid "Manual"
+msgstr "手动"
+
+#: includes/class-chatyllo-ajax.php:105
+msgid "Manual reindex requires a Business plan or higher."
+msgstr "手动重新索引需要 Business 或更高级别的计划。"
+
+#: admin/views/settings.php:130
+msgid "Master switch to enable or disable the chatbot on your site."
+msgstr "主开关，用于在您的网站上启用或禁用聊天机器人。"
+
+#. translators: %d: max retention days for current plan
+#: admin/views/settings.php:178
+msgid "Max %d days on your current plan."
+msgstr "当前计划最多 %d 天。"
+
+#: admin/views/settings.php:146
+msgid "Max Response Length"
+msgstr "最大回复长度"
+
+#: admin/views/settings.php:150
+msgid "Maximum length of AI responses (100-800). Higher values give longer, more detailed answers."
+msgstr "AI 回复的最大长度（100-800）。值越大，回复越长、越详细。"
+
+#: admin/views/settings.php:76
+msgid "Medium"
+msgstr "中"
+
+#: admin/views/settings.php:40
+msgid "Messages"
+msgstr "消息"
+
+#: includes/class-chatyllo-widget.php:151
+msgid "Minimize"
+msgstr "最小化"
+
+#: admin/views/dashboard.php:298
+#: admin/views/logs.php:67
+#: includes/class-chatyllo-core.php:181
+msgid "Mode"
+msgstr "模式"
+
+#: admin/views/dashboard.php:192
+msgid "Monthly"
+msgstr "每月"
+
+#: admin/views/logs.php:66
+msgid "Msgs"
+msgstr "消息数"
+
+#: admin/views/dashboard.php:117
+msgid "Need more power? Upgrade to Business"
+msgstr "需要更多功能？升级到 Business"
+
+#: admin/views/settings.php:492
+#: includes/class-chatyllo-ajax.php:723
+#: includes/class-chatyllo-indexer.php:479
+msgid "Never"
+msgstr "从未"
+
+#: includes/class-chatyllo-widget.php:158
+msgid "New conversation"
+msgstr "新对话"
+
+#: admin/views/settings.php:359
+msgid "No FAQ Match Message"
+msgstr "FAQ 无匹配消息"
+
+#: admin/views/dashboard.php:71
+msgid "No API key needed!"
+msgstr "无需 API 密钥！"
+
+#: admin/views/settings.php:289
+msgid "No branding shown"
+msgstr "不显示品牌标识"
+
+#: admin/views/status.php:92
+msgid "No data"
+msgstr "无数据"
+
+#: admin/views/faq.php:83
+msgid "Note:"
+msgstr "注意："
+
+#: admin/views/settings.php:157
+msgid "Number of previous messages the AI remembers in each conversation."
+msgstr "AI 在每次对话中记住的历史消息数量。"
+
+#: admin/views/settings.php:349
+msgid "Off-Topic Response"
+msgstr "离题回复"
+
+#: admin/views/dashboard.php:293
+msgid "Offline"
+msgstr "离线"
+
+#: includes/class-chatyllo-core.php:93
+msgid "Once Weekly"
+msgstr "每周一次"
+
+#: admin/views/knowledge.php:30
+msgid "Once every 7 days (automatic)"
+msgstr "每 7 天一次（自动）"
+
+#: admin/views/settings.php:531
+msgid "Online"
+msgstr "在线"
+
+#: admin/views/settings.php:387
+msgid "Only show the widget on these specific pages (whitelist). Leave empty to ignore."
+msgstr "仅在这些指定页面上显示小部件（whitelist）。留空则忽略。"
+
+#: admin/views/settings.php:407
+msgid "Only show the widget to users with these roles. Leave empty to show to everyone."
+msgstr "仅向具有这些角色的用户显示小部件。留空则向所有人显示。"
+
+#: admin/views/status.php:89
+msgid "Operational"
+msgstr "运行正常"
+
+#: includes/class-chatyllo-settings.php:223
+msgid "Our AI assistant is currently unavailable. You can still browse our FAQ below or try again later."
+msgstr "我们的 AI 助手目前不可用。您仍然可以浏览下方的 FAQ，或稍后再试。"
+
+#: admin/views/status.php:91
+msgid "Outage"
+msgstr "故障"
+
+#: admin/views/knowledge.php:15
+msgid "Pages"
+msgstr "页面"
+
+#: admin/views/dashboard.php:230
+#: admin/views/dashboard.php:281
+msgid "Paid plan required"
+msgstr "需要付费计划"
+
+#: admin/views/settings.php:346
+msgid "Placeholder text in the message input field."
+msgstr "消息输入框中的占位文本。"
+
+#: admin/views/dashboard.php:264
+msgid "Plan"
+msgstr "计划"
+
+#: admin/views/settings.php:115
+msgid "Play a sound when new messages arrive."
+msgstr "收到新消息时播放提示音。"
+
+#: admin/views/faq.php:76
+msgid "Please don't reload or navigate away from this page."
+msgstr "请勿重新加载或离开此页面。"
+
+#: includes/class-chatyllo-chat.php:38
+msgid "Please type a message."
+msgstr "请输入消息。"
+
+#: includes/class-chatyllo-widget.php:157
+msgid "Please wait a moment before sending another message."
+msgstr "请稍等片刻再发送下一条消息。"
+
+#: admin/views/settings.php:55
+msgid "Position"
+msgstr "位置"
+
+#: admin/views/knowledge.php:16
+msgid "Posts"
+msgstr "文章"
+
+#: admin/views/settings.php:281
+#: admin/views/settings.php:539
+#: includes/class-chatyllo-widget.php:155
+msgid "Powered by Chatyllo"
+msgstr "Powered by Chatyllo"
+
+#: admin/views/settings.php:325
+msgid "Powered by YourBrand"
+msgstr "Powered by YourBrand"
+
+#: admin/views/settings.php:466
+msgid "Preserve settings, FAQs, knowledge base, and chat logs if you delete and reinstall the plugin."
+msgstr "如果您删除并重新安装插件，将保留设置、FAQ、知识库和聊天日志。"
+
+#: admin/views/settings.php:541
+msgid "Preview updates when you save settings."
+msgstr "保存设置时预览会更新。"
+
+#: admin/views/settings.php:63
+msgid "Primary Color"
+msgstr "主颜色"
+
+#: admin/views/faq.php:170
+msgid "Priority"
+msgstr "优先级"
+
+#: admin/views/settings.php:418
+msgid "Privacy & GDPR"
+msgstr "隐私与 GDPR"
+
+#: includes/class-chatyllo-widget.php:161
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#: admin/views/settings.php:421
+msgid "Privacy Policy URL"
+msgstr "隐私政策 URL"
+
+#: admin/views/knowledge.php:17
+msgid "Products"
+msgstr "产品"
+
+#: admin/views/settings.php:139
+msgid "Professional"
+msgstr "专业"
+
+#: includes/chatyllo-premium__premium_only.php:114
+msgid "Proxy activation failed."
+msgstr "proxy 激活失败。"
+
+#. translators: %d: HTTP status code
+#: includes/chatyllo-premium__premium_only.php:319
+#: includes/chatyllo-premium__premium_only.php:393
+msgid "Proxy returned HTTP %d"
+msgstr "proxy 返回 HTTP %d"
+
+#: admin/views/faq.php:134
+#: admin/views/faq.php:211
+msgid "Question"
+msgstr "问题"
+
+#: admin/views/dashboard.php:210
+msgid "Quick Actions"
+msgstr "快捷操作"
+
+#: admin/views/settings.php:549
+msgid "Quick Help"
+msgstr "快速帮助"
+
+#: admin/views/dashboard.php:218
+msgid "Re-scan all content now"
+msgstr "立即重新扫描所有内容"
+
+#: admin/views/dashboard.php:217
+#: admin/views/knowledge.php:40
+msgid "Rebuild Knowledge Base"
+msgstr "重建知识库"
+
+#: includes/class-chatyllo-admin.php:168
+msgid "Rebuilding knowledge base..."
+msgstr "正在重建知识库..."
+
+#: admin/views/settings.php:103
+msgid "Recommended: square image, at least 80x80px."
+msgstr "建议：方形图片，至少 80x80 像素。"
+
+#: admin/views/status.php:20
+msgid "Refresh"
+msgstr "刷新"
+
+#: admin/views/dashboard.php:56
+msgid "Refresh AI Status"
+msgstr "刷新 AI 状态"
+
+#: admin/views/settings.php:101
+msgid "Remove"
+msgstr "移除"
+
+#: admin/views/settings.php:426
+msgid "Require consent before logging"
+msgstr "记录前要求同意"
+
+#: admin/views/dashboard.php:186
+msgid "Resets daily"
+msgstr "每日重置"
+
+#: admin/views/dashboard.php:197
+msgid "Resets monthly"
+msgstr "每月重置"
+
+#: admin/views/stats.php:42
+msgid "Response Modes"
+msgstr "回复模式"
+
+#: admin/views/settings.php:496
+msgid "Run Maintenance Now"
+msgstr "立即运行维护"
+
+#: admin/views/faq.php:184
+msgid "Save FAQ"
+msgstr "保存 FAQ"
+
+#: admin/views/settings.php:505
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: admin/views/settings.php:169
+msgid "Save chat conversations for review in Chat Logs."
+msgstr "保存聊天对话以在聊天日志中查看。"
+
+#: chatyllo.php:198
+msgid "Scheduled maintenance in progress — our team is working on improvements"
+msgstr "计划维护进行中 — 我们的团队正在进行改进"
+
+#: admin/views/settings.php:264
+msgid "Search and select pages to exclude from AI indexing."
+msgstr "搜索并选择要从 AI 索引中排除的页面。"
+
+#: admin/views/settings.php:252
+msgid "Search and select posts to exclude from AI indexing."
+msgstr "搜索并选择要从 AI 索引中排除的文章。"
+
+#: admin/views/settings.php:235
+msgid "Search custom post types..."
+msgstr "搜索自定义文章类型..."
+
+#: admin/views/settings.php:75
+msgid "See Plans"
+msgstr "查看计划"
+
+#: admin/views/settings.php:240
+msgid "Select custom post types to include in the AI knowledge base."
+msgstr "选择要包含在 AI 知识库中的自定义文章类型。"
+
+#: admin/views/faq.php:155
+msgid "Select or type new..."
+msgstr "选择或输入新值..."
+
+#: includes/class-chatyllo-widget.php:149
+msgid "Send"
+msgstr "发送"
+
+#: admin/views/status.php:15
+#: includes/class-chatyllo-admin.php:95
+#: includes/class-chatyllo-admin.php:96
+msgid "Service Status"
+msgstr "服务状态"
+
+#: admin/views/status.php:108
+msgid "Service status is checked automatically every 5 minutes. You can also refresh manually using the button above."
+msgstr "服务状态每 5 分钟自动检查一次。您也可以使用上方按钮手动刷新。"
+
+#: admin/views/logs.php:64
+msgid "Session"
+msgstr "会话"
+
+#: admin/views/stats.php:69
+msgid "Session Quality"
+msgstr "会话质量"
+
+#: admin/views/dashboard.php:356
+msgid "Set a welcome message"
+msgstr "设置欢迎消息"
+
+#: admin/views/dashboard.php:377
+msgid "Set privacy policy"
+msgstr "设置隐私政策"
+
+#: admin/views/dashboard.php:241
+#: includes/class-chatyllo-admin.php:51
+#: includes/class-chatyllo-admin.php:52
+#: includes/class-chatyllo-admin.php:222
+msgid "Settings"
+msgstr "设置"
+
+#: includes/class-chatyllo-admin.php:165
+msgid "Settings saved successfully!"
+msgstr "设置保存成功！"
+
+#: includes/class-chatyllo-ajax.php:95
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#: admin/views/settings.php:164
+msgid "Show animated dots while the bot is composing a response."
+msgstr "在机器人撰写回复时显示动态圆点。"
+
+#: admin/views/settings.php:380
+msgid "Show Only on Pages"
+msgstr "仅在指定页面显示"
+
+#: admin/views/settings.php:400
+msgid "Show for Roles"
+msgstr "按角色显示"
+
+#: admin/views/settings.php:373
+msgid "Show on All Pages"
+msgstr "在所有页面显示"
+
+#: admin/views/settings.php:108
+msgid "Show on Mobile"
+msgstr "在移动端显示"
+
+#: admin/views/settings.php:361
+msgid "Shown when no matching FAQ answer is found."
+msgstr "未找到匹配的 FAQ 回答时显示。"
+
+#: admin/views/settings.php:356
+msgid "Shown when the AI service is temporarily unavailable."
+msgstr "AI 服务暂时不可用时显示。"
+
+#: admin/views/settings.php:351
+msgid "Shown when users ask questions unrelated to your website."
+msgstr "用户提出与您的网站无关的问题时显示。"
+
+#: admin/views/settings.php:79
+msgid "Size of the floating chat bubble button."
+msgstr "悬浮聊天气泡按钮的大小。"
+
+#: admin/views/settings.php:75
+msgid "Small"
+msgstr "小"
+
+#: includes/class-chatyllo-widget.php:156
+msgid "Something went wrong. Please try again."
+msgstr "出了点问题，请重试。"
+
+#: admin/views/settings.php:113
+msgid "Sound Effects"
+msgstr "音效"
+
+#: admin/views/faq.php:214
+msgid "Source"
+msgstr "来源"
+
+#: includes/class-chatyllo-widget.php:154
+msgid "Standard Mode"
+msgstr "标准模式"
+
+#: admin/views/logs.php:63
+msgid "Started"
+msgstr "开始时间"
+
+#: admin/views/dashboard.php:17
+msgid "Starter"
+msgstr "Starter"
+
+#: admin/views/settings.php:89
+#: admin/views/settings.php:136
+#: admin/views/settings.php:147
+#: admin/views/settings.php:154
+msgid "Starter+"
+msgstr "Starter+"
+
+#: admin/views/dashboard.php:289
+msgid "Starter+ required"
+msgstr "需要 Starter+"
+
+#: admin/views/stats.php:5
+#: includes/class-chatyllo-admin.php:86
+#: includes/class-chatyllo-admin.php:87
+msgid "Statistics"
+msgstr "统计"
+
+#: admin/views/dashboard.php:259
+msgid "System Info"
+msgstr "系统信息"
+
+#: admin/views/settings.php:70
+msgid "Text color in the chat header and user message bubbles."
+msgstr "聊天顶栏和用户消息气泡中的文本颜色。"
+
+#: admin/views/settings.php:560
+msgid "The AI automatically reads your website content (pages, posts, products) and uses it to answer visitor questions. No API key is needed — everything is managed for you. Set the AI Tone (Professional, Friendly, Casual) and Memory in the Behavior tab. Requires a Starter plan or higher."
+msgstr "AI 会自动读取您的网站内容（页面、文章、产品），并利用这些内容回答访客问题。无需 API 密钥 — 一切由系统为您管理。在行为选项卡中设置 AI 语气（专业、友好、随意）和记忆。需要 Starter 或更高级别的计划。"
+
+#: admin/views/settings.php:564
+msgid "The Knowledge Base is the AI's brain. It indexes your pages, posts, WooCommerce products, and site info. Starter plans auto-index weekly, Business/Agency every 12 hours. Configure what to index in the Knowledge tab."
+msgstr "知识库是 AI 的大脑。它索引您的页面、文章、WooCommerce 产品和网站信息。Starter 计划每周自动索引，Business/Agency 每 12 小时索引一次。在知识选项卡中配置索引内容。"
+
+#: admin/views/settings.php:572
+msgid "The \"Powered by Chatyllo\" footer can be hidden on Business plans or replaced with your own text on Agency plans. Go to the Branding tab to configure this."
+msgstr ""Powered by Chatyllo"底部标识在 Business 计划中可以隐藏，在 Agency 计划中可以替换为您自己的文本。前往品牌标识选项卡进行配置。"
+
+#: admin/views/settings.php:143
+msgid "The communication style the AI assistant will use when responding."
+msgstr "AI 助手在回复时使用的沟通风格。"
+
+#: admin/views/knowledge.php:12
+msgid "The knowledge base is auto-generated from your site content. Chatyllo reads your pages, posts, and products to understand your business."
+msgstr "知识库根据您的网站内容自动生成。Chatyllo 读取您的页面、文章和产品来了解您的业务。"
+
+#: admin/views/faq.php:136
+msgid "The question visitors might ask. Write it naturally."
+msgstr "访客可能会问的问题。请以自然的方式书写。"
+
+#: admin/views/faq.php:141
+msgid "The response shown to visitors. Supports **bold** and *italic* formatting."
+msgstr "向访客展示的回答。支持 **粗体** 和 *斜体* 格式。"
+
+#: includes/class-chatyllo-widget.php:159
+msgid "This chat may store messages to improve our service."
+msgstr "本聊天可能会存储消息以改进我们的服务。"
+
+#: admin/views/knowledge.php:41
+msgid "This will re-scan all your content. Changes to posts/pages are also detected automatically."
+msgstr "这将重新扫描您的所有内容。文章/页面的更改也会被自动检测到。"
+
+#: admin/views/status.php:84
+msgid "Today"
+msgstr "今天"
+
+#: admin/views/logs.php:68
+msgid "Tokens"
+msgstr "Token"
+
+#: admin/views/stats.php:26
+msgid "Tokens Used"
+msgstr "已用 Token"
+
+#: includes/class-chatyllo-ajax.php:67
+msgid "Too many requests. Please slow down."
+msgstr "请求过于频繁，请稍后再试。"
+
+#: admin/views/stats.php:48
+msgid "Top Pages"
+msgstr "热门页面"
+
+#: admin/views/dashboard.php:137
+#: admin/views/logs.php:20
+msgid "Total Chats (30d)"
+msgstr "总聊天数（30 天）"
+
+#: admin/views/knowledge.php:14
+msgid "Total Entries"
+msgstr "总条目"
+
+#: admin/views/faq.php:98
+msgid "Total FAQs"
+msgstr "FAQ 总数"
+
+#: admin/views/stats.php:23
+msgid "Total Messages"
+msgstr "总消息数"
+
+#: admin/views/settings.php:259
+#: admin/views/settings.php:382
+#: admin/views/settings.php:392
+msgid "Type to search pages..."
+msgstr "输入以搜索页面..."
+
+#: admin/views/settings.php:247
+msgid "Type to search posts..."
+msgstr "输入以搜索文章..."
+
+#: includes/class-chatyllo-settings.php:207
+msgid "Type your message..."
+msgstr "输入您的消息..."
+
+#: admin/views/settings.php:162
+msgid "Typing Indicator"
+msgstr "正在输入指示器"
+
+#: chatyllo.php:173
+msgid "Unable to connect to AI service — checking..."
+msgstr "无法连接到 AI 服务 — 检查中..."
+
+#: includes/class-chatyllo-ajax.php:90
+#: includes/class-chatyllo-ajax.php:101
+#: includes/class-chatyllo-ajax.php:120
+#: includes/class-chatyllo-ajax.php:129
+#: includes/class-chatyllo-ajax.php:168
+#: includes/class-chatyllo-ajax.php:181
+#: includes/class-chatyllo-ajax.php:189
+#: includes/class-chatyllo-ajax.php:204
+#: includes/class-chatyllo-ajax.php:353
+msgid "Unauthorized"
+msgstr "未授权"
+
+#: admin/views/dashboard.php:326
+#: admin/views/logs.php:34
+msgid "Unique Visitors"
+msgstr "独立访客"
+
+#: admin/views/dashboard.php:303
+#: admin/views/dashboard.php:307
+msgid "Unlimited"
+msgstr "无限"
+
+#: admin/views/dashboard.php:102
+msgid "Unlimited FAQ entries"
+msgstr "无限 FAQ 条目"
+
+#: admin/views/logs.php:49
+msgid "Unlimited log retention (Agency plan)."
+msgstr "无限日志保留（Agency 计划）。"
+
+#: admin/views/settings.php:175
+msgid "Unlimited retention (Agency plan)."
+msgstr "无限保留（Agency 计划）。"
+
+#: admin/views/settings.php:192
+msgid "Unlock AI Knowledge Base"
+msgstr "解锁 AI 知识库"
+
+#: admin/views/dashboard.php:98
+msgid "Unlock AI-Powered Responses"
+msgstr "解锁 AI 驱动的回复"
+
+#: admin/views/dashboard.php:269
+#: admin/views/faq.php:88
+#: admin/views/settings.php:89
+#: admin/views/settings.php:136
+#: admin/views/settings.php:147
+#: admin/views/settings.php:154
+#: admin/views/settings.php:196
+#: admin/views/settings.php:231
+#: admin/views/settings.php:313
+msgid "Upgrade"
+msgstr "升级"
+
+#: admin/views/knowledge.php:65
+#: admin/views/settings.php:196
+msgid "Upgrade Now"
+msgstr "立即升级"
+
+#: admin/views/knowledge.php:52
+msgid "Upgrade to Business"
+msgstr "升级到 Business"
+
+#: admin/views/dashboard.php:122
+msgid "Upgrade to Business — $9.99/mo"
+msgstr "升级到 Business — $9.99/月"
+
+#: admin/views/faq.php:67
+msgid "Upgrade to Starter"
+msgstr "升级到 Starter"
+
+#: admin/views/dashboard.php:108
+msgid "Upgrade to Starter — $4.99/mo"
+msgstr "升级到 Starter — $4.99/月"
+
+#: admin/views/knowledge.php:62
+msgid "Upgrade to any paid plan to unlock automatic content indexing and AI-powered responses based on your site content."
+msgstr "升级到任意付费计划，即可解锁自动内容索引和基于您网站内容的 AI 驱动回复。"
+
+#: admin/views/settings.php:193
+msgid "Upgrade to let AI automatically learn from your pages, posts, and products. No API key needed — everything is managed for you."
+msgstr "升级后 AI 将自动从您的页面、文章和产品中学习。无需 API 密钥 — 一切由系统为您管理。"
+
+#: admin/views/settings.php:100
+msgid "Upload Image"
+msgstr "上传图片"
+
+#: includes/class-chatyllo-core.php:179
+msgid "User Message"
+msgstr "用户消息"
+
+#: admin/views/settings.php:339
+msgid "Welcome Message"
+msgstr "欢迎消息"
+
+#: admin/views/status.php:106
+msgid "When AI is operational, your chatbot uses intelligent AI to answer visitor questions based on your website content."
+msgstr "当 AI 运行正常时，您的聊天机器人会使用智能 AI 根据网站内容回答访客的问题。"
+
+#: admin/views/settings.php:375
+msgid "When enabled, the widget shows everywhere. Disable to use the rules below."
+msgstr "启用后，小部件在所有页面显示。禁用后可使用下方的规则。"
+
+#: admin/views/settings.php:431
+msgid "When enabled, visitors must accept a privacy notice before their conversations are logged. Chat still works without consent, but no data is stored."
+msgstr "启用后，访客必须在对话被记录前接受隐私通知。即使不同意聊天仍可使用，但不会存储任何数据。"
+
+#: admin/views/settings.php:60
+msgid "Where the chat widget appears on your site."
+msgstr "聊天小部件在您网站上的显示位置。"
+
+#: admin/views/settings.php:563
+msgid "What is the Knowledge Base?"
+msgstr "什么是知识库？"
+
+#: admin/views/settings.php:52
+msgid "Widget Appearance"
+msgstr "小部件外观"
+
+#: admin/views/settings.php:517
+msgid "Widget Preview"
+msgstr "小部件预览"
+
+#: admin/views/settings.php:73
+msgid "Widget Size"
+msgstr "小部件大小"
+
+#: admin/views/faq.php:148
+msgid "Words that trigger this answer."
+msgstr "触发此回答的关键词。"
+
+#: admin/views/faq.php:140
+msgid "Write a clear, helpful answer..."
+msgstr "请撰写一个清晰、有用的回答..."
+
+#: admin/views/settings.php:584
+msgid "Yes! Go to Advanced tab → Export Data (JSON) to download your settings, FAQs, and statistics. Statistics can also be exported as CSV from the Statistics page."
+msgstr "可以！前往高级选项卡 → 导出数据 (JSON) 即可下载您的设置、FAQ 和统计数据。统计数据也可以从统计页面导出为 CSV。"
+
+#: admin/views/dashboard.php:99
+msgid "You are using the free version with manual Q&A only. Upgrade to Starter to enable AI chatbot with 100 responses/day."
+msgstr "您正在使用仅支持手动问答的免费版本。升级到 Starter 即可启用每天 100 次回复的 AI 聊天机器人。"
+
+#: admin/views/faq.php:38
+msgid "You can generate FAQs multiple times. Each generation analyzes your knowledge base and adds new Q&A pairs. Existing AI-generated FAQs are updated if needed — no duplicates are created. The more content you have indexed, the better and more complete the generated FAQs will be."
+msgstr "您可以多次生成 FAQ。每次生成都会分析您的知识库并添加新的问答对。现有的 AI 生成 FAQ 会在需要时更新 — 不会创建重复条目。索引的内容越多，生成的 FAQ 就越好、越完整。"
+
+#. translators: %d: number of AI-generated FAQs
+#: admin/views/faq.php:86
+msgid "You have %d AI-generated FAQs that are currently inactive because you are on the Free plan. Upgrade to any paid plan to reactivate them."
+msgstr "您有 %d 条 AI 生成的 FAQ 目前处于未激活状态，因为您使用的是免费计划。升级到任意付费计划即可重新激活它们。"
+
+#: admin/views/knowledge.php:49
+msgid "Your Starter plan auto-indexes content every 7 days. Upgrade to Business for manual reindex anytime and 12-hour auto-updates."
+msgstr "您的 Starter 计划每 7 天自动索引内容。升级到 Business 可随时手动重新索引，并享受每 12 小时自动更新。"
+
+#: admin/views/settings.php:326
+msgid "Your custom text to display in the chat footer."
+msgstr "您要在聊天底部显示的自定义文本。"
+
+#: admin/views/settings.php:296
+msgid "Your own branding text"
+msgstr "您自己的品牌文本"
+
+#: admin/views/settings.php:580
+msgid "By default the widget shows on all pages. Disable \"Show on All Pages\" to use rules: whitelist specific pages, blacklist pages, or restrict by user role. Use the search-and-pick selectors to easily find pages."
+msgstr "默认情况下，小部件在所有页面上显示。禁用"在所有页面显示"以使用规则：whitelist 指定页面、blacklist 页面或按用户角色限制。使用搜索选择器可轻松查找页面。"
+
+#: admin/views/settings.php:568
+msgid "FAQs use a smart keyword matching algorithm that works on ALL plans — no AI credits consumed. When AI is unavailable (limits reached, maintenance), the chatbot automatically switches to FAQ mode. Keep your FAQs updated for the best fallback experience."
+msgstr "FAQ 使用智能关键词匹配算法，适用于所有计划 — 不消耗 AI 额度。当 AI 不可用时（达到限额、维护中），聊天机器人会自动切换到 FAQ 模式。保持 FAQ 更新以获得最佳的备用体验。"
+
+#: admin/views/dashboard.php:307
+msgid "days"
+msgstr "天"
+
+#: admin/views/faq.php:135
+msgid "e.g. What are your shipping options?"
+msgstr "例如：你们有哪些配送方式？"
+
+#: includes/class-chatyllo-widget.php:152
+msgid "is typing..."
+msgstr "正在输入..."
+
+#: includes/class-chatyllo-core.php:219
+msgid "When visitors use the Chatyllo chat widget on this site, the following data may be collected:"
+msgstr "当访客在本网站使用 Chatyllo 聊天小部件时，可能会收集以下数据："
+
+#: includes/class-chatyllo-core.php:221
+msgid "<strong>Chat messages:</strong> The text of conversations between visitors and the chatbot is stored in the site database for quality improvement and support purposes."
+msgstr "<strong>聊天消息：</strong>访客与聊天机器人之间的对话文本存储在网站数据库中，用于提高质量和支持目的。"
+
+#: includes/class-chatyllo-core.php:222
+msgid "<strong>Session identifier:</strong> A randomly generated session ID is stored in the browser's localStorage to maintain conversation continuity. This is not linked to any personal account."
+msgstr "<strong>会话标识符：</strong>浏览器的 localStorage 中存储了一个随机生成的会话 ID，用于保持对话的连续性。该 ID 不与任何个人账户关联。"
+
+#: includes/class-chatyllo-core.php:223
+msgid "<strong>IP address:</strong> Visitor IP addresses may be collected in hashed (anonymized) form, or not collected at all if the site administrator has enabled IP anonymization."
+msgstr "<strong>IP 地址：</strong>访客的 IP 地址可能以哈希（匿名化）形式收集，如果网站管理员已启用 IP 匿名化，则不会收集。"
+
+#: includes/class-chatyllo-core.php:224
+msgid "<strong>Browser information:</strong> Browser type and device information may be collected for analytics purposes, unless the site administrator has enabled browser anonymization."
+msgstr "<strong>浏览器信息：</strong>浏览器类型和设备信息可能会被收集用于分析目的，除非网站管理员已启用浏览器匿名化。"
+
+#: includes/class-chatyllo-core.php:225
+msgid "<strong>Page URL:</strong> The page where the chat conversation took place is recorded."
+msgstr "<strong>页面 URL：</strong>聊天对话发生的页面会被记录。"
+
+#: includes/class-chatyllo-core.php:227
+msgid "<strong>External service:</strong> For AI-powered responses (premium plans only), chat messages and website content context are sent to the Chatyllo AI proxy server (wpezo.com) for processing. No visitor personal data (IP, browser info) is sent to this service."
+msgstr "<strong>外部服务：</strong>对于 AI 驱动的回复（仅限付费计划），聊天消息和网站内容上下文会发送到 Chatyllo AI proxy 服务器 (wpezo.com) 进行处理。不会向该服务发送任何访客个人数据（IP、浏览器信息）。"
+
+#: includes/class-chatyllo-core.php:228
+msgid "<strong>Data retention:</strong> Chat logs are automatically deleted based on the site's configured retention period (30 to 180 days, depending on the plan). Site administrators can manually delete all chat data at any time."
+msgstr "<strong>数据保留：</strong>聊天日志会根据网站配置的保留期限自动删除（30 至 180 天，取决于计划）。网站管理员可以随时手动删除所有聊天数据。"
+
+#: includes/class-chatyllo-core.php:229
+msgid "<strong>Consent:</strong> If the site administrator has enabled the consent requirement, a privacy notice is displayed in the chat widget before any data is logged. Visitors can use the chat without accepting, but their conversations will not be stored."
+msgstr "<strong>同意：</strong>如果网站管理员已启用同意要求，聊天小部件会在记录任何数据之前显示隐私通知。访客可以在不接受的情况下使用聊天，但他们的对话将不会被存储。"

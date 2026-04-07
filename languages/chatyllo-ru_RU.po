@@ -1,0 +1,1715 @@
+# Russian translation for Chatyllo
+# Copyright (C) 2026 WPezo
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Chatyllo 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wpezo.com/support\n"
+"POT-Creation-Date: 2026-04-03 21:00:00+0000\n"
+"PO-Revision-Date: 2026-04-03 23:30:00+0000\n"
+"Last-Translator: WPezo <support@wpezo.com>\n"
+"Language-Team: Russian <support@wpezo.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Chatyllo 1.2.0\n"
+
+#. translators: %1$d: completed steps, %2$d: total steps
+#: admin/views/dashboard.php:387
+msgid "%1$d of %2$d completed"
+msgstr "%1$d из %2$d выполнено"
+
+#: includes/class-chatyllo-ajax.php:519
+msgid "(no title)"
+msgstr "(без заголовка)"
+
+#: admin/views/faq.php:172
+msgid "0 = default."
+msgstr "0 = по умолчанию."
+
+#: admin/views/dashboard.php:103
+msgid "90-day log retention"
+msgstr "Хранение логов 90 дней"
+
+#: admin/views/dashboard.php:299
+#: admin/views/faq.php:118
+msgid "AI + FAQ"
+msgstr "AI + FAQ"
+
+#: admin/views/dashboard.php:48
+#: admin/views/faq.php:23
+#: admin/views/settings.php:26
+#: includes/class-chatyllo-admin.php:170
+msgid "AI Active"
+msgstr "AI активен"
+
+#: admin/views/settings.php:124
+msgid "AI Behavior"
+msgstr "Поведение AI"
+
+#: includes/class-chatyllo-ajax.php:357
+msgid "AI FAQ generation requires a Starter plan or higher."
+msgstr "Генерация FAQ с помощью AI требует план Starter или выше."
+
+#: admin/views/faq.php:202
+msgid "AI Generated"
+msgstr "Сгенерировано AI"
+
+#: admin/views/faq.php:37
+msgid "AI Generation:"
+msgstr "Генерация AI:"
+
+#: admin/views/dashboard.php:229
+msgid "AI Knowledge Base"
+msgstr "База знаний AI"
+
+#: admin/views/knowledge.php:61
+msgid "AI Knowledge Base — Paid Plan Required"
+msgstr "База знаний AI — Требуется платный план"
+
+#: admin/views/dashboard.php:50
+#: admin/views/settings.php:27
+#: includes/class-chatyllo-admin.php:171
+msgid "AI Offline"
+msgstr "AI недоступен"
+
+#: admin/views/settings.php:354
+msgid "AI Offline Message"
+msgstr "Сообщение о недоступности AI"
+
+#: includes/class-chatyllo-widget.php:153
+msgid "AI Powered"
+msgstr "На базе AI"
+
+#: admin/views/dashboard.php:146
+#: admin/views/logs.php:27
+msgid "AI Responses"
+msgstr "Ответы AI"
+
+#: admin/views/dashboard.php:286
+msgid "AI Status"
+msgstr "Статус AI"
+
+#: admin/views/settings.php:135
+msgid "AI Tone"
+msgstr "Тон AI"
+
+#: admin/views/dashboard.php:172
+msgid "AI Usage"
+msgstr "Использование AI"
+
+#: admin/views/faq.php:53
+msgid "AI analyzes your indexed content and creates relevant Q&A pairs automatically."
+msgstr "AI анализирует твой проиндексированный контент и автоматически создаёт релевантные пары вопросов и ответов."
+
+#: includes/class-chatyllo-proxy.php:65
+msgid "AI chat requires a paid plan."
+msgstr "AI-чат требует платный план."
+
+#: admin/views/dashboard.php:101
+msgid "AI chatbot — 100 responses/day"
+msgstr "AI-чатбот — 100 ответов/день"
+
+#: includes/class-chatyllo-ajax.php:387
+msgid "AI did not generate any FAQs."
+msgstr "AI не сгенерировал ни одной FAQ."
+
+#: admin/views/dashboard.php:72
+msgid "AI features are automatically included when you upgrade to any paid plan. No personal API key, no setup, just activate and the AI starts working with your content."
+msgstr "Функции AI автоматически включены в любой платный план. Никаких личных API-ключей, никакой настройки — просто активируй, и AI начнёт работать с твоим контентом."
+
+#: admin/views/faq.php:75
+msgid "AI is analyzing your content..."
+msgstr "AI анализирует твой контент..."
+
+#: chatyllo.php:207
+msgid "AI service temporarily unavailable — FAQ mode is active as fallback"
+msgstr "Сервис AI временно недоступен — режим FAQ активен как резервный"
+
+#: includes/class-chatyllo-widget.php:160
+msgid "Accept & Chat"
+msgstr "Принять и начать чат"
+
+#: admin/views/faq.php:216
+msgid "Actions"
+msgstr "Действия"
+
+#: admin/views/dashboard.php:291
+#: admin/views/faq.php:105
+#: admin/views/faq.php:177
+#: admin/views/faq.php:215
+msgid "Active"
+msgstr "Активно"
+
+#: admin/views/dashboard.php:363
+msgid "Add FAQ entries"
+msgstr "Добавь записи FAQ"
+
+#: admin/views/faq.php:128
+msgid "Add New FAQ"
+msgstr "Добавить новую FAQ"
+
+#: admin/views/dashboard.php:246
+msgid "Add manual Q&A pairs"
+msgstr "Добавь пары вопросов и ответов вручную"
+
+#: admin/views/dashboard.php:378
+msgid "Add your privacy URL for GDPR compliance."
+msgstr "Добавь URL политики конфиденциальности для соответствия GDPR."
+
+#: admin/views/settings.php:42
+msgid "Advanced"
+msgstr "Расширенные"
+
+#: admin/views/dashboard.php:19
+msgid "Agency"
+msgstr "Agency"
+
+#: admin/views/faq.php:197
+msgid "All Categories"
+msgstr "Все категории"
+
+#: admin/views/faq.php:200
+msgid "All Sources"
+msgstr "Все источники"
+
+#: chatyllo.php:184
+msgid "All systems operational"
+msgstr "Все системы работают"
+
+#: admin/views/stats.php:12
+msgid "All time"
+msgstr "За всё время"
+
+#: includes/class-chatyllo-admin.php:166
+msgid "An error occurred. Please try again."
+msgstr "Произошла ошибка. Попробуй снова."
+
+#: admin/views/settings.php:434
+msgid "Anonymize IP addresses"
+msgstr "Анонимизировать IP-адреса"
+
+#: admin/views/settings.php:442
+msgid "Anonymize browser info"
+msgstr "Анонимизировать данные браузера"
+
+#: admin/views/faq.php:139
+msgid "Answer"
+msgstr "Ответ"
+
+#: admin/views/settings.php:36
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: admin/views/knowledge.php:22
+msgid "Approx. tokens:"
+msgstr "Прибл. токенов:"
+
+#: includes/class-chatyllo-admin.php:167
+msgid "Are you sure?"
+msgstr "Ты уверен?"
+
+#: admin/views/dashboard.php:277
+msgid "Auto 12h + Manual"
+msgstr "Авто 12ч + Вручную"
+
+#: admin/views/dashboard.php:279
+msgid "Auto weekly"
+msgstr "Авто еженедельно"
+
+#: admin/views/faq.php:147
+msgid "Auto-generated if empty"
+msgstr "Генерируется автоматически, если пусто"
+
+#: admin/views/knowledge.php:25
+msgid "Auto-index schedule:"
+msgstr "Расписание автоиндексации:"
+
+#: admin/views/dashboard.php:224
+msgid "Auto-indexes weekly"
+msgstr "Автоиндексация еженедельно"
+
+#: admin/views/knowledge.php:48
+msgid "Auto-indexing weekly"
+msgstr "Автоиндексация еженедельно"
+
+#: admin/views/settings.php:488
+msgid "Automatic maintenance runs weekly: cleans expired logs and cache, removes orphan data, and optimizes database tables."
+msgstr "Автоматическое обслуживание выполняется еженедельно: очищает устаревшие логи и кэш, удаляет осиротевшие данные и оптимизирует таблицы базы данных."
+
+#: admin/views/dashboard.php:330
+#: admin/views/logs.php:41
+#: admin/views/stats.php:25
+msgid "Avg Response"
+msgstr "Средний ответ"
+
+#: admin/views/settings.php:37
+msgid "Behavior"
+msgstr "Поведение"
+
+#: admin/views/settings.php:87
+msgid "Bot Avatar"
+msgstr "Аватар бота"
+
+#: admin/views/settings.php:82
+msgid "Bot Name"
+msgstr "Имя бота"
+
+#: includes/class-chatyllo-core.php:179
+msgid "Bot Response"
+msgstr "Ответ бота"
+
+#: admin/views/settings.php:58
+msgid "Bottom Left"
+msgstr "Внизу слева"
+
+#: admin/views/settings.php:57
+msgid "Bottom Right"
+msgstr "Внизу справа"
+
+#: admin/views/settings.php:39
+#: admin/views/settings.php:273
+msgid "Branding"
+msgstr "Брендинг"
+
+#: admin/views/stats.php:62
+msgid "Browsers"
+msgstr "Браузеры"
+
+#: admin/views/dashboard.php:371
+msgid "Build the knowledge base for AI responses."
+msgstr "Создай базу знаний для ответов AI."
+
+#: admin/views/dashboard.php:18
+msgid "Business"
+msgstr "Business"
+
+#: admin/views/settings.php:231
+msgid "Business+"
+msgstr "Business+"
+
+#: admin/views/settings.php:584
+msgid "Can I export my data?"
+msgstr "Могу ли я экспортировать свои данные?"
+
+#: includes/class-chatyllo-ajax.php:124
+msgid "Cache cleared."
+msgstr "Кэш очищен."
+
+#: admin/views/faq.php:185
+msgid "Cancel Edit"
+msgstr "Отменить редактирование"
+
+#: admin/views/settings.php:141
+msgid "Casual"
+msgstr "Разговорный"
+
+#: admin/views/faq.php:112
+msgid "Categories"
+msgstr "Категории"
+
+#: admin/views/faq.php:153
+#: admin/views/faq.php:212
+msgid "Category"
+msgstr "Категория"
+
+#: admin/views/logs.php:9
+#: includes/class-chatyllo-admin.php:77
+#: includes/class-chatyllo-admin.php:78
+msgid "Chat Logs"
+msgstr "Логи чата"
+
+#: includes/class-chatyllo-core.php:218
+msgid "Chatyllo Chat Assistant"
+msgstr "Чат-ассистент Chatyllo"
+
+#: includes/class-chatyllo-admin.php:31
+#: includes/class-chatyllo-admin.php:32
+msgid "Chatyllo"
+msgstr "Chatyllo"
+
+#: includes/class-chatyllo-core.php:175
+msgid "Chatyllo Chat Conversations"
+msgstr "Чат-диалоги Chatyllo"
+
+#: includes/class-chatyllo-core.php:153
+#: includes/class-chatyllo-core.php:191
+msgid "Chatyllo Chat Logs"
+msgstr "Логи чата Chatyllo"
+
+#: admin/views/dashboard.php:35
+msgid "Chatyllo Dashboard"
+msgstr "Панель управления Chatyllo"
+
+#: admin/views/settings.php:19
+msgid "Chatyllo Settings"
+msgstr "Настройки Chatyllo"
+
+#: admin/views/settings.php:451
+msgid "Chatyllo is compatible with WordPress Privacy Tools (Tools > Export/Erase Personal Data) and major cookie consent plugins (CookieYes, Complianz, CookieBot, iubenda). Storage used: localStorage keys \"chatyllo_sid\" (functional, session) and \"chatyllo_consent\" (functional, persistent)."
+msgstr "Chatyllo совместим с инструментами конфиденциальности WordPress (Инструменты > Экспорт/Удаление персональных данных) и основными плагинами согласия на cookie (CookieYes, Complianz, CookieBot, iubenda). Используемое хранилище: ключи localStorage \"chatyllo_sid\" (функциональный, сессионный) и \"chatyllo_consent\" (функциональный, постоянный)."
+
+#: admin/views/status.php:42
+msgid "Checking..."
+msgstr "Проверка..."
+
+#: admin/views/settings.php:203
+msgid "Choose which content types the AI should learn from."
+msgstr "Выбери, из каких типов контента AI должен обучаться."
+
+#: admin/views/dashboard.php:236
+msgid "Clear Response Cache"
+msgstr "Очистить кэш ответов"
+
+#: admin/views/settings.php:402
+msgid "Click to select roles... (empty = everyone)"
+msgstr "Нажми, чтобы выбрать роли... (пусто = все)"
+
+#: includes/class-chatyllo-widget.php:150
+msgid "Close"
+msgstr "Закрыть"
+
+#: admin/views/settings.php:201
+msgid "Content Indexing"
+msgstr "Индексация контента"
+
+#: admin/views/settings.php:320
+msgid "Controls the branding text shown at the bottom of the chat widget."
+msgstr "Управляет текстом брендинга, отображаемым внизу виджета чата."
+
+#: admin/views/logs.php:88
+msgid "Conversation Details"
+msgstr "Детали диалога"
+
+#: admin/views/settings.php:153
+msgid "Conversation Memory"
+msgstr "Память диалога"
+
+#: admin/views/stats.php:24
+msgid "Conversations"
+msgstr "Диалоги"
+
+#: admin/views/dashboard.php:364
+msgid "Create Q&A pairs for instant answers."
+msgstr "Создай пары вопросов и ответов для мгновенных ответов."
+
+#: admin/views/faq.php:119
+msgid "Current Mode"
+msgstr "Текущий режим"
+
+#: admin/views/settings.php:295
+msgid "Custom / White-label"
+msgstr "Пользовательский / White-label"
+
+#: admin/views/settings.php:324
+msgid "Custom Branding Text"
+msgstr "Пользовательский текст брендинга"
+
+#: admin/views/settings.php:40
+msgid "Custom Messages"
+msgstr "Пользовательские сообщения"
+
+#: admin/views/settings.php:229
+msgid "Custom Post Types"
+msgstr "Пользовательские типы записей"
+
+#: admin/views/dashboard.php:242
+msgid "Customize appearance & behavior"
+msgstr "Настрой внешний вид и поведение"
+
+#: admin/views/dashboard.php:181
+msgid "Daily"
+msgstr "Ежедневно"
+
+#: admin/views/stats.php:34
+msgid "Daily Activity"
+msgstr "Ежедневная активность"
+
+#: admin/views/status.php:109
+msgid "Daily and monthly usage limits reset automatically. Daily limits reset at midnight (server time), monthly limits reset on the 1st of each month."
+msgstr "Ежедневные и ежемесячные лимиты использования сбрасываются автоматически. Дневные лимиты сбрасываются в полночь (серверное время), месячные — 1-го числа каждого месяца."
+
+#: includes/class-chatyllo-admin.php:42
+#: includes/class-chatyllo-admin.php:43
+#: includes/class-chatyllo-admin.php:221
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: admin/views/settings.php:458
+msgid "Data Preservation"
+msgstr "Сохранение данных"
+
+#: includes/class-chatyllo-core.php:178
+msgid "Date"
+msgstr "Дата"
+
+#: admin/views/settings.php:282
+msgid "Default branding link"
+msgstr "Ссылка брендинга по умолчанию"
+
+#: admin/views/status.php:90
+msgid "Degraded / Maintenance"
+msgstr "Снижена производительность / Обслуживание"
+
+#: includes/class-chatyllo-admin.php:173
+msgid "Deleted successfully."
+msgstr "Успешно удалено."
+
+#: includes/class-chatyllo-admin.php:172
+msgid "Deleting..."
+msgstr "Удаление..."
+
+#: admin/views/stats.php:57
+msgid "Devices"
+msgstr "Устройства"
+
+#: admin/views/settings.php:76
+msgid "Dismiss"
+msgstr "Закрыть"
+
+#: admin/views/settings.php:41
+#: admin/views/settings.php:370
+msgid "Display Rules"
+msgstr "Правила отображения"
+
+#: admin/views/settings.php:84
+msgid "Display name shown in the chat header."
+msgstr "Отображаемое имя в заголовке чата."
+
+#: admin/views/settings.php:110
+msgid "Display the chat widget on mobile devices."
+msgstr "Показывать виджет чата на мобильных устройствах."
+
+#: admin/views/settings.php:447
+msgid "Do not store browser/device information in chat logs."
+msgstr "Не сохранять информацию о браузере/устройстве в логах чата."
+
+#: admin/views/settings.php:439
+msgid "Do not store visitor IP addresses in chat logs. Recommended for GDPR compliance."
+msgstr "Не сохранять IP-адреса посетителей в логах чата. Рекомендуется для соответствия GDPR."
+
+#. translators: %1$d: new FAQs created, %2$d: FAQs updated
+#: includes/class-chatyllo-ajax.php:437
+msgid "Done! %1$d new FAQs created, %2$d updated."
+msgstr "Готово! Создано новых FAQ: %1$d, обновлено: %2$d."
+
+#: admin/views/logs.php:69
+msgid "Duration"
+msgstr "Длительность"
+
+#: includes/class-chatyllo-ajax.php:61
+msgid "Empty message"
+msgstr "Пустое сообщение"
+
+#: admin/views/settings.php:128
+msgid "Enable Chatyllo"
+msgstr "Включить Chatyllo"
+
+#: admin/views/dashboard.php:349
+msgid "Enable the chatbot"
+msgstr "Включи чатбот"
+
+#: admin/views/knowledge.php:28
+msgid "Every 12 hours + manual anytime"
+msgstr "Каждые 12 часов + вручную в любое время"
+
+#: includes/chatyllo-premium__premium_only.php:166
+#: includes/class-chatyllo-proxy.php:39
+msgid "Every 5 minutes"
+msgstr "Каждые 5 минут"
+
+#: admin/views/settings.php:257
+msgid "Exclude Pages"
+msgstr "Исключить страницы"
+
+#: admin/views/settings.php:245
+msgid "Exclude Posts"
+msgstr "Исключить записи"
+
+#: admin/views/stats.php:15
+msgid "Export"
+msgstr "Экспорт"
+
+#: admin/views/settings.php:473
+msgid "Export / Import"
+msgstr "Экспорт / Импорт"
+
+#: admin/views/stats.php:14
+msgid "Export CSV"
+msgstr "Экспорт CSV"
+
+#: admin/views/settings.php:478
+msgid "Export Data (JSON)"
+msgstr "Экспорт данных (JSON)"
+
+#: admin/views/settings.php:475
+msgid "Export your plugin configuration, FAQs, and statistics for backup or migration."
+msgstr "Экспортируй конфигурацию плагина, FAQ и статистику для резервного копирования или миграции."
+
+#: includes/class-chatyllo-admin.php:60
+#: includes/class-chatyllo-admin.php:61
+msgid "FAQ / Q&A"
+msgstr "FAQ / Вопросы и ответы"
+
+#: admin/views/faq.php:18
+msgid "FAQ / Smart Q&A"
+msgstr "FAQ / Умные вопросы и ответы"
+
+#: admin/views/dashboard.php:164
+msgid "FAQ Entries"
+msgstr "Записи FAQ"
+
+#: admin/views/dashboard.php:302
+msgid "FAQ Limit"
+msgstr "Лимит FAQ"
+
+#: admin/views/faq.php:194
+msgid "FAQ List"
+msgstr "Список FAQ"
+
+#: admin/views/dashboard.php:299
+#: admin/views/faq.php:118
+msgid "FAQ Only"
+msgstr "Только FAQ"
+
+#: admin/views/faq.php:23
+msgid "FAQ Only Mode"
+msgstr "Режим «Только FAQ»"
+
+#: includes/class-chatyllo-ajax.php:159
+msgid "FAQ created."
+msgstr "FAQ создана."
+
+#: includes/class-chatyllo-ajax.php:175
+msgid "FAQ deleted."
+msgstr "FAQ удалена."
+
+#: admin/views/faq.php:165
+msgid "FAQ language."
+msgstr "Язык FAQ."
+
+#. translators: %d: FAQ limit number
+#: includes/class-chatyllo-ajax.php:147
+msgid "FAQ limit reached (%d). Upgrade your plan for unlimited FAQs."
+msgstr "Лимит FAQ достигнут (%d). Обнови свой план для неограниченного количества FAQ."
+
+#: includes/class-chatyllo-ajax.php:156
+msgid "FAQ updated."
+msgstr "FAQ обновлена."
+
+#: admin/views/faq.php:33
+msgid "FAQs are powered by Chatyllo's built-in smart matching algorithm — no AI credits are consumed. They work on all plans, including Free. When AI responses are unavailable (daily/monthly limits reached, temporary service issues, or network errors), the chatbot automatically switches to FAQ mode. This ensures your visitors always get helpful answers."
+msgstr "FAQ работают на встроенном алгоритме умного сопоставления Chatyllo — кредиты AI не расходуются. Они работают на всех планах, включая бесплатный. Когда ответы AI недоступны (достигнуты дневные/месячные лимиты, временные проблемы сервиса или сетевые ошибки), чатбот автоматически переключается в режим FAQ. Это гарантирует, что твои посетители всегда получат полезные ответы."
+
+#: includes/chatyllo-premium__premium_only.php:305
+#: includes/chatyllo-premium__premium_only.php:383
+msgid "Failed to obtain API token."
+msgstr "Не удалось получить API token."
+
+#: admin/views/logs.php:65
+msgid "First Message"
+msgstr "Первое сообщение"
+
+#: admin/views/settings.php:341
+msgid "First message shown when the chat opens. Leave empty for default."
+msgstr "Первое сообщение при открытии чата. Оставь пустым для значения по умолчанию."
+
+#: admin/views/settings.php:276
+msgid "Footer Branding"
+msgstr "Брендинг в подвале"
+
+#: admin/views/status.php:110
+msgid "For the best experience, keep your FAQ entries up to date — they serve as a reliable fallback whenever AI is not available."
+msgstr "Для лучшего результата поддерживай свои FAQ в актуальном состоянии — они служат надёжным резервом, когда AI недоступен."
+
+#: admin/views/dashboard.php:237
+msgid "Force fresh AI responses"
+msgstr "Принудительно обновить ответы AI"
+
+#: admin/views/dashboard.php:16
+msgid "Free"
+msgstr "Бесплатный"
+
+#: admin/views/dashboard.php:46
+#: admin/views/settings.php:25
+msgid "Free — FAQ Only"
+msgstr "Бесплатный — Только FAQ"
+
+#: includes/chatyllo-premium__premium_only.php:96
+msgid "Freemius install ID not available. Please activate the plugin first."
+msgstr "ID установки Freemius недоступен. Сначала активируй плагин."
+
+#: admin/views/settings.php:140
+msgid "Friendly"
+msgstr "Дружелюбный"
+
+#: admin/views/faq.php:61
+msgid "Generate"
+msgstr "Сгенерировать"
+
+#: admin/views/faq.php:50
+msgid "Generate FAQs with AI"
+msgstr "Сгенерировать FAQ с помощью AI"
+
+#: admin/views/dashboard.php:118
+msgid "Get 300 AI responses/day, Knowledge Base indexing, custom post types, and remove Chatyllo branding."
+msgstr "Получи 300 ответов AI/день, индексацию базы знаний, пользовательские типы записей и удаление брендинга Chatyllo."
+
+#: admin/views/dashboard.php:342
+msgid "Getting Started"
+msgstr "Начало работы"
+
+#: admin/views/dashboard.php:350
+msgid "Go to Settings → Behavior and enable Chatyllo."
+msgstr "Перейди в Настройки → Поведение и включи Chatyllo."
+
+#: admin/views/settings.php:556
+msgid "Go to the Appearance tab. You can change the Primary Color (chat bubble, header, user messages), the Header & User Message text color, and the Widget Size (Small, Medium, Large). Changes apply immediately after saving."
+msgstr "Перейди на вкладку «Внешний вид». Ты можешь изменить основной цвет (пузырь чата, заголовок, сообщения пользователя), цвет текста заголовка и сообщений пользователя, а также размер виджета (Маленький, Средний, Большой). Изменения применяются сразу после сохранения."
+
+#: admin/views/settings.php:576
+msgid "Go to the Advanced tab. Enable \"Require consent before logging\" to show a privacy banner. Enable \"Anonymize IP\" (recommended). Add your Privacy Policy URL. Chatyllo also integrates with WordPress Privacy Tools and major cookie plugins (CookieYes, Complianz, CookieBot)."
+msgstr "Перейди на вкладку «Расширенные». Включи «Требовать согласие перед логированием», чтобы показать баннер конфиденциальности. Включи «Анонимизировать IP» (рекомендуется). Добавь URL своей политики конфиденциальности. Chatyllo также интегрируется с инструментами конфиденциальности WordPress и основными плагинами cookie (CookieYes, Complianz, CookieBot)."
+
+#: admin/views/status.php:101
+msgid "Good to Know"
+msgstr "Полезно знать"
+
+#: admin/views/dashboard.php:357
+msgid "Greet visitors with a custom message."
+msgstr "Приветствуй посетителей пользовательским сообщением."
+
+#: admin/views/faq.php:158
+msgid "Group related FAQs."
+msgstr "Группируй связанные FAQ."
+
+#: admin/views/settings.php:68
+msgid "Header & User Message Color"
+msgstr "Цвет заголовка и сообщений пользователя"
+
+#: admin/views/settings.php:536
+msgid "Hello!"
+msgstr "Привет!"
+
+#: includes/class-chatyllo-settings.php:199
+msgid "Hi there! 👋 How can I help you today?"
+msgstr "Привет! 👋 Чем могу помочь сегодня?"
+
+#: admin/views/settings.php:288
+msgid "Hidden"
+msgstr "Скрыто"
+
+#: admin/views/settings.php:390
+msgid "Hide on Pages"
+msgstr "Скрыть на страницах"
+
+#: admin/views/settings.php:397
+msgid "Hide the widget on these specific pages (blacklist)."
+msgstr "Скрыть виджет на этих конкретных страницах (blacklist)."
+
+#: admin/views/faq.php:31
+msgid "How FAQ / Smart Q&A works"
+msgstr "Как работает FAQ / Умные вопросы и ответы"
+
+#: admin/views/settings.php:571
+msgid "How can I remove the Chatyllo branding?"
+msgstr "Как я могу убрать брендинг Chatyllo?"
+
+#: admin/views/settings.php:537
+msgid "How can I help you today?"
+msgstr "Чем могу помочь сегодня?"
+
+#: admin/views/settings.php:555
+msgid "How do I customize colors and size?"
+msgstr "Как настроить цвета и размер?"
+
+#: admin/views/settings.php:575
+msgid "How do I set up GDPR compliance?"
+msgstr "Как настроить соответствие GDPR?"
+
+#: admin/views/settings.php:579
+msgid "How do Display Rules work?"
+msgstr "Как работают правила отображения?"
+
+#: admin/views/settings.php:567
+msgid "How do FAQ and AI work together?"
+msgstr "Как FAQ и AI работают вместе?"
+
+#: admin/views/settings.php:559
+msgid "How does the AI chatbot work?"
+msgstr "Как работает AI-чатбот?"
+
+#: includes/class-chatyllo-settings.php:215
+msgid "I appreciate your question, but I'm here to help specifically with topics related to this website. Could you please ask something about our products, services, or content?"
+msgstr "Спасибо за вопрос, но я здесь, чтобы помочь именно по темам, связанным с этим сайтом. Не мог бы ты задать вопрос о наших продуктах, услугах или контенте?"
+
+#: includes/class-chatyllo-settings.php:231
+msgid "I'm sorry, I don't have an answer for that right now. Please try rephrasing your question or contact us directly."
+msgstr "К сожалению, у меня сейчас нет ответа на этот вопрос. Попробуй переформулировать свой вопрос или свяжись с нами напрямую."
+
+#: admin/views/status.php:107
+msgid "If AI is temporarily unavailable, the chatbot automatically switches to FAQ mode — your visitors still get helpful answers from your manual Q&A pairs."
+msgstr "Если AI временно недоступен, чатбот автоматически переключается в режим FAQ — твои посетители всё равно получат полезные ответы из твоих пар вопросов и ответов."
+
+#: admin/views/settings.php:218
+msgid "Include WooCommerce products (if available)."
+msgstr "Включить продукты WooCommerce (если доступны)."
+
+#: admin/views/settings.php:208
+msgid "Include blog posts in the AI knowledge base."
+msgstr "Включить записи блога в базу знаний AI."
+
+#: admin/views/settings.php:213
+msgid "Include pages in the AI knowledge base."
+msgstr "Включить страницы в базу знаний AI."
+
+#: admin/views/settings.php:223
+msgid "Include site name, description, menus, and contact info."
+msgstr "Включить название сайта, описание, меню и контактную информацию."
+
+#: admin/views/settings.php:211
+msgid "Index Pages"
+msgstr "Индексировать страницы"
+
+#: admin/views/settings.php:206
+msgid "Index Posts"
+msgstr "Индексировать записи"
+
+#: admin/views/settings.php:221
+msgid "Index Site Info"
+msgstr "Индексировать информацию о сайте"
+
+#: admin/views/settings.php:216
+msgid "Index WooCommerce Products"
+msgstr "Индексировать продукты WooCommerce"
+
+#: admin/views/dashboard.php:370
+msgid "Index your content"
+msgstr "Проиндексируй свой контент"
+
+#: admin/views/dashboard.php:310
+msgid "Indexed Pages"
+msgstr "Проиндексированные страницы"
+
+#: admin/views/dashboard.php:314
+msgid "Indexed Posts"
+msgstr "Проиндексированные записи"
+
+#: admin/views/dashboard.php:318
+msgid "Indexed Products"
+msgstr "Проиндексированные продукты"
+
+#: admin/views/settings.php:344
+msgid "Input Placeholder"
+msgstr "Текст-заполнитель"
+
+#: includes/chatyllo-premium__premium_only.php:325
+#: includes/chatyllo-premium__premium_only.php:399
+msgid "Invalid JSON from proxy"
+msgstr "Некорректный JSON от proxy"
+
+#: admin/views/settings.php:461
+msgid "Keep data when plugin is deleted"
+msgstr "Сохранять данные при удалении плагина"
+
+#: admin/views/faq.php:146
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: admin/views/settings.php:38
+msgid "Knowledge"
+msgstr "Знания"
+
+#: admin/views/dashboard.php:223
+#: admin/views/dashboard.php:274
+#: admin/views/knowledge.php:10
+#: includes/class-chatyllo-admin.php:68
+#: includes/class-chatyllo-admin.php:69
+msgid "Knowledge Base"
+msgstr "База знаний"
+
+#: admin/views/dashboard.php:155
+msgid "Knowledge Entries"
+msgstr "Записи знаний"
+
+#: includes/class-chatyllo-ajax.php:365
+msgid "Knowledge base is empty. Please index your content first from the Knowledge Base page."
+msgstr "База знаний пуста. Сначала проиндексируй свой контент на странице «База знаний»."
+
+#: includes/class-chatyllo-admin.php:169
+msgid "Knowledge base rebuilt!"
+msgstr "База знаний перестроена!"
+
+#: includes/class-chatyllo-ajax.php:112
+msgid "Knowledge base rebuilt."
+msgstr "База знаний перестроена."
+
+#: admin/views/faq.php:213
+msgid "Lang"
+msgstr "Язык"
+
+#: admin/views/faq.php:163
+msgid "Language"
+msgstr "Язык"
+
+#: admin/views/settings.php:77
+msgid "Large"
+msgstr "Большой"
+
+#: admin/views/status.php:54
+msgid "Last 30 Days"
+msgstr "Последние 30 дней"
+
+#: admin/views/stats.php:10
+msgid "Last 30 days"
+msgstr "Последние 30 дней"
+
+#: admin/views/stats.php:9
+msgid "Last 7 days"
+msgstr "Последние 7 дней"
+
+#: admin/views/stats.php:11
+msgid "Last 90 days"
+msgstr "Последние 90 дней"
+
+#: admin/views/dashboard.php:322
+msgid "Last Indexed"
+msgstr "Последняя индексация"
+
+#. translators: %s: last checked timestamp
+#: admin/views/status.php:39
+msgid "Last checked: %s"
+msgstr "Последняя проверка: %s"
+
+#: admin/views/knowledge.php:21
+msgid "Last indexed:"
+msgstr "Последняя индексация:"
+
+#: admin/views/settings.php:491
+msgid "Last maintenance:"
+msgstr "Последнее обслуживание:"
+
+#: admin/views/settings.php:423
+msgid "Link to your privacy policy. Shown in the chat widget consent notice."
+msgstr "Ссылка на твою политику конфиденциальности. Отображается в уведомлении о согласии в виджете чата."
+
+#: admin/views/logs.php:93
+msgid "Loading conversation..."
+msgstr "Загрузка диалога..."
+
+#: admin/views/faq.php:219
+#: admin/views/logs.php:73
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: admin/views/settings.php:167
+msgid "Log Conversations"
+msgstr "Записывать диалоги"
+
+#: admin/views/dashboard.php:306
+msgid "Log Retention"
+msgstr "Хранение логов"
+
+#: admin/views/settings.php:172
+msgid "Log Retention (days)"
+msgstr "Хранение логов (дней)"
+
+#. translators: %d: max retention days
+#: admin/views/logs.php:52
+msgid "Logs retained for %d days on your current plan."
+msgstr "Логи хранятся %d дней на твоём текущем плане."
+
+#: admin/views/settings.php:65
+msgid "Main color for the chat bubble, header, and user messages."
+msgstr "Основной цвет для пузыря чата, заголовка и сообщений пользователя."
+
+#: admin/views/settings.php:485
+msgid "Maintenance"
+msgstr "Обслуживание"
+
+#: includes/class-chatyllo-ajax.php:722
+msgid "Maintenance completed successfully."
+msgstr "Обслуживание успешно завершено."
+
+#: admin/views/dashboard.php:245
+msgid "Manage FAQ"
+msgstr "Управление FAQ"
+
+#: admin/views/faq.php:201
+msgid "Manual"
+msgstr "Вручную"
+
+#: includes/class-chatyllo-ajax.php:105
+msgid "Manual reindex requires a Business plan or higher."
+msgstr "Ручная переиндексация требует план Business или выше."
+
+#: admin/views/settings.php:130
+msgid "Master switch to enable or disable the chatbot on your site."
+msgstr "Главный переключатель для включения или отключения чатбота на твоём сайте."
+
+#. translators: %d: max retention days for current plan
+#: admin/views/settings.php:178
+msgid "Max %d days on your current plan."
+msgstr "Максимум %d дней на твоём текущем плане."
+
+#: admin/views/settings.php:146
+msgid "Max Response Length"
+msgstr "Максимальная длина ответа"
+
+#: admin/views/settings.php:150
+msgid "Maximum length of AI responses (100-800). Higher values give longer, more detailed answers."
+msgstr "Максимальная длина ответов AI (100–800). Более высокие значения дают более длинные и подробные ответы."
+
+#: admin/views/settings.php:76
+msgid "Medium"
+msgstr "Средний"
+
+#: admin/views/settings.php:40
+msgid "Messages"
+msgstr "Сообщения"
+
+#: includes/class-chatyllo-widget.php:151
+msgid "Minimize"
+msgstr "Свернуть"
+
+#: admin/views/dashboard.php:298
+#: admin/views/logs.php:67
+#: includes/class-chatyllo-core.php:181
+msgid "Mode"
+msgstr "Режим"
+
+#: admin/views/dashboard.php:192
+msgid "Monthly"
+msgstr "Ежемесячно"
+
+#: admin/views/logs.php:66
+msgid "Msgs"
+msgstr "Сообщ."
+
+#: admin/views/dashboard.php:117
+msgid "Need more power? Upgrade to Business"
+msgstr "Нужно больше возможностей? Перейди на Business"
+
+#: admin/views/settings.php:492
+#: includes/class-chatyllo-ajax.php:723
+#: includes/class-chatyllo-indexer.php:479
+msgid "Never"
+msgstr "Никогда"
+
+#: includes/class-chatyllo-widget.php:158
+msgid "New conversation"
+msgstr "Новый диалог"
+
+#: admin/views/settings.php:359
+msgid "No FAQ Match Message"
+msgstr "Сообщение при отсутствии совпадений FAQ"
+
+#: admin/views/dashboard.php:71
+msgid "No API key needed!"
+msgstr "API-ключ не нужен!"
+
+#: admin/views/settings.php:289
+msgid "No branding shown"
+msgstr "Брендинг не отображается"
+
+#: admin/views/status.php:92
+msgid "No data"
+msgstr "Нет данных"
+
+#: admin/views/faq.php:83
+msgid "Note:"
+msgstr "Примечание:"
+
+#: admin/views/settings.php:157
+msgid "Number of previous messages the AI remembers in each conversation."
+msgstr "Количество предыдущих сообщений, которые AI запоминает в каждом диалоге."
+
+#: admin/views/settings.php:349
+msgid "Off-Topic Response"
+msgstr "Ответ на нерелевантный вопрос"
+
+#: admin/views/dashboard.php:293
+msgid "Offline"
+msgstr "Недоступен"
+
+#: includes/class-chatyllo-core.php:93
+msgid "Once Weekly"
+msgstr "Раз в неделю"
+
+#: admin/views/knowledge.php:30
+msgid "Once every 7 days (automatic)"
+msgstr "Каждые 7 дней (автоматически)"
+
+#: admin/views/settings.php:531
+msgid "Online"
+msgstr "Онлайн"
+
+#: admin/views/settings.php:387
+msgid "Only show the widget on these specific pages (whitelist). Leave empty to ignore."
+msgstr "Показывать виджет только на этих конкретных страницах (whitelist). Оставь пустым, чтобы игнорировать."
+
+#: admin/views/settings.php:407
+msgid "Only show the widget to users with these roles. Leave empty to show to everyone."
+msgstr "Показывать виджет только пользователям с этими ролями. Оставь пустым, чтобы показывать всем."
+
+#: admin/views/status.php:89
+msgid "Operational"
+msgstr "Работает"
+
+#: includes/class-chatyllo-settings.php:223
+msgid "Our AI assistant is currently unavailable. You can still browse our FAQ below or try again later."
+msgstr "Наш AI-ассистент сейчас недоступен. Ты можешь просмотреть наши FAQ ниже или попробовать позже."
+
+#: admin/views/status.php:91
+msgid "Outage"
+msgstr "Сбой"
+
+#: admin/views/knowledge.php:15
+msgid "Pages"
+msgstr "Страницы"
+
+#: admin/views/dashboard.php:230
+#: admin/views/dashboard.php:281
+msgid "Paid plan required"
+msgstr "Требуется платный план"
+
+#: admin/views/settings.php:346
+msgid "Placeholder text in the message input field."
+msgstr "Текст-заполнитель в поле ввода сообщения."
+
+#: admin/views/dashboard.php:264
+msgid "Plan"
+msgstr "План"
+
+#: admin/views/settings.php:115
+msgid "Play a sound when new messages arrive."
+msgstr "Воспроизводить звук при получении новых сообщений."
+
+#: admin/views/faq.php:76
+msgid "Please don't reload or navigate away from this page."
+msgstr "Пожалуйста, не перезагружай страницу и не уходи с неё."
+
+#: includes/class-chatyllo-chat.php:38
+msgid "Please type a message."
+msgstr "Напиши сообщение."
+
+#: includes/class-chatyllo-widget.php:157
+msgid "Please wait a moment before sending another message."
+msgstr "Подожди немного перед отправкой следующего сообщения."
+
+#: admin/views/settings.php:55
+msgid "Position"
+msgstr "Позиция"
+
+#: admin/views/knowledge.php:16
+msgid "Posts"
+msgstr "Записи"
+
+#: admin/views/settings.php:281
+#: admin/views/settings.php:539
+#: includes/class-chatyllo-widget.php:155
+msgid "Powered by Chatyllo"
+msgstr "Powered by Chatyllo"
+
+#: admin/views/settings.php:325
+msgid "Powered by YourBrand"
+msgstr "Powered by ТвойБренд"
+
+#: admin/views/settings.php:466
+msgid "Preserve settings, FAQs, knowledge base, and chat logs if you delete and reinstall the plugin."
+msgstr "Сохранить настройки, FAQ, базу знаний и логи чата при удалении и переустановке плагина."
+
+#: admin/views/settings.php:541
+msgid "Preview updates when you save settings."
+msgstr "Предпросмотр обновляется при сохранении настроек."
+
+#: admin/views/settings.php:63
+msgid "Primary Color"
+msgstr "Основной цвет"
+
+#: admin/views/faq.php:170
+msgid "Priority"
+msgstr "Приоритет"
+
+#: admin/views/settings.php:418
+msgid "Privacy & GDPR"
+msgstr "Конфиденциальность и GDPR"
+
+#: includes/class-chatyllo-widget.php:161
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+#: admin/views/settings.php:421
+msgid "Privacy Policy URL"
+msgstr "URL политики конфиденциальности"
+
+#: admin/views/knowledge.php:17
+msgid "Products"
+msgstr "Продукты"
+
+#: admin/views/settings.php:139
+msgid "Professional"
+msgstr "Профессиональный"
+
+#: includes/chatyllo-premium__premium_only.php:114
+msgid "Proxy activation failed."
+msgstr "Активация proxy не удалась."
+
+#. translators: %d: HTTP status code
+#: includes/chatyllo-premium__premium_only.php:319
+#: includes/chatyllo-premium__premium_only.php:393
+msgid "Proxy returned HTTP %d"
+msgstr "Proxy вернул HTTP %d"
+
+#: admin/views/faq.php:134
+#: admin/views/faq.php:211
+msgid "Question"
+msgstr "Вопрос"
+
+#: admin/views/dashboard.php:210
+msgid "Quick Actions"
+msgstr "Быстрые действия"
+
+#: admin/views/settings.php:549
+msgid "Quick Help"
+msgstr "Быстрая справка"
+
+#: admin/views/dashboard.php:218
+msgid "Re-scan all content now"
+msgstr "Пересканировать весь контент сейчас"
+
+#: admin/views/dashboard.php:217
+#: admin/views/knowledge.php:40
+msgid "Rebuild Knowledge Base"
+msgstr "Перестроить базу знаний"
+
+#: includes/class-chatyllo-admin.php:168
+msgid "Rebuilding knowledge base..."
+msgstr "Перестроение базы знаний..."
+
+#: admin/views/settings.php:103
+msgid "Recommended: square image, at least 80x80px."
+msgstr "Рекомендуется: квадратное изображение, минимум 80x80px."
+
+#: admin/views/status.php:20
+msgid "Refresh"
+msgstr "Обновить"
+
+#: admin/views/dashboard.php:56
+msgid "Refresh AI Status"
+msgstr "Обновить статус AI"
+
+#: admin/views/settings.php:101
+msgid "Remove"
+msgstr "Удалить"
+
+#: admin/views/settings.php:426
+msgid "Require consent before logging"
+msgstr "Требовать согласие перед логированием"
+
+#: admin/views/dashboard.php:186
+msgid "Resets daily"
+msgstr "Сбрасывается ежедневно"
+
+#: admin/views/dashboard.php:197
+msgid "Resets monthly"
+msgstr "Сбрасывается ежемесячно"
+
+#: admin/views/stats.php:42
+msgid "Response Modes"
+msgstr "Режимы ответов"
+
+#: admin/views/settings.php:496
+msgid "Run Maintenance Now"
+msgstr "Запустить обслуживание сейчас"
+
+#: admin/views/faq.php:184
+msgid "Save FAQ"
+msgstr "Сохранить FAQ"
+
+#: admin/views/settings.php:505
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: admin/views/settings.php:169
+msgid "Save chat conversations for review in Chat Logs."
+msgstr "Сохранять диалоги чата для просмотра в логах чата."
+
+#: chatyllo.php:198
+msgid "Scheduled maintenance in progress — our team is working on improvements"
+msgstr "Плановое обслуживание — наша команда работает над улучшениями"
+
+#: admin/views/settings.php:264
+msgid "Search and select pages to exclude from AI indexing."
+msgstr "Найди и выбери страницы для исключения из индексации AI."
+
+#: admin/views/settings.php:252
+msgid "Search and select posts to exclude from AI indexing."
+msgstr "Найди и выбери записи для исключения из индексации AI."
+
+#: admin/views/settings.php:235
+msgid "Search custom post types..."
+msgstr "Поиск пользовательских типов записей..."
+
+#: admin/views/settings.php:75
+msgid "See Plans"
+msgstr "Смотреть планы"
+
+#: admin/views/settings.php:240
+msgid "Select custom post types to include in the AI knowledge base."
+msgstr "Выбери пользовательские типы записей для включения в базу знаний AI."
+
+#: admin/views/faq.php:155
+msgid "Select or type new..."
+msgstr "Выбери или введи новую..."
+
+#: includes/class-chatyllo-widget.php:149
+msgid "Send"
+msgstr "Отправить"
+
+#: admin/views/status.php:15
+#: includes/class-chatyllo-admin.php:95
+#: includes/class-chatyllo-admin.php:96
+msgid "Service Status"
+msgstr "Статус сервиса"
+
+#: admin/views/status.php:108
+msgid "Service status is checked automatically every 5 minutes. You can also refresh manually using the button above."
+msgstr "Статус сервиса проверяется автоматически каждые 5 минут. Ты также можешь обновить вручную, нажав кнопку выше."
+
+#: admin/views/logs.php:64
+msgid "Session"
+msgstr "Сессия"
+
+#: admin/views/stats.php:69
+msgid "Session Quality"
+msgstr "Качество сессии"
+
+#: admin/views/dashboard.php:356
+msgid "Set a welcome message"
+msgstr "Установи приветственное сообщение"
+
+#: admin/views/dashboard.php:377
+msgid "Set privacy policy"
+msgstr "Установи политику конфиденциальности"
+
+#: admin/views/dashboard.php:241
+#: includes/class-chatyllo-admin.php:51
+#: includes/class-chatyllo-admin.php:52
+#: includes/class-chatyllo-admin.php:222
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-chatyllo-admin.php:165
+msgid "Settings saved successfully!"
+msgstr "Настройки успешно сохранены!"
+
+#: includes/class-chatyllo-ajax.php:95
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: admin/views/settings.php:164
+msgid "Show animated dots while the bot is composing a response."
+msgstr "Показывать анимированные точки, пока бот составляет ответ."
+
+#: admin/views/settings.php:380
+msgid "Show Only on Pages"
+msgstr "Показывать только на страницах"
+
+#: admin/views/settings.php:400
+msgid "Show for Roles"
+msgstr "Показывать для ролей"
+
+#: admin/views/settings.php:373
+msgid "Show on All Pages"
+msgstr "Показывать на всех страницах"
+
+#: admin/views/settings.php:108
+msgid "Show on Mobile"
+msgstr "Показывать на мобильных"
+
+#: admin/views/settings.php:361
+msgid "Shown when no matching FAQ answer is found."
+msgstr "Отображается, когда не найден подходящий ответ FAQ."
+
+#: admin/views/settings.php:356
+msgid "Shown when the AI service is temporarily unavailable."
+msgstr "Отображается, когда сервис AI временно недоступен."
+
+#: admin/views/settings.php:351
+msgid "Shown when users ask questions unrelated to your website."
+msgstr "Отображается, когда пользователи задают вопросы, не связанные с твоим сайтом."
+
+#: admin/views/settings.php:79
+msgid "Size of the floating chat bubble button."
+msgstr "Размер плавающей кнопки-пузыря чата."
+
+#: admin/views/settings.php:75
+msgid "Small"
+msgstr "Маленький"
+
+#: includes/class-chatyllo-widget.php:156
+msgid "Something went wrong. Please try again."
+msgstr "Что-то пошло не так. Попробуй снова."
+
+#: admin/views/settings.php:113
+msgid "Sound Effects"
+msgstr "Звуковые эффекты"
+
+#: admin/views/faq.php:214
+msgid "Source"
+msgstr "Источник"
+
+#: includes/class-chatyllo-widget.php:154
+msgid "Standard Mode"
+msgstr "Стандартный режим"
+
+#: admin/views/logs.php:63
+msgid "Started"
+msgstr "Начат"
+
+#: admin/views/dashboard.php:17
+msgid "Starter"
+msgstr "Starter"
+
+#: admin/views/settings.php:89
+#: admin/views/settings.php:136
+#: admin/views/settings.php:147
+#: admin/views/settings.php:154
+msgid "Starter+"
+msgstr "Starter+"
+
+#: admin/views/dashboard.php:289
+msgid "Starter+ required"
+msgstr "Требуется Starter+"
+
+#: admin/views/stats.php:5
+#: includes/class-chatyllo-admin.php:86
+#: includes/class-chatyllo-admin.php:87
+msgid "Statistics"
+msgstr "Статистика"
+
+#: admin/views/dashboard.php:259
+msgid "System Info"
+msgstr "Информация о системе"
+
+#: admin/views/settings.php:70
+msgid "Text color in the chat header and user message bubbles."
+msgstr "Цвет текста в заголовке чата и пузырях сообщений пользователя."
+
+#: admin/views/settings.php:560
+msgid "The AI automatically reads your website content (pages, posts, products) and uses it to answer visitor questions. No API key is needed — everything is managed for you. Set the AI Tone (Professional, Friendly, Casual) and Memory in the Behavior tab. Requires a Starter plan or higher."
+msgstr "AI автоматически читает контент твоего сайта (страницы, записи, продукты) и использует его для ответов на вопросы посетителей. API-ключ не нужен — всё управляется за тебя. Настрой тон AI (Профессиональный, Дружелюбный, Разговорный) и память на вкладке «Поведение». Требуется план Starter или выше."
+
+#: admin/views/settings.php:564
+msgid "The Knowledge Base is the AI's brain. It indexes your pages, posts, WooCommerce products, and site info. Starter plans auto-index weekly, Business/Agency every 12 hours. Configure what to index in the Knowledge tab."
+msgstr "База знаний — это мозг AI. Она индексирует твои страницы, записи, продукты WooCommerce и информацию о сайте. Планы Starter автоматически индексируют еженедельно, Business/Agency — каждые 12 часов. Настрой, что индексировать, на вкладке «Знания»."
+
+#: admin/views/settings.php:572
+msgid "The \"Powered by Chatyllo\" footer can be hidden on Business plans or replaced with your own text on Agency plans. Go to the Branding tab to configure this."
+msgstr "Подвал «Powered by Chatyllo» можно скрыть на планах Business или заменить своим текстом на планах Agency. Перейди на вкладку «Брендинг» для настройки."
+
+#: admin/views/settings.php:143
+msgid "The communication style the AI assistant will use when responding."
+msgstr "Стиль общения, который AI-ассистент будет использовать при ответах."
+
+#: admin/views/knowledge.php:12
+msgid "The knowledge base is auto-generated from your site content. Chatyllo reads your pages, posts, and products to understand your business."
+msgstr "База знаний автоматически генерируется из контента твоего сайта. Chatyllo читает твои страницы, записи и продукты, чтобы понять твой бизнес."
+
+#: admin/views/faq.php:136
+msgid "The question visitors might ask. Write it naturally."
+msgstr "Вопрос, который могут задать посетители. Напиши его естественно."
+
+#: admin/views/faq.php:141
+msgid "The response shown to visitors. Supports **bold** and *italic* formatting."
+msgstr "Ответ, показываемый посетителям. Поддерживает форматирование **жирным** и *курсивом*."
+
+#: includes/class-chatyllo-widget.php:159
+msgid "This chat may store messages to improve our service."
+msgstr "Этот чат может сохранять сообщения для улучшения нашего сервиса."
+
+#: admin/views/knowledge.php:41
+msgid "This will re-scan all your content. Changes to posts/pages are also detected automatically."
+msgstr "Это пересканирует весь твой контент. Изменения в записях/страницах также обнаруживаются автоматически."
+
+#: admin/views/status.php:84
+msgid "Today"
+msgstr "Сегодня"
+
+#: admin/views/logs.php:68
+msgid "Tokens"
+msgstr "Токены"
+
+#: admin/views/stats.php:26
+msgid "Tokens Used"
+msgstr "Использовано токенов"
+
+#: includes/class-chatyllo-ajax.php:67
+msgid "Too many requests. Please slow down."
+msgstr "Слишком много запросов. Помедленнее."
+
+#: admin/views/stats.php:48
+msgid "Top Pages"
+msgstr "Популярные страницы"
+
+#: admin/views/dashboard.php:137
+#: admin/views/logs.php:20
+msgid "Total Chats (30d)"
+msgstr "Всего чатов (30д)"
+
+#: admin/views/knowledge.php:14
+msgid "Total Entries"
+msgstr "Всего записей"
+
+#: admin/views/faq.php:98
+msgid "Total FAQs"
+msgstr "Всего FAQ"
+
+#: admin/views/stats.php:23
+msgid "Total Messages"
+msgstr "Всего сообщений"
+
+#: admin/views/settings.php:259
+#: admin/views/settings.php:382
+#: admin/views/settings.php:392
+msgid "Type to search pages..."
+msgstr "Начни вводить для поиска страниц..."
+
+#: admin/views/settings.php:247
+msgid "Type to search posts..."
+msgstr "Начни вводить для поиска записей..."
+
+#: includes/class-chatyllo-settings.php:207
+msgid "Type your message..."
+msgstr "Напиши сообщение..."
+
+#: admin/views/settings.php:162
+msgid "Typing Indicator"
+msgstr "Индикатор набора текста"
+
+#: chatyllo.php:173
+msgid "Unable to connect to AI service — checking..."
+msgstr "Не удаётся подключиться к сервису AI — проверка..."
+
+#: includes/class-chatyllo-ajax.php:90
+#: includes/class-chatyllo-ajax.php:101
+#: includes/class-chatyllo-ajax.php:120
+#: includes/class-chatyllo-ajax.php:129
+#: includes/class-chatyllo-ajax.php:168
+#: includes/class-chatyllo-ajax.php:181
+#: includes/class-chatyllo-ajax.php:189
+#: includes/class-chatyllo-ajax.php:204
+#: includes/class-chatyllo-ajax.php:353
+msgid "Unauthorized"
+msgstr "Не авторизован"
+
+#: admin/views/dashboard.php:326
+#: admin/views/logs.php:34
+msgid "Unique Visitors"
+msgstr "Уникальные посетители"
+
+#: admin/views/dashboard.php:303
+#: admin/views/dashboard.php:307
+msgid "Unlimited"
+msgstr "Безлимитно"
+
+#: admin/views/dashboard.php:102
+msgid "Unlimited FAQ entries"
+msgstr "Неограниченное количество записей FAQ"
+
+#: admin/views/logs.php:49
+msgid "Unlimited log retention (Agency plan)."
+msgstr "Безлимитное хранение логов (план Agency)."
+
+#: admin/views/settings.php:175
+msgid "Unlimited retention (Agency plan)."
+msgstr "Безлимитное хранение (план Agency)."
+
+#: admin/views/settings.php:192
+msgid "Unlock AI Knowledge Base"
+msgstr "Разблокировать базу знаний AI"
+
+#: admin/views/dashboard.php:98
+msgid "Unlock AI-Powered Responses"
+msgstr "Разблокировать ответы на базе AI"
+
+#: admin/views/dashboard.php:269
+#: admin/views/faq.php:88
+#: admin/views/settings.php:89
+#: admin/views/settings.php:136
+#: admin/views/settings.php:147
+#: admin/views/settings.php:154
+#: admin/views/settings.php:196
+#: admin/views/settings.php:231
+#: admin/views/settings.php:313
+msgid "Upgrade"
+msgstr "Обновить"
+
+#: admin/views/knowledge.php:65
+#: admin/views/settings.php:196
+msgid "Upgrade Now"
+msgstr "Обновить сейчас"
+
+#: admin/views/knowledge.php:52
+msgid "Upgrade to Business"
+msgstr "Перейти на Business"
+
+#: admin/views/dashboard.php:122
+msgid "Upgrade to Business — $9.99/mo"
+msgstr "Перейти на Business — $9,99/мес."
+
+#: admin/views/faq.php:67
+msgid "Upgrade to Starter"
+msgstr "Перейти на Starter"
+
+#: admin/views/dashboard.php:108
+msgid "Upgrade to Starter — $4.99/mo"
+msgstr "Перейти на Starter — $4,99/мес."
+
+#: admin/views/knowledge.php:62
+msgid "Upgrade to any paid plan to unlock automatic content indexing and AI-powered responses based on your site content."
+msgstr "Перейди на любой платный план, чтобы разблокировать автоматическую индексацию контента и ответы AI на основе контента твоего сайта."
+
+#: admin/views/settings.php:193
+msgid "Upgrade to let AI automatically learn from your pages, posts, and products. No API key needed — everything is managed for you."
+msgstr "Обнови план, чтобы AI автоматически обучался на твоих страницах, записях и продуктах. API-ключ не нужен — всё управляется за тебя."
+
+#: admin/views/settings.php:100
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: includes/class-chatyllo-core.php:179
+msgid "User Message"
+msgstr "Сообщение пользователя"
+
+#: admin/views/settings.php:339
+msgid "Welcome Message"
+msgstr "Приветственное сообщение"
+
+#: admin/views/status.php:106
+msgid "When AI is operational, your chatbot uses intelligent AI to answer visitor questions based on your website content."
+msgstr "Когда AI работает, твой чатбот использует искусственный интеллект для ответов на вопросы посетителей на основе контента твоего сайта."
+
+#: admin/views/settings.php:375
+msgid "When enabled, the widget shows everywhere. Disable to use the rules below."
+msgstr "Когда включено, виджет отображается везде. Отключи, чтобы использовать правила ниже."
+
+#: admin/views/settings.php:431
+msgid "When enabled, visitors must accept a privacy notice before their conversations are logged. Chat still works without consent, but no data is stored."
+msgstr "Когда включено, посетители должны принять уведомление о конфиденциальности, прежде чем их диалоги будут записываться. Чат работает и без согласия, но данные не сохраняются."
+
+#: admin/views/settings.php:60
+msgid "Where the chat widget appears on your site."
+msgstr "Где виджет чата отображается на твоём сайте."
+
+#: admin/views/settings.php:563
+msgid "What is the Knowledge Base?"
+msgstr "Что такое база знаний?"
+
+#: admin/views/settings.php:52
+msgid "Widget Appearance"
+msgstr "Внешний вид виджета"
+
+#: admin/views/settings.php:517
+msgid "Widget Preview"
+msgstr "Предпросмотр виджета"
+
+#: admin/views/settings.php:73
+msgid "Widget Size"
+msgstr "Размер виджета"
+
+#: admin/views/faq.php:148
+msgid "Words that trigger this answer."
+msgstr "Слова, которые вызывают этот ответ."
+
+#: admin/views/faq.php:140
+msgid "Write a clear, helpful answer..."
+msgstr "Напиши понятный и полезный ответ..."
+
+#: admin/views/settings.php:584
+msgid "Yes! Go to Advanced tab → Export Data (JSON) to download your settings, FAQs, and statistics. Statistics can also be exported as CSV from the Statistics page."
+msgstr "Да! Перейди на вкладку «Расширенные» → «Экспорт данных (JSON)», чтобы скачать свои настройки, FAQ и статистику. Статистику также можно экспортировать в CSV со страницы «Статистика»."
+
+#: admin/views/dashboard.php:99
+msgid "You are using the free version with manual Q&A only. Upgrade to Starter to enable AI chatbot with 100 responses/day."
+msgstr "Ты используешь бесплатную версию только с ручными вопросами и ответами. Перейди на Starter, чтобы включить AI-чатбот со 100 ответами/день."
+
+#: admin/views/faq.php:38
+msgid "You can generate FAQs multiple times. Each generation analyzes your knowledge base and adds new Q&A pairs. Existing AI-generated FAQs are updated if needed — no duplicates are created. The more content you have indexed, the better and more complete the generated FAQs will be."
+msgstr "Ты можешь генерировать FAQ несколько раз. Каждая генерация анализирует твою базу знаний и добавляет новые пары вопросов и ответов. Существующие FAQ, сгенерированные AI, обновляются при необходимости — дубликаты не создаются. Чем больше контента проиндексировано, тем лучше и полнее будут сгенерированные FAQ."
+
+#. translators: %d: number of AI-generated FAQs
+#: admin/views/faq.php:86
+msgid "You have %d AI-generated FAQs that are currently inactive because you are on the Free plan. Upgrade to any paid plan to reactivate them."
+msgstr "У тебя есть %d FAQ, сгенерированных AI, которые сейчас неактивны, потому что ты на бесплатном плане. Перейди на любой платный план, чтобы их реактивировать."
+
+#: admin/views/knowledge.php:49
+msgid "Your Starter plan auto-indexes content every 7 days. Upgrade to Business for manual reindex anytime and 12-hour auto-updates."
+msgstr "Твой план Starter автоматически индексирует контент каждые 7 дней. Перейди на Business для ручной переиндексации в любое время и автообновления каждые 12 часов."
+
+#: admin/views/settings.php:326
+msgid "Your custom text to display in the chat footer."
+msgstr "Твой пользовательский текст для отображения в подвале чата."
+
+#: admin/views/settings.php:296
+msgid "Your own branding text"
+msgstr "Твой собственный текст брендинга"
+
+#: admin/views/settings.php:580
+msgid "By default the widget shows on all pages. Disable \"Show on All Pages\" to use rules: whitelist specific pages, blacklist pages, or restrict by user role. Use the search-and-pick selectors to easily find pages."
+msgstr "По умолчанию виджет отображается на всех страницах. Отключи «Показывать на всех страницах», чтобы использовать правила: whitelist конкретных страниц, blacklist страниц или ограничение по роли пользователя. Используй селекторы поиска, чтобы легко находить страницы."
+
+#: admin/views/settings.php:568
+msgid "FAQs use a smart keyword matching algorithm that works on ALL plans — no AI credits consumed. When AI is unavailable (limits reached, maintenance), the chatbot automatically switches to FAQ mode. Keep your FAQs updated for the best fallback experience."
+msgstr "FAQ используют умный алгоритм сопоставления ключевых слов, который работает на ВСЕХ планах — кредиты AI не расходуются. Когда AI недоступен (достигнуты лимиты, обслуживание), чатбот автоматически переключается в режим FAQ. Поддерживай свои FAQ в актуальном состоянии для лучшего резервного опыта."
+
+#: admin/views/dashboard.php:307
+msgid "days"
+msgstr "дней"
+
+#: admin/views/faq.php:135
+msgid "e.g. What are your shipping options?"
+msgstr "напр. Какие у вас варианты доставки?"
+
+#: includes/class-chatyllo-widget.php:152
+msgid "is typing..."
+msgstr "печатает..."
+
+#: includes/class-chatyllo-core.php:219
+msgid "When visitors use the Chatyllo chat widget on this site, the following data may be collected:"
+msgstr "Когда посетители используют виджет чата Chatyllo на этом сайте, могут собираться следующие данные:"
+
+#: includes/class-chatyllo-core.php:221
+msgid "<strong>Chat messages:</strong> The text of conversations between visitors and the chatbot is stored in the site database for quality improvement and support purposes."
+msgstr "<strong>Сообщения чата:</strong> Текст диалогов между посетителями и чатботом сохраняется в базе данных сайта для улучшения качества и целей поддержки."
+
+#: includes/class-chatyllo-core.php:222
+msgid "<strong>Session identifier:</strong> A randomly generated session ID is stored in the browser's localStorage to maintain conversation continuity. This is not linked to any personal account."
+msgstr "<strong>Идентификатор сессии:</strong> Случайно сгенерированный ID сессии сохраняется в localStorage браузера для поддержания непрерывности диалога. Он не привязан ни к какому персональному аккаунту."
+
+#: includes/class-chatyllo-core.php:223
+msgid "<strong>IP address:</strong> Visitor IP addresses may be collected in hashed (anonymized) form, or not collected at all if the site administrator has enabled IP anonymization."
+msgstr "<strong>IP-адрес:</strong> IP-адреса посетителей могут собираться в хэшированной (анонимизированной) форме или не собираться вовсе, если администратор сайта включил анонимизацию IP."
+
+#: includes/class-chatyllo-core.php:224
+msgid "<strong>Browser information:</strong> Browser type and device information may be collected for analytics purposes, unless the site administrator has enabled browser anonymization."
+msgstr "<strong>Информация о браузере:</strong> Тип браузера и информация об устройстве могут собираться для аналитических целей, если только администратор сайта не включил анонимизацию браузера."
+
+#: includes/class-chatyllo-core.php:225
+msgid "<strong>Page URL:</strong> The page where the chat conversation took place is recorded."
+msgstr "<strong>URL страницы:</strong> Записывается страница, на которой происходил диалог в чате."
+
+#: includes/class-chatyllo-core.php:227
+msgid "<strong>External service:</strong> For AI-powered responses (premium plans only), chat messages and website content context are sent to the Chatyllo AI proxy server (wpezo.com) for processing. No visitor personal data (IP, browser info) is sent to this service."
+msgstr "<strong>Внешний сервис:</strong> Для ответов на базе AI (только премиум-планы) сообщения чата и контекст контента сайта отправляются на proxy-сервер AI Chatyllo (wpezo.com) для обработки. Никакие персональные данные посетителей (IP, информация о браузере) не отправляются в этот сервис."
+
+#: includes/class-chatyllo-core.php:228
+msgid "<strong>Data retention:</strong> Chat logs are automatically deleted based on the site's configured retention period (30 to 180 days, depending on the plan). Site administrators can manually delete all chat data at any time."
+msgstr "<strong>Хранение данных:</strong> Логи чата автоматически удаляются на основе настроенного периода хранения сайта (от 30 до 180 дней, в зависимости от плана). Администраторы сайта могут вручную удалить все данные чата в любое время."
+
+#: includes/class-chatyllo-core.php:229
+msgid "<strong>Consent:</strong> If the site administrator has enabled the consent requirement, a privacy notice is displayed in the chat widget before any data is logged. Visitors can use the chat without accepting, but their conversations will not be stored."
+msgstr "<strong>Согласие:</strong> Если администратор сайта включил требование согласия, уведомление о конфиденциальности отображается в виджете чата до того, как какие-либо данные будут записаны. Посетители могут использовать чат без согласия, но их диалоги не будут сохранены."

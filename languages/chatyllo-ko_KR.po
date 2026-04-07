@@ -1,0 +1,1715 @@
+# Korean translation for Chatyllo
+# Copyright (C) 2026 WPezo
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Chatyllo 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wpezo.com/support\n"
+"POT-Creation-Date: 2026-04-03 21:00:00+0000\n"
+"PO-Revision-Date: 2026-04-04 01:30:00+0000\n"
+"Last-Translator: WPezo <support@wpezo.com>\n"
+"Language-Team: Korean <support@wpezo.com>\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Chatyllo 1.2.0\n"
+
+#. translators: %1$d: completed steps, %2$d: total steps
+#: admin/views/dashboard.php:387
+msgid "%1$d of %2$d completed"
+msgstr "%2$d 중 %1$d 완료"
+
+#: includes/class-chatyllo-ajax.php:519
+msgid "(no title)"
+msgstr "(제목 없음)"
+
+#: admin/views/faq.php:172
+msgid "0 = default."
+msgstr "0 = 기본값."
+
+#: admin/views/dashboard.php:103
+msgid "90-day log retention"
+msgstr "90일 로그 보관"
+
+#: admin/views/dashboard.php:299
+#: admin/views/faq.php:118
+msgid "AI + FAQ"
+msgstr "AI + FAQ"
+
+#: admin/views/dashboard.php:48
+#: admin/views/faq.php:23
+#: admin/views/settings.php:26
+#: includes/class-chatyllo-admin.php:170
+msgid "AI Active"
+msgstr "AI 활성"
+
+#: admin/views/settings.php:124
+msgid "AI Behavior"
+msgstr "AI 동작"
+
+#: includes/class-chatyllo-ajax.php:357
+msgid "AI FAQ generation requires a Starter plan or higher."
+msgstr "AI FAQ 생성에는 Starter 플랜 이상이 필요합니다."
+
+#: admin/views/faq.php:202
+msgid "AI Generated"
+msgstr "AI 생성"
+
+#: admin/views/faq.php:37
+msgid "AI Generation:"
+msgstr "AI 생성:"
+
+#: admin/views/dashboard.php:229
+msgid "AI Knowledge Base"
+msgstr "AI 지식 베이스"
+
+#: admin/views/knowledge.php:61
+msgid "AI Knowledge Base — Paid Plan Required"
+msgstr "AI 지식 베이스 — 유료 플랜 필요"
+
+#: admin/views/dashboard.php:50
+#: admin/views/settings.php:27
+#: includes/class-chatyllo-admin.php:171
+msgid "AI Offline"
+msgstr "AI 오프라인"
+
+#: admin/views/settings.php:354
+msgid "AI Offline Message"
+msgstr "AI 오프라인 메시지"
+
+#: includes/class-chatyllo-widget.php:153
+msgid "AI Powered"
+msgstr "AI 기반"
+
+#: admin/views/dashboard.php:146
+#: admin/views/logs.php:27
+msgid "AI Responses"
+msgstr "AI 응답"
+
+#: admin/views/dashboard.php:286
+msgid "AI Status"
+msgstr "AI 상태"
+
+#: admin/views/settings.php:135
+msgid "AI Tone"
+msgstr "AI 어조"
+
+#: admin/views/dashboard.php:172
+msgid "AI Usage"
+msgstr "AI 사용량"
+
+#: admin/views/faq.php:53
+msgid "AI analyzes your indexed content and creates relevant Q&A pairs automatically."
+msgstr "AI가 색인된 콘텐츠를 분석하여 관련 질문과 답변 쌍을 자동으로 생성합니다."
+
+#: includes/class-chatyllo-proxy.php:65
+msgid "AI chat requires a paid plan."
+msgstr "AI 채팅에는 유료 플랜이 필요합니다."
+
+#: admin/views/dashboard.php:101
+msgid "AI chatbot — 100 responses/day"
+msgstr "AI 챗봇 — 하루 100회 응답"
+
+#: includes/class-chatyllo-ajax.php:387
+msgid "AI did not generate any FAQs."
+msgstr "AI가 FAQ를 생성하지 못했습니다."
+
+#: admin/views/dashboard.php:72
+msgid "AI features are automatically included when you upgrade to any paid plan. No personal API key, no setup, just activate and the AI starts working with your content."
+msgstr "유료 플랜으로 업그레이드하면 AI 기능이 자동으로 포함됩니다. 개인 API 키도 설정도 필요 없이, 활성화하기만 하면 AI가 콘텐츠와 함께 작동하기 시작합니다."
+
+#: admin/views/faq.php:75
+msgid "AI is analyzing your content..."
+msgstr "AI가 콘텐츠를 분석하고 있습니다..."
+
+#: chatyllo.php:207
+msgid "AI service temporarily unavailable — FAQ mode is active as fallback"
+msgstr "AI 서비스를 일시적으로 사용할 수 없습니다 — FAQ 모드가 대체로 활성화되어 있습니다"
+
+#: includes/class-chatyllo-widget.php:160
+msgid "Accept & Chat"
+msgstr "동의 및 채팅"
+
+#: admin/views/faq.php:216
+msgid "Actions"
+msgstr "작업"
+
+#: admin/views/dashboard.php:291
+#: admin/views/faq.php:105
+#: admin/views/faq.php:177
+#: admin/views/faq.php:215
+msgid "Active"
+msgstr "활성"
+
+#: admin/views/dashboard.php:363
+msgid "Add FAQ entries"
+msgstr "FAQ 항목 추가"
+
+#: admin/views/faq.php:128
+msgid "Add New FAQ"
+msgstr "새 FAQ 추가"
+
+#: admin/views/dashboard.php:246
+msgid "Add manual Q&A pairs"
+msgstr "수동 질문과 답변 쌍 추가"
+
+#: admin/views/dashboard.php:378
+msgid "Add your privacy URL for GDPR compliance."
+msgstr "GDPR 준수를 위해 개인정보처리방침 URL을 추가하십시오."
+
+#: admin/views/settings.php:42
+msgid "Advanced"
+msgstr "고급"
+
+#: admin/views/dashboard.php:19
+msgid "Agency"
+msgstr "Agency"
+
+#: admin/views/faq.php:197
+msgid "All Categories"
+msgstr "전체 카테고리"
+
+#: admin/views/faq.php:200
+msgid "All Sources"
+msgstr "전체 출처"
+
+#: chatyllo.php:184
+msgid "All systems operational"
+msgstr "모든 시스템 정상 작동 중"
+
+#: admin/views/stats.php:12
+msgid "All time"
+msgstr "전체 기간"
+
+#: includes/class-chatyllo-admin.php:166
+msgid "An error occurred. Please try again."
+msgstr "오류가 발생했습니다. 다시 시도해 주십시오."
+
+#: admin/views/settings.php:434
+msgid "Anonymize IP addresses"
+msgstr "IP 주소 익명화"
+
+#: admin/views/settings.php:442
+msgid "Anonymize browser info"
+msgstr "브라우저 정보 익명화"
+
+#: admin/views/faq.php:139
+msgid "Answer"
+msgstr "답변"
+
+#: admin/views/settings.php:36
+msgid "Appearance"
+msgstr "외관"
+
+#: admin/views/knowledge.php:22
+msgid "Approx. tokens:"
+msgstr "대략 token 수:"
+
+#: includes/class-chatyllo-admin.php:167
+msgid "Are you sure?"
+msgstr "정말 진행하시겠습니까?"
+
+#: admin/views/dashboard.php:277
+msgid "Auto 12h + Manual"
+msgstr "자동 12시간 + 수동"
+
+#: admin/views/dashboard.php:279
+msgid "Auto weekly"
+msgstr "자동 주간"
+
+#: admin/views/faq.php:147
+msgid "Auto-generated if empty"
+msgstr "비어 있으면 자동 생성"
+
+#: admin/views/knowledge.php:25
+msgid "Auto-index schedule:"
+msgstr "자동 색인 일정:"
+
+#: admin/views/dashboard.php:224
+msgid "Auto-indexes weekly"
+msgstr "주간 자동 색인"
+
+#: admin/views/knowledge.php:48
+msgid "Auto-indexing weekly"
+msgstr "주간 자동 색인 중"
+
+#: admin/views/settings.php:488
+msgid "Automatic maintenance runs weekly: cleans expired logs and cache, removes orphan data, and optimizes database tables."
+msgstr "자동 유지보수가 매주 실행됩니다: 만료된 로그와 캐시를 정리하고, 고아 데이터를 제거하며, 데이터베이스 테이블을 최적화합니다."
+
+#: admin/views/dashboard.php:330
+#: admin/views/logs.php:41
+#: admin/views/stats.php:25
+msgid "Avg Response"
+msgstr "평균 응답"
+
+#: admin/views/settings.php:37
+msgid "Behavior"
+msgstr "동작"
+
+#: admin/views/settings.php:87
+msgid "Bot Avatar"
+msgstr "봇 아바타"
+
+#: admin/views/settings.php:82
+msgid "Bot Name"
+msgstr "봇 이름"
+
+#: includes/class-chatyllo-core.php:179
+msgid "Bot Response"
+msgstr "봇 응답"
+
+#: admin/views/settings.php:58
+msgid "Bottom Left"
+msgstr "왼쪽 하단"
+
+#: admin/views/settings.php:57
+msgid "Bottom Right"
+msgstr "오른쪽 하단"
+
+#: admin/views/settings.php:39
+#: admin/views/settings.php:273
+msgid "Branding"
+msgstr "브랜딩"
+
+#: admin/views/stats.php:62
+msgid "Browsers"
+msgstr "브라우저"
+
+#: admin/views/dashboard.php:371
+msgid "Build the knowledge base for AI responses."
+msgstr "AI 응답을 위한 지식 베이스를 구축하십시오."
+
+#: admin/views/dashboard.php:18
+msgid "Business"
+msgstr "Business"
+
+#: admin/views/settings.php:231
+msgid "Business+"
+msgstr "Business+"
+
+#: admin/views/settings.php:584
+msgid "Can I export my data?"
+msgstr "데이터를 내보낼 수 있습니까?"
+
+#: includes/class-chatyllo-ajax.php:124
+msgid "Cache cleared."
+msgstr "캐시가 삭제되었습니다."
+
+#: admin/views/faq.php:185
+msgid "Cancel Edit"
+msgstr "편집 취소"
+
+#: admin/views/settings.php:141
+msgid "Casual"
+msgstr "캐주얼"
+
+#: admin/views/faq.php:112
+msgid "Categories"
+msgstr "카테고리"
+
+#: admin/views/faq.php:153
+#: admin/views/faq.php:212
+msgid "Category"
+msgstr "카테고리"
+
+#: admin/views/logs.php:9
+#: includes/class-chatyllo-admin.php:77
+#: includes/class-chatyllo-admin.php:78
+msgid "Chat Logs"
+msgstr "채팅 로그"
+
+#: includes/class-chatyllo-core.php:218
+msgid "Chatyllo Chat Assistant"
+msgstr "Chatyllo 채팅 어시스턴트"
+
+#: includes/class-chatyllo-admin.php:31
+#: includes/class-chatyllo-admin.php:32
+msgid "Chatyllo"
+msgstr "Chatyllo"
+
+#: includes/class-chatyllo-core.php:175
+msgid "Chatyllo Chat Conversations"
+msgstr "Chatyllo 채팅 대화"
+
+#: includes/class-chatyllo-core.php:153
+#: includes/class-chatyllo-core.php:191
+msgid "Chatyllo Chat Logs"
+msgstr "Chatyllo 채팅 로그"
+
+#: admin/views/dashboard.php:35
+msgid "Chatyllo Dashboard"
+msgstr "Chatyllo 대시보드"
+
+#: admin/views/settings.php:19
+msgid "Chatyllo Settings"
+msgstr "Chatyllo 설정"
+
+#: admin/views/settings.php:451
+msgid "Chatyllo is compatible with WordPress Privacy Tools (Tools > Export/Erase Personal Data) and major cookie consent plugins (CookieYes, Complianz, CookieBot, iubenda). Storage used: localStorage keys \"chatyllo_sid\" (functional, session) and \"chatyllo_consent\" (functional, persistent)."
+msgstr "Chatyllo는 WordPress 개인정보 보호 도구(도구 > 개인 데이터 내보내기/삭제) 및 주요 쿠키 동의 플러그인(CookieYes, Complianz, CookieBot, iubenda)과 호환됩니다. 사용되는 저장소: localStorage 키 \"chatyllo_sid\"(기능적, 세션) 및 \"chatyllo_consent\"(기능적, 영구)."
+
+#: admin/views/status.php:42
+msgid "Checking..."
+msgstr "확인 중..."
+
+#: admin/views/settings.php:203
+msgid "Choose which content types the AI should learn from."
+msgstr "AI가 학습할 콘텐츠 유형을 선택하십시오."
+
+#: admin/views/dashboard.php:236
+msgid "Clear Response Cache"
+msgstr "응답 캐시 삭제"
+
+#: admin/views/settings.php:402
+msgid "Click to select roles... (empty = everyone)"
+msgstr "역할을 선택하려면 클릭하십시오... (비어 있음 = 모든 사용자)"
+
+#: includes/class-chatyllo-widget.php:150
+msgid "Close"
+msgstr "닫기"
+
+#: admin/views/settings.php:201
+msgid "Content Indexing"
+msgstr "콘텐츠 색인"
+
+#: admin/views/settings.php:320
+msgid "Controls the branding text shown at the bottom of the chat widget."
+msgstr "채팅 위젯 하단에 표시되는 브랜딩 텍스트를 제어합니다."
+
+#: admin/views/logs.php:88
+msgid "Conversation Details"
+msgstr "대화 상세"
+
+#: admin/views/settings.php:153
+msgid "Conversation Memory"
+msgstr "대화 기억"
+
+#: admin/views/stats.php:24
+msgid "Conversations"
+msgstr "대화"
+
+#: admin/views/dashboard.php:364
+msgid "Create Q&A pairs for instant answers."
+msgstr "즉각적인 답변을 위한 질문과 답변 쌍을 만드십시오."
+
+#: admin/views/faq.php:119
+msgid "Current Mode"
+msgstr "현재 모드"
+
+#: admin/views/settings.php:295
+msgid "Custom / White-label"
+msgstr "사용자 지정 / 화이트라벨"
+
+#: admin/views/settings.php:324
+msgid "Custom Branding Text"
+msgstr "사용자 지정 브랜딩 텍스트"
+
+#: admin/views/settings.php:40
+msgid "Custom Messages"
+msgstr "사용자 지정 메시지"
+
+#: admin/views/settings.php:229
+msgid "Custom Post Types"
+msgstr "사용자 지정 게시물 유형"
+
+#: admin/views/dashboard.php:242
+msgid "Customize appearance & behavior"
+msgstr "외관 및 동작 사용자 지정"
+
+#: admin/views/dashboard.php:181
+msgid "Daily"
+msgstr "일간"
+
+#: admin/views/stats.php:34
+msgid "Daily Activity"
+msgstr "일일 활동"
+
+#: admin/views/status.php:109
+msgid "Daily and monthly usage limits reset automatically. Daily limits reset at midnight (server time), monthly limits reset on the 1st of each month."
+msgstr "일간 및 월간 사용 제한은 자동으로 초기화됩니다. 일간 제한은 자정(서버 시간)에, 월간 제한은 매월 1일에 초기화됩니다."
+
+#: includes/class-chatyllo-admin.php:42
+#: includes/class-chatyllo-admin.php:43
+#: includes/class-chatyllo-admin.php:221
+msgid "Dashboard"
+msgstr "대시보드"
+
+#: admin/views/settings.php:458
+msgid "Data Preservation"
+msgstr "데이터 보존"
+
+#: includes/class-chatyllo-core.php:178
+msgid "Date"
+msgstr "날짜"
+
+#: admin/views/settings.php:282
+msgid "Default branding link"
+msgstr "기본 브랜딩 링크"
+
+#: admin/views/status.php:90
+msgid "Degraded / Maintenance"
+msgstr "성능 저하 / 유지보수"
+
+#: includes/class-chatyllo-admin.php:173
+msgid "Deleted successfully."
+msgstr "삭제되었습니다."
+
+#: includes/class-chatyllo-admin.php:172
+msgid "Deleting..."
+msgstr "삭제 중..."
+
+#: admin/views/stats.php:57
+msgid "Devices"
+msgstr "기기"
+
+#: admin/views/settings.php:76
+msgid "Dismiss"
+msgstr "닫기"
+
+#: admin/views/settings.php:41
+#: admin/views/settings.php:370
+msgid "Display Rules"
+msgstr "표시 규칙"
+
+#: admin/views/settings.php:84
+msgid "Display name shown in the chat header."
+msgstr "채팅 헤더에 표시되는 이름입니다."
+
+#: admin/views/settings.php:110
+msgid "Display the chat widget on mobile devices."
+msgstr "모바일 기기에서 채팅 위젯을 표시합니다."
+
+#: admin/views/settings.php:447
+msgid "Do not store browser/device information in chat logs."
+msgstr "채팅 로그에 브라우저/기기 정보를 저장하지 않습니다."
+
+#: admin/views/settings.php:439
+msgid "Do not store visitor IP addresses in chat logs. Recommended for GDPR compliance."
+msgstr "채팅 로그에 방문자 IP 주소를 저장하지 않습니다. GDPR 준수를 위해 권장됩니다."
+
+#. translators: %1$d: new FAQs created, %2$d: FAQs updated
+#: includes/class-chatyllo-ajax.php:437
+msgid "Done! %1$d new FAQs created, %2$d updated."
+msgstr "완료! 새 FAQ %1$d개 생성, %2$d개 업데이트되었습니다."
+
+#: admin/views/logs.php:69
+msgid "Duration"
+msgstr "소요 시간"
+
+#: includes/class-chatyllo-ajax.php:61
+msgid "Empty message"
+msgstr "빈 메시지"
+
+#: admin/views/settings.php:128
+msgid "Enable Chatyllo"
+msgstr "Chatyllo 활성화"
+
+#: admin/views/dashboard.php:349
+msgid "Enable the chatbot"
+msgstr "챗봇 활성화"
+
+#: admin/views/knowledge.php:28
+msgid "Every 12 hours + manual anytime"
+msgstr "12시간마다 + 언제든 수동"
+
+#: includes/chatyllo-premium__premium_only.php:166
+#: includes/class-chatyllo-proxy.php:39
+msgid "Every 5 minutes"
+msgstr "5분마다"
+
+#: admin/views/settings.php:257
+msgid "Exclude Pages"
+msgstr "페이지 제외"
+
+#: admin/views/settings.php:245
+msgid "Exclude Posts"
+msgstr "게시물 제외"
+
+#: admin/views/stats.php:15
+msgid "Export"
+msgstr "내보내기"
+
+#: admin/views/settings.php:473
+msgid "Export / Import"
+msgstr "내보내기 / 가져오기"
+
+#: admin/views/stats.php:14
+msgid "Export CSV"
+msgstr "CSV 내보내기"
+
+#: admin/views/settings.php:478
+msgid "Export Data (JSON)"
+msgstr "데이터 내보내기 (JSON)"
+
+#: admin/views/settings.php:475
+msgid "Export your plugin configuration, FAQs, and statistics for backup or migration."
+msgstr "백업 또는 마이그레이션을 위해 플러그인 설정, FAQ 및 통계를 내보냅니다."
+
+#: includes/class-chatyllo-admin.php:60
+#: includes/class-chatyllo-admin.php:61
+msgid "FAQ / Q&A"
+msgstr "FAQ / 질문과 답변"
+
+#: admin/views/faq.php:18
+msgid "FAQ / Smart Q&A"
+msgstr "FAQ / 스마트 질문과 답변"
+
+#: admin/views/dashboard.php:164
+msgid "FAQ Entries"
+msgstr "FAQ 항목"
+
+#: admin/views/dashboard.php:302
+msgid "FAQ Limit"
+msgstr "FAQ 제한"
+
+#: admin/views/faq.php:194
+msgid "FAQ List"
+msgstr "FAQ 목록"
+
+#: admin/views/dashboard.php:299
+#: admin/views/faq.php:118
+msgid "FAQ Only"
+msgstr "FAQ 전용"
+
+#: admin/views/faq.php:23
+msgid "FAQ Only Mode"
+msgstr "FAQ 전용 모드"
+
+#: includes/class-chatyllo-ajax.php:159
+msgid "FAQ created."
+msgstr "FAQ가 생성되었습니다."
+
+#: includes/class-chatyllo-ajax.php:175
+msgid "FAQ deleted."
+msgstr "FAQ가 삭제되었습니다."
+
+#: admin/views/faq.php:165
+msgid "FAQ language."
+msgstr "FAQ 언어."
+
+#. translators: %d: FAQ limit number
+#: includes/class-chatyllo-ajax.php:147
+msgid "FAQ limit reached (%d). Upgrade your plan for unlimited FAQs."
+msgstr "FAQ 제한에 도달했습니다 (%d). 무제한 FAQ를 위해 플랜을 업그레이드하십시오."
+
+#: includes/class-chatyllo-ajax.php:156
+msgid "FAQ updated."
+msgstr "FAQ가 업데이트되었습니다."
+
+#: admin/views/faq.php:33
+msgid "FAQs are powered by Chatyllo's built-in smart matching algorithm — no AI credits are consumed. They work on all plans, including Free. When AI responses are unavailable (daily/monthly limits reached, temporary service issues, or network errors), the chatbot automatically switches to FAQ mode. This ensures your visitors always get helpful answers."
+msgstr "FAQ는 Chatyllo의 내장 스마트 매칭 알고리즘으로 구동됩니다 — AI 크레딧이 소모되지 않습니다. 무료를 포함한 모든 플랜에서 작동합니다. AI 응답을 사용할 수 없을 때(일간/월간 제한 도달, 일시적 서비스 문제 또는 네트워크 오류) 챗봇이 자동으로 FAQ 모드로 전환됩니다. 이를 통해 방문자가 항상 유용한 답변을 받을 수 있습니다."
+
+#: includes/chatyllo-premium__premium_only.php:305
+#: includes/chatyllo-premium__premium_only.php:383
+msgid "Failed to obtain API token."
+msgstr "API token을 가져오지 못했습니다."
+
+#: admin/views/logs.php:65
+msgid "First Message"
+msgstr "첫 번째 메시지"
+
+#: admin/views/settings.php:341
+msgid "First message shown when the chat opens. Leave empty for default."
+msgstr "채팅이 열릴 때 표시되는 첫 번째 메시지입니다. 기본값을 사용하려면 비워 두십시오."
+
+#: admin/views/settings.php:276
+msgid "Footer Branding"
+msgstr "푸터 브랜딩"
+
+#: admin/views/status.php:110
+msgid "For the best experience, keep your FAQ entries up to date — they serve as a reliable fallback whenever AI is not available."
+msgstr "최상의 경험을 위해 FAQ 항목을 최신 상태로 유지하십시오 — AI를 사용할 수 없을 때 안정적인 대체 수단으로 작동합니다."
+
+#: admin/views/dashboard.php:237
+msgid "Force fresh AI responses"
+msgstr "AI 응답 새로 고침 강제"
+
+#: admin/views/dashboard.php:16
+msgid "Free"
+msgstr "무료"
+
+#: admin/views/dashboard.php:46
+#: admin/views/settings.php:25
+msgid "Free — FAQ Only"
+msgstr "무료 — FAQ 전용"
+
+#: includes/chatyllo-premium__premium_only.php:96
+msgid "Freemius install ID not available. Please activate the plugin first."
+msgstr "Freemius 설치 ID를 사용할 수 없습니다. 먼저 플러그인을 활성화하십시오."
+
+#: admin/views/settings.php:140
+msgid "Friendly"
+msgstr "친근한"
+
+#: admin/views/faq.php:61
+msgid "Generate"
+msgstr "생성"
+
+#: admin/views/faq.php:50
+msgid "Generate FAQs with AI"
+msgstr "AI로 FAQ 생성"
+
+#: admin/views/dashboard.php:118
+msgid "Get 300 AI responses/day, Knowledge Base indexing, custom post types, and remove Chatyllo branding."
+msgstr "하루 300회 AI 응답, 지식 베이스 색인, 사용자 지정 게시물 유형 및 Chatyllo 브랜딩 제거를 이용하십시오."
+
+#: admin/views/dashboard.php:342
+msgid "Getting Started"
+msgstr "시작하기"
+
+#: admin/views/dashboard.php:350
+msgid "Go to Settings → Behavior and enable Chatyllo."
+msgstr "설정 → 동작으로 이동하여 Chatyllo를 활성화하십시오."
+
+#: admin/views/settings.php:556
+msgid "Go to the Appearance tab. You can change the Primary Color (chat bubble, header, user messages), the Header & User Message text color, and the Widget Size (Small, Medium, Large). Changes apply immediately after saving."
+msgstr "외관 탭으로 이동하십시오. 기본 색상(채팅 버블, 헤더, 사용자 메시지), 헤더 및 사용자 메시지 텍스트 색상, 위젯 크기(소, 중, 대)를 변경할 수 있습니다. 변경 사항은 저장 후 즉시 적용됩니다."
+
+#: admin/views/settings.php:576
+msgid "Go to the Advanced tab. Enable \"Require consent before logging\" to show a privacy banner. Enable \"Anonymize IP\" (recommended). Add your Privacy Policy URL. Chatyllo also integrates with WordPress Privacy Tools and major cookie plugins (CookieYes, Complianz, CookieBot)."
+msgstr "고급 탭으로 이동하십시오. \"로깅 전 동의 필요\"를 활성화하여 개인정보 보호 배너를 표시하십시오. \"IP 익명화\"를 활성화하십시오(권장). 개인정보처리방침 URL을 추가하십시오. Chatyllo는 WordPress 개인정보 보호 도구 및 주요 쿠키 플러그인(CookieYes, Complianz, CookieBot)과도 통합됩니다."
+
+#: admin/views/status.php:101
+msgid "Good to Know"
+msgstr "참고 사항"
+
+#: admin/views/dashboard.php:357
+msgid "Greet visitors with a custom message."
+msgstr "사용자 지정 메시지로 방문자를 맞이하십시오."
+
+#: admin/views/faq.php:158
+msgid "Group related FAQs."
+msgstr "관련 FAQ를 그룹화합니다."
+
+#: admin/views/settings.php:68
+msgid "Header & User Message Color"
+msgstr "헤더 및 사용자 메시지 색상"
+
+#: admin/views/settings.php:536
+msgid "Hello!"
+msgstr "안녕하세요!"
+
+#: includes/class-chatyllo-settings.php:199
+msgid "Hi there! 👋 How can I help you today?"
+msgstr "안녕하세요! 👋 오늘 무엇을 도와드릴까요?"
+
+#: admin/views/settings.php:288
+msgid "Hidden"
+msgstr "숨김"
+
+#: admin/views/settings.php:390
+msgid "Hide on Pages"
+msgstr "페이지에서 숨기기"
+
+#: admin/views/settings.php:397
+msgid "Hide the widget on these specific pages (blacklist)."
+msgstr "이 특정 페이지에서 위젯을 숨깁니다 (blacklist)."
+
+#: admin/views/faq.php:31
+msgid "How FAQ / Smart Q&A works"
+msgstr "FAQ / 스마트 질문과 답변 작동 방식"
+
+#: admin/views/settings.php:571
+msgid "How can I remove the Chatyllo branding?"
+msgstr "Chatyllo 브랜딩을 어떻게 제거할 수 있습니까?"
+
+#: admin/views/settings.php:537
+msgid "How can I help you today?"
+msgstr "오늘 무엇을 도와드릴까요?"
+
+#: admin/views/settings.php:555
+msgid "How do I customize colors and size?"
+msgstr "색상과 크기를 어떻게 사용자 지정합니까?"
+
+#: admin/views/settings.php:575
+msgid "How do I set up GDPR compliance?"
+msgstr "GDPR 준수를 어떻게 설정합니까?"
+
+#: admin/views/settings.php:579
+msgid "How do Display Rules work?"
+msgstr "표시 규칙은 어떻게 작동합니까?"
+
+#: admin/views/settings.php:567
+msgid "How do FAQ and AI work together?"
+msgstr "FAQ와 AI는 어떻게 함께 작동합니까?"
+
+#: admin/views/settings.php:559
+msgid "How does the AI chatbot work?"
+msgstr "AI 챗봇은 어떻게 작동합니까?"
+
+#: includes/class-chatyllo-settings.php:215
+msgid "I appreciate your question, but I'm here to help specifically with topics related to this website. Could you please ask something about our products, services, or content?"
+msgstr "질문에 감사드립니다. 하지만 저는 이 웹사이트와 관련된 주제를 도와드리기 위해 있습니다. 저희 제품, 서비스 또는 콘텐츠에 대해 질문해 주시겠습니까?"
+
+#: includes/class-chatyllo-settings.php:231
+msgid "I'm sorry, I don't have an answer for that right now. Please try rephrasing your question or contact us directly."
+msgstr "죄송합니다, 현재 해당 질문에 대한 답변이 없습니다. 질문을 다시 작성하시거나 직접 문의해 주십시오."
+
+#: admin/views/status.php:107
+msgid "If AI is temporarily unavailable, the chatbot automatically switches to FAQ mode — your visitors still get helpful answers from your manual Q&A pairs."
+msgstr "AI를 일시적으로 사용할 수 없는 경우, 챗봇이 자동으로 FAQ 모드로 전환됩니다 — 방문자는 수동 질문과 답변 쌍을 통해 여전히 유용한 답변을 받을 수 있습니다."
+
+#: admin/views/settings.php:218
+msgid "Include WooCommerce products (if available)."
+msgstr "WooCommerce 상품을 포함합니다(사용 가능한 경우)."
+
+#: admin/views/settings.php:208
+msgid "Include blog posts in the AI knowledge base."
+msgstr "AI 지식 베이스에 블로그 게시물을 포함합니다."
+
+#: admin/views/settings.php:213
+msgid "Include pages in the AI knowledge base."
+msgstr "AI 지식 베이스에 페이지를 포함합니다."
+
+#: admin/views/settings.php:223
+msgid "Include site name, description, menus, and contact info."
+msgstr "사이트 이름, 설명, 메뉴 및 연락처 정보를 포함합니다."
+
+#: admin/views/settings.php:211
+msgid "Index Pages"
+msgstr "페이지 색인"
+
+#: admin/views/settings.php:206
+msgid "Index Posts"
+msgstr "게시물 색인"
+
+#: admin/views/settings.php:221
+msgid "Index Site Info"
+msgstr "사이트 정보 색인"
+
+#: admin/views/settings.php:216
+msgid "Index WooCommerce Products"
+msgstr "WooCommerce 상품 색인"
+
+#: admin/views/dashboard.php:370
+msgid "Index your content"
+msgstr "콘텐츠 색인"
+
+#: admin/views/dashboard.php:310
+msgid "Indexed Pages"
+msgstr "색인된 페이지"
+
+#: admin/views/dashboard.php:314
+msgid "Indexed Posts"
+msgstr "색인된 게시물"
+
+#: admin/views/dashboard.php:318
+msgid "Indexed Products"
+msgstr "색인된 상품"
+
+#: admin/views/settings.php:344
+msgid "Input Placeholder"
+msgstr "입력 자리 표시자"
+
+#: includes/chatyllo-premium__premium_only.php:325
+#: includes/chatyllo-premium__premium_only.php:399
+msgid "Invalid JSON from proxy"
+msgstr "proxy로부터 잘못된 JSON"
+
+#: admin/views/settings.php:461
+msgid "Keep data when plugin is deleted"
+msgstr "플러그인 삭제 시 데이터 보존"
+
+#: admin/views/faq.php:146
+msgid "Keywords"
+msgstr "키워드"
+
+#: admin/views/settings.php:38
+msgid "Knowledge"
+msgstr "지식"
+
+#: admin/views/dashboard.php:223
+#: admin/views/dashboard.php:274
+#: admin/views/knowledge.php:10
+#: includes/class-chatyllo-admin.php:68
+#: includes/class-chatyllo-admin.php:69
+msgid "Knowledge Base"
+msgstr "지식 베이스"
+
+#: admin/views/dashboard.php:155
+msgid "Knowledge Entries"
+msgstr "지식 항목"
+
+#: includes/class-chatyllo-ajax.php:365
+msgid "Knowledge base is empty. Please index your content first from the Knowledge Base page."
+msgstr "지식 베이스가 비어 있습니다. 먼저 지식 베이스 페이지에서 콘텐츠를 색인하십시오."
+
+#: includes/class-chatyllo-admin.php:169
+msgid "Knowledge base rebuilt!"
+msgstr "지식 베이스가 재구축되었습니다!"
+
+#: includes/class-chatyllo-ajax.php:112
+msgid "Knowledge base rebuilt."
+msgstr "지식 베이스가 재구축되었습니다."
+
+#: admin/views/faq.php:213
+msgid "Lang"
+msgstr "언어"
+
+#: admin/views/faq.php:163
+msgid "Language"
+msgstr "언어"
+
+#: admin/views/settings.php:77
+msgid "Large"
+msgstr "대"
+
+#: admin/views/status.php:54
+msgid "Last 30 Days"
+msgstr "최근 30일"
+
+#: admin/views/stats.php:10
+msgid "Last 30 days"
+msgstr "최근 30일"
+
+#: admin/views/stats.php:9
+msgid "Last 7 days"
+msgstr "최근 7일"
+
+#: admin/views/stats.php:11
+msgid "Last 90 days"
+msgstr "최근 90일"
+
+#: admin/views/dashboard.php:322
+msgid "Last Indexed"
+msgstr "마지막 색인"
+
+#. translators: %s: last checked timestamp
+#: admin/views/status.php:39
+msgid "Last checked: %s"
+msgstr "마지막 확인: %s"
+
+#: admin/views/knowledge.php:21
+msgid "Last indexed:"
+msgstr "마지막 색인:"
+
+#: admin/views/settings.php:491
+msgid "Last maintenance:"
+msgstr "마지막 유지보수:"
+
+#: admin/views/settings.php:423
+msgid "Link to your privacy policy. Shown in the chat widget consent notice."
+msgstr "개인정보처리방침 링크입니다. 채팅 위젯 동의 알림에 표시됩니다."
+
+#: admin/views/logs.php:93
+msgid "Loading conversation..."
+msgstr "대화 불러오는 중..."
+
+#: admin/views/faq.php:219
+#: admin/views/logs.php:73
+msgid "Loading..."
+msgstr "불러오는 중..."
+
+#: admin/views/settings.php:167
+msgid "Log Conversations"
+msgstr "대화 기록"
+
+#: admin/views/dashboard.php:306
+msgid "Log Retention"
+msgstr "로그 보관"
+
+#: admin/views/settings.php:172
+msgid "Log Retention (days)"
+msgstr "로그 보관 기간 (일)"
+
+#. translators: %d: max retention days
+#: admin/views/logs.php:52
+msgid "Logs retained for %d days on your current plan."
+msgstr "현재 플랜에서 로그가 %d일 동안 보관됩니다."
+
+#: admin/views/settings.php:65
+msgid "Main color for the chat bubble, header, and user messages."
+msgstr "채팅 버블, 헤더 및 사용자 메시지의 기본 색상입니다."
+
+#: admin/views/settings.php:485
+msgid "Maintenance"
+msgstr "유지보수"
+
+#: includes/class-chatyllo-ajax.php:722
+msgid "Maintenance completed successfully."
+msgstr "유지보수가 완료되었습니다."
+
+#: admin/views/dashboard.php:245
+msgid "Manage FAQ"
+msgstr "FAQ 관리"
+
+#: admin/views/faq.php:201
+msgid "Manual"
+msgstr "수동"
+
+#: includes/class-chatyllo-ajax.php:105
+msgid "Manual reindex requires a Business plan or higher."
+msgstr "수동 재색인에는 Business 플랜 이상이 필요합니다."
+
+#: admin/views/settings.php:130
+msgid "Master switch to enable or disable the chatbot on your site."
+msgstr "사이트에서 챗봇을 활성화하거나 비활성화하는 기본 스위치입니다."
+
+#. translators: %d: max retention days for current plan
+#: admin/views/settings.php:178
+msgid "Max %d days on your current plan."
+msgstr "현재 플랜에서 최대 %d일."
+
+#: admin/views/settings.php:146
+msgid "Max Response Length"
+msgstr "최대 응답 길이"
+
+#: admin/views/settings.php:150
+msgid "Maximum length of AI responses (100-800). Higher values give longer, more detailed answers."
+msgstr "AI 응답의 최대 길이입니다(100-800). 값이 높을수록 더 길고 자세한 답변을 제공합니다."
+
+#: admin/views/settings.php:76
+msgid "Medium"
+msgstr "중"
+
+#: admin/views/settings.php:40
+msgid "Messages"
+msgstr "메시지"
+
+#: includes/class-chatyllo-widget.php:151
+msgid "Minimize"
+msgstr "최소화"
+
+#: admin/views/dashboard.php:298
+#: admin/views/logs.php:67
+#: includes/class-chatyllo-core.php:181
+msgid "Mode"
+msgstr "모드"
+
+#: admin/views/dashboard.php:192
+msgid "Monthly"
+msgstr "월간"
+
+#: admin/views/logs.php:66
+msgid "Msgs"
+msgstr "메시지 수"
+
+#: admin/views/dashboard.php:117
+msgid "Need more power? Upgrade to Business"
+msgstr "더 많은 기능이 필요하십니까? Business로 업그레이드하십시오"
+
+#: admin/views/settings.php:492
+#: includes/class-chatyllo-ajax.php:723
+#: includes/class-chatyllo-indexer.php:479
+msgid "Never"
+msgstr "없음"
+
+#: includes/class-chatyllo-widget.php:158
+msgid "New conversation"
+msgstr "새 대화"
+
+#: admin/views/settings.php:359
+msgid "No FAQ Match Message"
+msgstr "FAQ 일치 없음 메시지"
+
+#: admin/views/dashboard.php:71
+msgid "No API key needed!"
+msgstr "API 키가 필요 없습니다!"
+
+#: admin/views/settings.php:289
+msgid "No branding shown"
+msgstr "브랜딩 표시 안 함"
+
+#: admin/views/status.php:92
+msgid "No data"
+msgstr "데이터 없음"
+
+#: admin/views/faq.php:83
+msgid "Note:"
+msgstr "참고:"
+
+#: admin/views/settings.php:157
+msgid "Number of previous messages the AI remembers in each conversation."
+msgstr "AI가 각 대화에서 기억하는 이전 메시지의 수입니다."
+
+#: admin/views/settings.php:349
+msgid "Off-Topic Response"
+msgstr "주제 외 응답"
+
+#: admin/views/dashboard.php:293
+msgid "Offline"
+msgstr "오프라인"
+
+#: includes/class-chatyllo-core.php:93
+msgid "Once Weekly"
+msgstr "주 1회"
+
+#: admin/views/knowledge.php:30
+msgid "Once every 7 days (automatic)"
+msgstr "7일마다 1회 (자동)"
+
+#: admin/views/settings.php:531
+msgid "Online"
+msgstr "온라인"
+
+#: admin/views/settings.php:387
+msgid "Only show the widget on these specific pages (whitelist). Leave empty to ignore."
+msgstr "이 특정 페이지에서만 위젯을 표시합니다 (whitelist). 비워 두면 무시됩니다."
+
+#: admin/views/settings.php:407
+msgid "Only show the widget to users with these roles. Leave empty to show to everyone."
+msgstr "이 역할을 가진 사용자에게만 위젯을 표시합니다. 비워 두면 모든 사용자에게 표시됩니다."
+
+#: admin/views/status.php:89
+msgid "Operational"
+msgstr "정상 작동"
+
+#: includes/class-chatyllo-settings.php:223
+msgid "Our AI assistant is currently unavailable. You can still browse our FAQ below or try again later."
+msgstr "현재 AI 어시스턴트를 사용할 수 없습니다. 아래 FAQ를 참조하시거나 나중에 다시 시도해 주십시오."
+
+#: admin/views/status.php:91
+msgid "Outage"
+msgstr "서비스 중단"
+
+#: admin/views/knowledge.php:15
+msgid "Pages"
+msgstr "페이지"
+
+#: admin/views/dashboard.php:230
+#: admin/views/dashboard.php:281
+msgid "Paid plan required"
+msgstr "유료 플랜 필요"
+
+#: admin/views/settings.php:346
+msgid "Placeholder text in the message input field."
+msgstr "메시지 입력 필드의 자리 표시자 텍스트입니다."
+
+#: admin/views/dashboard.php:264
+msgid "Plan"
+msgstr "플랜"
+
+#: admin/views/settings.php:115
+msgid "Play a sound when new messages arrive."
+msgstr "새 메시지가 도착하면 소리를 재생합니다."
+
+#: admin/views/faq.php:76
+msgid "Please don't reload or navigate away from this page."
+msgstr "이 페이지를 새로 고치거나 다른 페이지로 이동하지 마십시오."
+
+#: includes/class-chatyllo-chat.php:38
+msgid "Please type a message."
+msgstr "메시지를 입력해 주십시오."
+
+#: includes/class-chatyllo-widget.php:157
+msgid "Please wait a moment before sending another message."
+msgstr "다른 메시지를 보내기 전에 잠시 기다려 주십시오."
+
+#: admin/views/settings.php:55
+msgid "Position"
+msgstr "위치"
+
+#: admin/views/knowledge.php:16
+msgid "Posts"
+msgstr "게시물"
+
+#: admin/views/settings.php:281
+#: admin/views/settings.php:539
+#: includes/class-chatyllo-widget.php:155
+msgid "Powered by Chatyllo"
+msgstr "Powered by Chatyllo"
+
+#: admin/views/settings.php:325
+msgid "Powered by YourBrand"
+msgstr "Powered by YourBrand"
+
+#: admin/views/settings.php:466
+msgid "Preserve settings, FAQs, knowledge base, and chat logs if you delete and reinstall the plugin."
+msgstr "플러그인을 삭제하고 다시 설치하는 경우 설정, FAQ, 지식 베이스 및 채팅 로그를 보존합니다."
+
+#: admin/views/settings.php:541
+msgid "Preview updates when you save settings."
+msgstr "설정을 저장하면 미리보기가 업데이트됩니다."
+
+#: admin/views/settings.php:63
+msgid "Primary Color"
+msgstr "기본 색상"
+
+#: admin/views/faq.php:170
+msgid "Priority"
+msgstr "우선순위"
+
+#: admin/views/settings.php:418
+msgid "Privacy & GDPR"
+msgstr "개인정보 보호 및 GDPR"
+
+#: includes/class-chatyllo-widget.php:161
+msgid "Privacy Policy"
+msgstr "개인정보처리방침"
+
+#: admin/views/settings.php:421
+msgid "Privacy Policy URL"
+msgstr "개인정보처리방침 URL"
+
+#: admin/views/knowledge.php:17
+msgid "Products"
+msgstr "상품"
+
+#: admin/views/settings.php:139
+msgid "Professional"
+msgstr "전문적인"
+
+#: includes/chatyllo-premium__premium_only.php:114
+msgid "Proxy activation failed."
+msgstr "proxy 활성화에 실패했습니다."
+
+#. translators: %d: HTTP status code
+#: includes/chatyllo-premium__premium_only.php:319
+#: includes/chatyllo-premium__premium_only.php:393
+msgid "Proxy returned HTTP %d"
+msgstr "proxy가 HTTP %d을(를) 반환했습니다"
+
+#: admin/views/faq.php:134
+#: admin/views/faq.php:211
+msgid "Question"
+msgstr "질문"
+
+#: admin/views/dashboard.php:210
+msgid "Quick Actions"
+msgstr "빠른 작업"
+
+#: admin/views/settings.php:549
+msgid "Quick Help"
+msgstr "빠른 도움말"
+
+#: admin/views/dashboard.php:218
+msgid "Re-scan all content now"
+msgstr "지금 모든 콘텐츠 다시 스캔"
+
+#: admin/views/dashboard.php:217
+#: admin/views/knowledge.php:40
+msgid "Rebuild Knowledge Base"
+msgstr "지식 베이스 재구축"
+
+#: includes/class-chatyllo-admin.php:168
+msgid "Rebuilding knowledge base..."
+msgstr "지식 베이스 재구축 중..."
+
+#: admin/views/settings.php:103
+msgid "Recommended: square image, at least 80x80px."
+msgstr "권장: 정사각형 이미지, 최소 80x80px."
+
+#: admin/views/status.php:20
+msgid "Refresh"
+msgstr "새로 고침"
+
+#: admin/views/dashboard.php:56
+msgid "Refresh AI Status"
+msgstr "AI 상태 새로 고침"
+
+#: admin/views/settings.php:101
+msgid "Remove"
+msgstr "제거"
+
+#: admin/views/settings.php:426
+msgid "Require consent before logging"
+msgstr "로깅 전 동의 필요"
+
+#: admin/views/dashboard.php:186
+msgid "Resets daily"
+msgstr "매일 초기화"
+
+#: admin/views/dashboard.php:197
+msgid "Resets monthly"
+msgstr "매월 초기화"
+
+#: admin/views/stats.php:42
+msgid "Response Modes"
+msgstr "응답 모드"
+
+#: admin/views/settings.php:496
+msgid "Run Maintenance Now"
+msgstr "지금 유지보수 실행"
+
+#: admin/views/faq.php:184
+msgid "Save FAQ"
+msgstr "FAQ 저장"
+
+#: admin/views/settings.php:505
+msgid "Save Settings"
+msgstr "설정 저장"
+
+#: admin/views/settings.php:169
+msgid "Save chat conversations for review in Chat Logs."
+msgstr "채팅 대화를 채팅 로그에서 검토할 수 있도록 저장합니다."
+
+#: chatyllo.php:198
+msgid "Scheduled maintenance in progress — our team is working on improvements"
+msgstr "예정된 유지보수가 진행 중입니다 — 저희 팀이 개선 작업을 하고 있습니다"
+
+#: admin/views/settings.php:264
+msgid "Search and select pages to exclude from AI indexing."
+msgstr "AI 색인에서 제외할 페이지를 검색하고 선택하십시오."
+
+#: admin/views/settings.php:252
+msgid "Search and select posts to exclude from AI indexing."
+msgstr "AI 색인에서 제외할 게시물을 검색하고 선택하십시오."
+
+#: admin/views/settings.php:235
+msgid "Search custom post types..."
+msgstr "사용자 지정 게시물 유형 검색..."
+
+#: admin/views/settings.php:75
+msgid "See Plans"
+msgstr "플랜 보기"
+
+#: admin/views/settings.php:240
+msgid "Select custom post types to include in the AI knowledge base."
+msgstr "AI 지식 베이스에 포함할 사용자 지정 게시물 유형을 선택하십시오."
+
+#: admin/views/faq.php:155
+msgid "Select or type new..."
+msgstr "선택하거나 새로 입력..."
+
+#: includes/class-chatyllo-widget.php:149
+msgid "Send"
+msgstr "보내기"
+
+#: admin/views/status.php:15
+#: includes/class-chatyllo-admin.php:95
+#: includes/class-chatyllo-admin.php:96
+msgid "Service Status"
+msgstr "서비스 상태"
+
+#: admin/views/status.php:108
+msgid "Service status is checked automatically every 5 minutes. You can also refresh manually using the button above."
+msgstr "서비스 상태는 5분마다 자동으로 확인됩니다. 위의 버튼을 사용하여 수동으로 새로 고칠 수도 있습니다."
+
+#: admin/views/logs.php:64
+msgid "Session"
+msgstr "세션"
+
+#: admin/views/stats.php:69
+msgid "Session Quality"
+msgstr "세션 품질"
+
+#: admin/views/dashboard.php:356
+msgid "Set a welcome message"
+msgstr "환영 메시지 설정"
+
+#: admin/views/dashboard.php:377
+msgid "Set privacy policy"
+msgstr "개인정보처리방침 설정"
+
+#: admin/views/dashboard.php:241
+#: includes/class-chatyllo-admin.php:51
+#: includes/class-chatyllo-admin.php:52
+#: includes/class-chatyllo-admin.php:222
+msgid "Settings"
+msgstr "설정"
+
+#: includes/class-chatyllo-admin.php:165
+msgid "Settings saved successfully!"
+msgstr "설정이 저장되었습니다!"
+
+#: includes/class-chatyllo-ajax.php:95
+msgid "Settings saved."
+msgstr "설정이 저장되었습니다."
+
+#: admin/views/settings.php:164
+msgid "Show animated dots while the bot is composing a response."
+msgstr "봇이 응답을 작성하는 동안 애니메이션 점을 표시합니다."
+
+#: admin/views/settings.php:380
+msgid "Show Only on Pages"
+msgstr "특정 페이지에서만 표시"
+
+#: admin/views/settings.php:400
+msgid "Show for Roles"
+msgstr "역할별 표시"
+
+#: admin/views/settings.php:373
+msgid "Show on All Pages"
+msgstr "모든 페이지에 표시"
+
+#: admin/views/settings.php:108
+msgid "Show on Mobile"
+msgstr "모바일에서 표시"
+
+#: admin/views/settings.php:361
+msgid "Shown when no matching FAQ answer is found."
+msgstr "일치하는 FAQ 답변이 없을 때 표시됩니다."
+
+#: admin/views/settings.php:356
+msgid "Shown when the AI service is temporarily unavailable."
+msgstr "AI 서비스를 일시적으로 사용할 수 없을 때 표시됩니다."
+
+#: admin/views/settings.php:351
+msgid "Shown when users ask questions unrelated to your website."
+msgstr "사용자가 웹사이트와 관련 없는 질문을 할 때 표시됩니다."
+
+#: admin/views/settings.php:79
+msgid "Size of the floating chat bubble button."
+msgstr "플로팅 채팅 버블 버튼의 크기입니다."
+
+#: admin/views/settings.php:75
+msgid "Small"
+msgstr "소"
+
+#: includes/class-chatyllo-widget.php:156
+msgid "Something went wrong. Please try again."
+msgstr "문제가 발생했습니다. 다시 시도해 주십시오."
+
+#: admin/views/settings.php:113
+msgid "Sound Effects"
+msgstr "효과음"
+
+#: admin/views/faq.php:214
+msgid "Source"
+msgstr "출처"
+
+#: includes/class-chatyllo-widget.php:154
+msgid "Standard Mode"
+msgstr "표준 모드"
+
+#: admin/views/logs.php:63
+msgid "Started"
+msgstr "시작됨"
+
+#: admin/views/dashboard.php:17
+msgid "Starter"
+msgstr "Starter"
+
+#: admin/views/settings.php:89
+#: admin/views/settings.php:136
+#: admin/views/settings.php:147
+#: admin/views/settings.php:154
+msgid "Starter+"
+msgstr "Starter+"
+
+#: admin/views/dashboard.php:289
+msgid "Starter+ required"
+msgstr "Starter+ 필요"
+
+#: admin/views/stats.php:5
+#: includes/class-chatyllo-admin.php:86
+#: includes/class-chatyllo-admin.php:87
+msgid "Statistics"
+msgstr "통계"
+
+#: admin/views/dashboard.php:259
+msgid "System Info"
+msgstr "시스템 정보"
+
+#: admin/views/settings.php:70
+msgid "Text color in the chat header and user message bubbles."
+msgstr "채팅 헤더 및 사용자 메시지 버블의 텍스트 색상입니다."
+
+#: admin/views/settings.php:560
+msgid "The AI automatically reads your website content (pages, posts, products) and uses it to answer visitor questions. No API key is needed — everything is managed for you. Set the AI Tone (Professional, Friendly, Casual) and Memory in the Behavior tab. Requires a Starter plan or higher."
+msgstr "AI가 웹사이트 콘텐츠(페이지, 게시물, 상품)를 자동으로 읽고 이를 사용하여 방문자 질문에 답변합니다. API 키가 필요 없습니다 — 모든 것이 자동으로 관리됩니다. 동작 탭에서 AI 어조(전문적인, 친근한, 캐주얼)와 기억을 설정하십시오. Starter 플랜 이상이 필요합니다."
+
+#: admin/views/settings.php:564
+msgid "The Knowledge Base is the AI's brain. It indexes your pages, posts, WooCommerce products, and site info. Starter plans auto-index weekly, Business/Agency every 12 hours. Configure what to index in the Knowledge tab."
+msgstr "지식 베이스는 AI의 두뇌입니다. 페이지, 게시물, WooCommerce 상품 및 사이트 정보를 색인합니다. Starter 플랜은 매주 자동 색인하고, Business/Agency는 12시간마다 자동 색인합니다. 지식 탭에서 색인할 항목을 설정하십시오."
+
+#: admin/views/settings.php:572
+msgid "The \"Powered by Chatyllo\" footer can be hidden on Business plans or replaced with your own text on Agency plans. Go to the Branding tab to configure this."
+msgstr "\"Powered by Chatyllo\" 푸터는 Business 플랜에서 숨기거나 Agency 플랜에서 자체 텍스트로 교체할 수 있습니다. 브랜딩 탭으로 이동하여 설정하십시오."
+
+#: admin/views/settings.php:143
+msgid "The communication style the AI assistant will use when responding."
+msgstr "AI 어시스턴트가 응답 시 사용할 커뮤니케이션 스타일입니다."
+
+#: admin/views/knowledge.php:12
+msgid "The knowledge base is auto-generated from your site content. Chatyllo reads your pages, posts, and products to understand your business."
+msgstr "지식 베이스는 사이트 콘텐츠에서 자동으로 생성됩니다. Chatyllo가 페이지, 게시물 및 상품을 읽어 비즈니스를 이해합니다."
+
+#: admin/views/faq.php:136
+msgid "The question visitors might ask. Write it naturally."
+msgstr "방문자가 할 수 있는 질문입니다. 자연스럽게 작성하십시오."
+
+#: admin/views/faq.php:141
+msgid "The response shown to visitors. Supports **bold** and *italic* formatting."
+msgstr "방문자에게 표시되는 응답입니다. **굵게** 및 *기울임꼴* 서식을 지원합니다."
+
+#: includes/class-chatyllo-widget.php:159
+msgid "This chat may store messages to improve our service."
+msgstr "이 채팅은 서비스 개선을 위해 메시지를 저장할 수 있습니다."
+
+#: admin/views/knowledge.php:41
+msgid "This will re-scan all your content. Changes to posts/pages are also detected automatically."
+msgstr "모든 콘텐츠를 다시 스캔합니다. 게시물/페이지의 변경 사항도 자동으로 감지됩니다."
+
+#: admin/views/status.php:84
+msgid "Today"
+msgstr "오늘"
+
+#: admin/views/logs.php:68
+msgid "Tokens"
+msgstr "Token"
+
+#: admin/views/stats.php:26
+msgid "Tokens Used"
+msgstr "사용된 Token"
+
+#: includes/class-chatyllo-ajax.php:67
+msgid "Too many requests. Please slow down."
+msgstr "요청이 너무 많습니다. 잠시 후 다시 시도해 주십시오."
+
+#: admin/views/stats.php:48
+msgid "Top Pages"
+msgstr "인기 페이지"
+
+#: admin/views/dashboard.php:137
+#: admin/views/logs.php:20
+msgid "Total Chats (30d)"
+msgstr "총 채팅 (30일)"
+
+#: admin/views/knowledge.php:14
+msgid "Total Entries"
+msgstr "전체 항목"
+
+#: admin/views/faq.php:98
+msgid "Total FAQs"
+msgstr "전체 FAQ"
+
+#: admin/views/stats.php:23
+msgid "Total Messages"
+msgstr "전체 메시지"
+
+#: admin/views/settings.php:259
+#: admin/views/settings.php:382
+#: admin/views/settings.php:392
+msgid "Type to search pages..."
+msgstr "페이지를 검색하려면 입력하십시오..."
+
+#: admin/views/settings.php:247
+msgid "Type to search posts..."
+msgstr "게시물을 검색하려면 입력하십시오..."
+
+#: includes/class-chatyllo-settings.php:207
+msgid "Type your message..."
+msgstr "메시지를 입력하십시오..."
+
+#: admin/views/settings.php:162
+msgid "Typing Indicator"
+msgstr "입력 표시기"
+
+#: chatyllo.php:173
+msgid "Unable to connect to AI service — checking..."
+msgstr "AI 서비스에 연결할 수 없습니다 — 확인 중..."
+
+#: includes/class-chatyllo-ajax.php:90
+#: includes/class-chatyllo-ajax.php:101
+#: includes/class-chatyllo-ajax.php:120
+#: includes/class-chatyllo-ajax.php:129
+#: includes/class-chatyllo-ajax.php:168
+#: includes/class-chatyllo-ajax.php:181
+#: includes/class-chatyllo-ajax.php:189
+#: includes/class-chatyllo-ajax.php:204
+#: includes/class-chatyllo-ajax.php:353
+msgid "Unauthorized"
+msgstr "권한 없음"
+
+#: admin/views/dashboard.php:326
+#: admin/views/logs.php:34
+msgid "Unique Visitors"
+msgstr "고유 방문자"
+
+#: admin/views/dashboard.php:303
+#: admin/views/dashboard.php:307
+msgid "Unlimited"
+msgstr "무제한"
+
+#: admin/views/dashboard.php:102
+msgid "Unlimited FAQ entries"
+msgstr "무제한 FAQ 항목"
+
+#: admin/views/logs.php:49
+msgid "Unlimited log retention (Agency plan)."
+msgstr "무제한 로그 보관 (Agency 플랜)."
+
+#: admin/views/settings.php:175
+msgid "Unlimited retention (Agency plan)."
+msgstr "무제한 보관 (Agency 플랜)."
+
+#: admin/views/settings.php:192
+msgid "Unlock AI Knowledge Base"
+msgstr "AI 지식 베이스 잠금 해제"
+
+#: admin/views/dashboard.php:98
+msgid "Unlock AI-Powered Responses"
+msgstr "AI 기반 응답 잠금 해제"
+
+#: admin/views/dashboard.php:269
+#: admin/views/faq.php:88
+#: admin/views/settings.php:89
+#: admin/views/settings.php:136
+#: admin/views/settings.php:147
+#: admin/views/settings.php:154
+#: admin/views/settings.php:196
+#: admin/views/settings.php:231
+#: admin/views/settings.php:313
+msgid "Upgrade"
+msgstr "업그레이드"
+
+#: admin/views/knowledge.php:65
+#: admin/views/settings.php:196
+msgid "Upgrade Now"
+msgstr "지금 업그레이드"
+
+#: admin/views/knowledge.php:52
+msgid "Upgrade to Business"
+msgstr "Business로 업그레이드"
+
+#: admin/views/dashboard.php:122
+msgid "Upgrade to Business — $9.99/mo"
+msgstr "Business로 업그레이드 — $9.99/월"
+
+#: admin/views/faq.php:67
+msgid "Upgrade to Starter"
+msgstr "Starter로 업그레이드"
+
+#: admin/views/dashboard.php:108
+msgid "Upgrade to Starter — $4.99/mo"
+msgstr "Starter로 업그레이드 — $4.99/월"
+
+#: admin/views/knowledge.php:62
+msgid "Upgrade to any paid plan to unlock automatic content indexing and AI-powered responses based on your site content."
+msgstr "유료 플랜으로 업그레이드하여 자동 콘텐츠 색인 및 사이트 콘텐츠 기반 AI 응답을 잠금 해제하십시오."
+
+#: admin/views/settings.php:193
+msgid "Upgrade to let AI automatically learn from your pages, posts, and products. No API key needed — everything is managed for you."
+msgstr "AI가 페이지, 게시물, 상품에서 자동으로 학습하도록 업그레이드하십시오. API 키가 필요 없습니다 — 모든 것이 자동으로 관리됩니다."
+
+#: admin/views/settings.php:100
+msgid "Upload Image"
+msgstr "이미지 업로드"
+
+#: includes/class-chatyllo-core.php:179
+msgid "User Message"
+msgstr "사용자 메시지"
+
+#: admin/views/settings.php:339
+msgid "Welcome Message"
+msgstr "환영 메시지"
+
+#: admin/views/status.php:106
+msgid "When AI is operational, your chatbot uses intelligent AI to answer visitor questions based on your website content."
+msgstr "AI가 정상 작동할 때 챗봇은 지능형 AI를 사용하여 웹사이트 콘텐츠를 기반으로 방문자 질문에 답변합니다."
+
+#: admin/views/settings.php:375
+msgid "When enabled, the widget shows everywhere. Disable to use the rules below."
+msgstr "활성화하면 위젯이 모든 곳에 표시됩니다. 아래 규칙을 사용하려면 비활성화하십시오."
+
+#: admin/views/settings.php:431
+msgid "When enabled, visitors must accept a privacy notice before their conversations are logged. Chat still works without consent, but no data is stored."
+msgstr "활성화하면 방문자가 대화가 기록되기 전에 개인정보 보호 알림에 동의해야 합니다. 동의 없이도 채팅은 작동하지만 데이터가 저장되지 않습니다."
+
+#: admin/views/settings.php:60
+msgid "Where the chat widget appears on your site."
+msgstr "사이트에서 채팅 위젯이 표시되는 위치입니다."
+
+#: admin/views/settings.php:563
+msgid "What is the Knowledge Base?"
+msgstr "지식 베이스란 무엇입니까?"
+
+#: admin/views/settings.php:52
+msgid "Widget Appearance"
+msgstr "위젯 외관"
+
+#: admin/views/settings.php:517
+msgid "Widget Preview"
+msgstr "위젯 미리보기"
+
+#: admin/views/settings.php:73
+msgid "Widget Size"
+msgstr "위젯 크기"
+
+#: admin/views/faq.php:148
+msgid "Words that trigger this answer."
+msgstr "이 답변을 활성화하는 키워드입니다."
+
+#: admin/views/faq.php:140
+msgid "Write a clear, helpful answer..."
+msgstr "명확하고 유용한 답변을 작성하십시오..."
+
+#: admin/views/settings.php:584
+msgid "Yes! Go to Advanced tab → Export Data (JSON) to download your settings, FAQs, and statistics. Statistics can also be exported as CSV from the Statistics page."
+msgstr "네! 고급 탭 → 데이터 내보내기 (JSON)로 이동하여 설정, FAQ 및 통계를 다운로드하십시오. 통계는 통계 페이지에서 CSV로도 내보낼 수 있습니다."
+
+#: admin/views/dashboard.php:99
+msgid "You are using the free version with manual Q&A only. Upgrade to Starter to enable AI chatbot with 100 responses/day."
+msgstr "수동 질문과 답변만 사용 가능한 무료 버전을 사용하고 있습니다. Starter로 업그레이드하여 하루 100회 응답의 AI 챗봇을 활성화하십시오."
+
+#: admin/views/faq.php:38
+msgid "You can generate FAQs multiple times. Each generation analyzes your knowledge base and adds new Q&A pairs. Existing AI-generated FAQs are updated if needed — no duplicates are created. The more content you have indexed, the better and more complete the generated FAQs will be."
+msgstr "FAQ를 여러 번 생성할 수 있습니다. 매번 생성 시 지식 베이스를 분석하고 새로운 질문과 답변 쌍을 추가합니다. 기존 AI 생성 FAQ는 필요 시 업데이트되며 — 중복이 생성되지 않습니다. 색인된 콘텐츠가 많을수록 생성되는 FAQ가 더 우수하고 완전해집니다."
+
+#. translators: %d: number of AI-generated FAQs
+#: admin/views/faq.php:86
+msgid "You have %d AI-generated FAQs that are currently inactive because you are on the Free plan. Upgrade to any paid plan to reactivate them."
+msgstr "무료 플랜을 사용 중이므로 현재 비활성 상태인 AI 생성 FAQ가 %d개 있습니다. 유료 플랜으로 업그레이드하여 다시 활성화하십시오."
+
+#: admin/views/knowledge.php:49
+msgid "Your Starter plan auto-indexes content every 7 days. Upgrade to Business for manual reindex anytime and 12-hour auto-updates."
+msgstr "Starter 플랜은 7일마다 콘텐츠를 자동 색인합니다. Business로 업그레이드하면 언제든 수동 재색인 및 12시간 자동 업데이트를 이용할 수 있습니다."
+
+#: admin/views/settings.php:326
+msgid "Your custom text to display in the chat footer."
+msgstr "채팅 푸터에 표시할 사용자 지정 텍스트입니다."
+
+#: admin/views/settings.php:296
+msgid "Your own branding text"
+msgstr "자체 브랜딩 텍스트"
+
+#: admin/views/settings.php:580
+msgid "By default the widget shows on all pages. Disable \"Show on All Pages\" to use rules: whitelist specific pages, blacklist pages, or restrict by user role. Use the search-and-pick selectors to easily find pages."
+msgstr "기본적으로 위젯은 모든 페이지에 표시됩니다. \"모든 페이지에 표시\"를 비활성화하여 규칙을 사용하십시오: 특정 페이지 whitelist, 페이지 blacklist 또는 사용자 역할별 제한. 검색 및 선택 기능을 사용하여 쉽게 페이지를 찾을 수 있습니다."
+
+#: admin/views/settings.php:568
+msgid "FAQs use a smart keyword matching algorithm that works on ALL plans — no AI credits consumed. When AI is unavailable (limits reached, maintenance), the chatbot automatically switches to FAQ mode. Keep your FAQs updated for the best fallback experience."
+msgstr "FAQ는 모든 플랜에서 작동하는 스마트 키워드 매칭 알고리즘을 사용합니다 — AI 크레딧이 소모되지 않습니다. AI를 사용할 수 없을 때(제한 도달, 유지보수) 챗봇이 자동으로 FAQ 모드로 전환됩니다. 최상의 대체 경험을 위해 FAQ를 최신 상태로 유지하십시오."
+
+#: admin/views/dashboard.php:307
+msgid "days"
+msgstr "일"
+
+#: admin/views/faq.php:135
+msgid "e.g. What are your shipping options?"
+msgstr "예: 배송 옵션은 무엇입니까?"
+
+#: includes/class-chatyllo-widget.php:152
+msgid "is typing..."
+msgstr "입력 중..."
+
+#: includes/class-chatyllo-core.php:219
+msgid "When visitors use the Chatyllo chat widget on this site, the following data may be collected:"
+msgstr "방문자가 이 사이트에서 Chatyllo 채팅 위젯을 사용하면 다음 데이터가 수집될 수 있습니다:"
+
+#: includes/class-chatyllo-core.php:221
+msgid "<strong>Chat messages:</strong> The text of conversations between visitors and the chatbot is stored in the site database for quality improvement and support purposes."
+msgstr "<strong>채팅 메시지:</strong> 방문자와 챗봇 간의 대화 텍스트는 품질 향상 및 지원 목적으로 사이트 데이터베이스에 저장됩니다."
+
+#: includes/class-chatyllo-core.php:222
+msgid "<strong>Session identifier:</strong> A randomly generated session ID is stored in the browser's localStorage to maintain conversation continuity. This is not linked to any personal account."
+msgstr "<strong>세션 식별자:</strong> 대화 연속성을 유지하기 위해 무작위로 생성된 세션 ID가 브라우저의 localStorage에 저장됩니다. 이는 개인 계정과 연결되지 않습니다."
+
+#: includes/class-chatyllo-core.php:223
+msgid "<strong>IP address:</strong> Visitor IP addresses may be collected in hashed (anonymized) form, or not collected at all if the site administrator has enabled IP anonymization."
+msgstr "<strong>IP 주소:</strong> 방문자 IP 주소는 해시(익명화)된 형태로 수집될 수 있으며, 사이트 관리자가 IP 익명화를 활성화한 경우 전혀 수집되지 않을 수 있습니다."
+
+#: includes/class-chatyllo-core.php:224
+msgid "<strong>Browser information:</strong> Browser type and device information may be collected for analytics purposes, unless the site administrator has enabled browser anonymization."
+msgstr "<strong>브라우저 정보:</strong> 사이트 관리자가 브라우저 익명화를 활성화하지 않은 경우, 분석 목적으로 브라우저 유형 및 기기 정보가 수집될 수 있습니다."
+
+#: includes/class-chatyllo-core.php:225
+msgid "<strong>Page URL:</strong> The page where the chat conversation took place is recorded."
+msgstr "<strong>페이지 URL:</strong> 채팅 대화가 이루어진 페이지가 기록됩니다."
+
+#: includes/class-chatyllo-core.php:227
+msgid "<strong>External service:</strong> For AI-powered responses (premium plans only), chat messages and website content context are sent to the Chatyllo AI proxy server (wpezo.com) for processing. No visitor personal data (IP, browser info) is sent to this service."
+msgstr "<strong>외부 서비스:</strong> AI 기반 응답(프리미엄 플랜만 해당)의 경우, 채팅 메시지와 웹사이트 콘텐츠 컨텍스트가 처리를 위해 Chatyllo AI proxy 서버(wpezo.com)로 전송됩니다. 방문자 개인 데이터(IP, 브라우저 정보)는 이 서비스로 전송되지 않습니다."
+
+#: includes/class-chatyllo-core.php:228
+msgid "<strong>Data retention:</strong> Chat logs are automatically deleted based on the site's configured retention period (30 to 180 days, depending on the plan). Site administrators can manually delete all chat data at any time."
+msgstr "<strong>데이터 보관:</strong> 채팅 로그는 사이트의 설정된 보관 기간(플랜에 따라 30~180일)에 따라 자동으로 삭제됩니다. 사이트 관리자는 언제든지 모든 채팅 데이터를 수동으로 삭제할 수 있습니다."
+
+#: includes/class-chatyllo-core.php:229
+msgid "<strong>Consent:</strong> If the site administrator has enabled the consent requirement, a privacy notice is displayed in the chat widget before any data is logged. Visitors can use the chat without accepting, but their conversations will not be stored."
+msgstr "<strong>동의:</strong> 사이트 관리자가 동의 요구 사항을 활성화한 경우, 데이터가 기록되기 전에 채팅 위젯에 개인정보 보호 알림이 표시됩니다. 방문자는 동의하지 않고도 채팅을 사용할 수 있지만, 대화 내용은 저장되지 않습니다."

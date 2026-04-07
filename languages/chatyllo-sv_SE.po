@@ -1,0 +1,1715 @@
+# Swedish translation for Chatyllo
+# Copyright (C) 2026 WPezo
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Chatyllo 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wpezo.com/support\n"
+"POT-Creation-Date: 2026-04-03 21:00:00+0000\n"
+"PO-Revision-Date: 2026-04-04 03:00:00+0000\n"
+"Last-Translator: WPezo <support@wpezo.com>\n"
+"Language-Team: Swedish <support@wpezo.com>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Chatyllo 1.2.0\n"
+
+#. translators: %1$d: completed steps, %2$d: total steps
+#: admin/views/dashboard.php:387
+msgid "%1$d of %2$d completed"
+msgstr "%1$d av %2$d slutförda"
+
+#: includes/class-chatyllo-ajax.php:519
+msgid "(no title)"
+msgstr "(ingen titel)"
+
+#: admin/views/faq.php:172
+msgid "0 = default."
+msgstr "0 = standard."
+
+#: admin/views/dashboard.php:103
+msgid "90-day log retention"
+msgstr "90 dagars logglagring"
+
+#: admin/views/dashboard.php:299
+#: admin/views/faq.php:118
+msgid "AI + FAQ"
+msgstr "AI + FAQ"
+
+#: admin/views/dashboard.php:48
+#: admin/views/faq.php:23
+#: admin/views/settings.php:26
+#: includes/class-chatyllo-admin.php:170
+msgid "AI Active"
+msgstr "AI Aktiv"
+
+#: admin/views/settings.php:124
+msgid "AI Behavior"
+msgstr "AI-beteende"
+
+#: includes/class-chatyllo-ajax.php:357
+msgid "AI FAQ generation requires a Starter plan or higher."
+msgstr "AI FAQ-generering kräver ett Starter-abonnemang eller högre."
+
+#: admin/views/faq.php:202
+msgid "AI Generated"
+msgstr "AI-genererad"
+
+#: admin/views/faq.php:37
+msgid "AI Generation:"
+msgstr "AI-generering:"
+
+#: admin/views/dashboard.php:229
+msgid "AI Knowledge Base"
+msgstr "AI-kunskapsbas"
+
+#: admin/views/knowledge.php:61
+msgid "AI Knowledge Base — Paid Plan Required"
+msgstr "AI-kunskapsbas — Betalt abonnemang krävs"
+
+#: admin/views/dashboard.php:50
+#: admin/views/settings.php:27
+#: includes/class-chatyllo-admin.php:171
+msgid "AI Offline"
+msgstr "AI Offline"
+
+#: admin/views/settings.php:354
+msgid "AI Offline Message"
+msgstr "AI Offline-meddelande"
+
+#: includes/class-chatyllo-widget.php:153
+msgid "AI Powered"
+msgstr "AI-driven"
+
+#: admin/views/dashboard.php:146
+#: admin/views/logs.php:27
+msgid "AI Responses"
+msgstr "AI-svar"
+
+#: admin/views/dashboard.php:286
+msgid "AI Status"
+msgstr "AI-status"
+
+#: admin/views/settings.php:135
+msgid "AI Tone"
+msgstr "AI-ton"
+
+#: admin/views/dashboard.php:172
+msgid "AI Usage"
+msgstr "AI-användning"
+
+#: admin/views/faq.php:53
+msgid "AI analyzes your indexed content and creates relevant Q&A pairs automatically."
+msgstr "AI analyserar ditt indexerade innehåll och skapar relevanta frågor och svar automatiskt."
+
+#: includes/class-chatyllo-proxy.php:65
+msgid "AI chat requires a paid plan."
+msgstr "AI-chatt kräver ett betalt abonnemang."
+
+#: admin/views/dashboard.php:101
+msgid "AI chatbot — 100 responses/day"
+msgstr "AI-chattbot — 100 svar/dag"
+
+#: includes/class-chatyllo-ajax.php:387
+msgid "AI did not generate any FAQs."
+msgstr "AI genererade inga FAQ."
+
+#: admin/views/dashboard.php:72
+msgid "AI features are automatically included when you upgrade to any paid plan. No personal API key, no setup, just activate and the AI starts working with your content."
+msgstr "AI-funktioner ingår automatiskt när du uppgraderar till valfritt betalt abonnemang. Ingen personlig API-nyckel, ingen konfiguration, bara aktivera så börjar AI arbeta med ditt innehåll."
+
+#: admin/views/faq.php:75
+msgid "AI is analyzing your content..."
+msgstr "AI analyserar ditt innehåll..."
+
+#: chatyllo.php:207
+msgid "AI service temporarily unavailable — FAQ mode is active as fallback"
+msgstr "AI-tjänsten är tillfälligt otillgänglig — FAQ-läge är aktivt som reserv"
+
+#: includes/class-chatyllo-widget.php:160
+msgid "Accept & Chat"
+msgstr "Godkänn och chatta"
+
+#: admin/views/faq.php:216
+msgid "Actions"
+msgstr "Åtgärder"
+
+#: admin/views/dashboard.php:291
+#: admin/views/faq.php:105
+#: admin/views/faq.php:177
+#: admin/views/faq.php:215
+msgid "Active"
+msgstr "Aktiv"
+
+#: admin/views/dashboard.php:363
+msgid "Add FAQ entries"
+msgstr "Lägg till FAQ-poster"
+
+#: admin/views/faq.php:128
+msgid "Add New FAQ"
+msgstr "Lägg till ny FAQ"
+
+#: admin/views/dashboard.php:246
+msgid "Add manual Q&A pairs"
+msgstr "Lägg till manuella frågor och svar"
+
+#: admin/views/dashboard.php:378
+msgid "Add your privacy URL for GDPR compliance."
+msgstr "Lägg till din integritets-URL för GDPR-efterlevnad."
+
+#: admin/views/settings.php:42
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: admin/views/dashboard.php:19
+msgid "Agency"
+msgstr "Agency"
+
+#: admin/views/faq.php:197
+msgid "All Categories"
+msgstr "Alla kategorier"
+
+#: admin/views/faq.php:200
+msgid "All Sources"
+msgstr "Alla källor"
+
+#: chatyllo.php:184
+msgid "All systems operational"
+msgstr "Alla system fungerar"
+
+#: admin/views/stats.php:12
+msgid "All time"
+msgstr "Hela perioden"
+
+#: includes/class-chatyllo-admin.php:166
+msgid "An error occurred. Please try again."
+msgstr "Ett fel uppstod. Försök igen."
+
+#: admin/views/settings.php:434
+msgid "Anonymize IP addresses"
+msgstr "Anonymisera IP-adresser"
+
+#: admin/views/settings.php:442
+msgid "Anonymize browser info"
+msgstr "Anonymisera webbläsarinfo"
+
+#: admin/views/faq.php:139
+msgid "Answer"
+msgstr "Svar"
+
+#: admin/views/settings.php:36
+msgid "Appearance"
+msgstr "Utseende"
+
+#: admin/views/knowledge.php:22
+msgid "Approx. tokens:"
+msgstr "Ca. token:"
+
+#: includes/class-chatyllo-admin.php:167
+msgid "Are you sure?"
+msgstr "Är du säker?"
+
+#: admin/views/dashboard.php:277
+msgid "Auto 12h + Manual"
+msgstr "Auto 12h + Manuell"
+
+#: admin/views/dashboard.php:279
+msgid "Auto weekly"
+msgstr "Auto veckovis"
+
+#: admin/views/faq.php:147
+msgid "Auto-generated if empty"
+msgstr "Genereras automatiskt om tomt"
+
+#: admin/views/knowledge.php:25
+msgid "Auto-index schedule:"
+msgstr "Schema för autoindexering:"
+
+#: admin/views/dashboard.php:224
+msgid "Auto-indexes weekly"
+msgstr "Autoindexerar veckovis"
+
+#: admin/views/knowledge.php:48
+msgid "Auto-indexing weekly"
+msgstr "Autoindexering veckovis"
+
+#: admin/views/settings.php:488
+msgid "Automatic maintenance runs weekly: cleans expired logs and cache, removes orphan data, and optimizes database tables."
+msgstr "Automatiskt underhåll körs veckovis: rensar utgångna loggar och cache, tar bort överbliven data och optimerar databastabeller."
+
+#: admin/views/dashboard.php:330
+#: admin/views/logs.php:41
+#: admin/views/stats.php:25
+msgid "Avg Response"
+msgstr "Snittrespons"
+
+#: admin/views/settings.php:37
+msgid "Behavior"
+msgstr "Beteende"
+
+#: admin/views/settings.php:87
+msgid "Bot Avatar"
+msgstr "Bot-avatar"
+
+#: admin/views/settings.php:82
+msgid "Bot Name"
+msgstr "Botnamn"
+
+#: includes/class-chatyllo-core.php:179
+msgid "Bot Response"
+msgstr "Botsvar"
+
+#: admin/views/settings.php:58
+msgid "Bottom Left"
+msgstr "Nedre vänster"
+
+#: admin/views/settings.php:57
+msgid "Bottom Right"
+msgstr "Nedre höger"
+
+#: admin/views/settings.php:39
+#: admin/views/settings.php:273
+msgid "Branding"
+msgstr "Branding"
+
+#: admin/views/stats.php:62
+msgid "Browsers"
+msgstr "Webbläsare"
+
+#: admin/views/dashboard.php:371
+msgid "Build the knowledge base for AI responses."
+msgstr "Bygg kunskapsbasen för AI-svar."
+
+#: admin/views/dashboard.php:18
+msgid "Business"
+msgstr "Business"
+
+#: admin/views/settings.php:231
+msgid "Business+"
+msgstr "Business+"
+
+#: admin/views/settings.php:584
+msgid "Can I export my data?"
+msgstr "Kan jag exportera mina data?"
+
+#: includes/class-chatyllo-ajax.php:124
+msgid "Cache cleared."
+msgstr "Cache rensad."
+
+#: admin/views/faq.php:185
+msgid "Cancel Edit"
+msgstr "Avbryt redigering"
+
+#: admin/views/settings.php:141
+msgid "Casual"
+msgstr "Avslappnad"
+
+#: admin/views/faq.php:112
+msgid "Categories"
+msgstr "Kategorier"
+
+#: admin/views/faq.php:153
+#: admin/views/faq.php:212
+msgid "Category"
+msgstr "Kategori"
+
+#: admin/views/logs.php:9
+#: includes/class-chatyllo-admin.php:77
+#: includes/class-chatyllo-admin.php:78
+msgid "Chat Logs"
+msgstr "Chattloggar"
+
+#: includes/class-chatyllo-core.php:218
+msgid "Chatyllo Chat Assistant"
+msgstr "Chatyllo chattassistent"
+
+#: includes/class-chatyllo-admin.php:31
+#: includes/class-chatyllo-admin.php:32
+msgid "Chatyllo"
+msgstr "Chatyllo"
+
+#: includes/class-chatyllo-core.php:175
+msgid "Chatyllo Chat Conversations"
+msgstr "Chatyllo chattkonversationer"
+
+#: includes/class-chatyllo-core.php:153
+#: includes/class-chatyllo-core.php:191
+msgid "Chatyllo Chat Logs"
+msgstr "Chatyllo chattloggar"
+
+#: admin/views/dashboard.php:35
+msgid "Chatyllo Dashboard"
+msgstr "Chatyllo kontrollpanel"
+
+#: admin/views/settings.php:19
+msgid "Chatyllo Settings"
+msgstr "Chatyllo inställningar"
+
+#: admin/views/settings.php:451
+msgid "Chatyllo is compatible with WordPress Privacy Tools (Tools > Export/Erase Personal Data) and major cookie consent plugins (CookieYes, Complianz, CookieBot, iubenda). Storage used: localStorage keys \"chatyllo_sid\" (functional, session) and \"chatyllo_consent\" (functional, persistent)."
+msgstr "Chatyllo är kompatibelt med WordPress integritetsverktyg (Verktyg > Exportera/Radera personuppgifter) och de stora cookie-samtyckes-tilläggen (CookieYes, Complianz, CookieBot, iubenda). Lagring som används: localStorage-nycklar \"chatyllo_sid\" (funktionell, session) och \"chatyllo_consent\" (funktionell, persistent)."
+
+#: admin/views/status.php:42
+msgid "Checking..."
+msgstr "Kontrollerar..."
+
+#: admin/views/settings.php:203
+msgid "Choose which content types the AI should learn from."
+msgstr "Välj vilka innehållstyper AI ska lära sig från."
+
+#: admin/views/dashboard.php:236
+msgid "Clear Response Cache"
+msgstr "Rensa svarscache"
+
+#: admin/views/settings.php:402
+msgid "Click to select roles... (empty = everyone)"
+msgstr "Klicka för att välja roller... (tomt = alla)"
+
+#: includes/class-chatyllo-widget.php:150
+msgid "Close"
+msgstr "Stäng"
+
+#: admin/views/settings.php:201
+msgid "Content Indexing"
+msgstr "Innehållsindexering"
+
+#: admin/views/settings.php:320
+msgid "Controls the branding text shown at the bottom of the chat widget."
+msgstr "Styr brandingtexten som visas längst ner i chattwidgeten."
+
+#: admin/views/logs.php:88
+msgid "Conversation Details"
+msgstr "Konversationsdetaljer"
+
+#: admin/views/settings.php:153
+msgid "Conversation Memory"
+msgstr "Konversationsminne"
+
+#: admin/views/stats.php:24
+msgid "Conversations"
+msgstr "Konversationer"
+
+#: admin/views/dashboard.php:364
+msgid "Create Q&A pairs for instant answers."
+msgstr "Skapa frågor och svar för omedelbara svar."
+
+#: admin/views/faq.php:119
+msgid "Current Mode"
+msgstr "Aktuellt läge"
+
+#: admin/views/settings.php:295
+msgid "Custom / White-label"
+msgstr "Anpassad / White-label"
+
+#: admin/views/settings.php:324
+msgid "Custom Branding Text"
+msgstr "Anpassad brandingtext"
+
+#: admin/views/settings.php:40
+msgid "Custom Messages"
+msgstr "Anpassade meddelanden"
+
+#: admin/views/settings.php:229
+msgid "Custom Post Types"
+msgstr "Anpassade inläggstyper"
+
+#: admin/views/dashboard.php:242
+msgid "Customize appearance & behavior"
+msgstr "Anpassa utseende och beteende"
+
+#: admin/views/dashboard.php:181
+msgid "Daily"
+msgstr "Dagligen"
+
+#: admin/views/stats.php:34
+msgid "Daily Activity"
+msgstr "Daglig aktivitet"
+
+#: admin/views/status.php:109
+msgid "Daily and monthly usage limits reset automatically. Daily limits reset at midnight (server time), monthly limits reset on the 1st of each month."
+msgstr "Dagliga och månatliga användningsgränser nollställs automatiskt. Dagliga gränser nollställs vid midnatt (servertid), månatliga gränser nollställs den 1:a varje månad."
+
+#: includes/class-chatyllo-admin.php:42
+#: includes/class-chatyllo-admin.php:43
+#: includes/class-chatyllo-admin.php:221
+msgid "Dashboard"
+msgstr "Kontrollpanel"
+
+#: admin/views/settings.php:458
+msgid "Data Preservation"
+msgstr "Databevarande"
+
+#: includes/class-chatyllo-core.php:178
+msgid "Date"
+msgstr "Datum"
+
+#: admin/views/settings.php:282
+msgid "Default branding link"
+msgstr "Standard brandingleänk"
+
+#: admin/views/status.php:90
+msgid "Degraded / Maintenance"
+msgstr "Degraderad / Underhåll"
+
+#: includes/class-chatyllo-admin.php:173
+msgid "Deleted successfully."
+msgstr "Borttaget."
+
+#: includes/class-chatyllo-admin.php:172
+msgid "Deleting..."
+msgstr "Tar bort..."
+
+#: admin/views/stats.php:57
+msgid "Devices"
+msgstr "Enheter"
+
+#: admin/views/settings.php:76
+msgid "Dismiss"
+msgstr "Stäng"
+
+#: admin/views/settings.php:41
+#: admin/views/settings.php:370
+msgid "Display Rules"
+msgstr "Visningsregler"
+
+#: admin/views/settings.php:84
+msgid "Display name shown in the chat header."
+msgstr "Visningsnamn som visas i chatthuvudet."
+
+#: admin/views/settings.php:110
+msgid "Display the chat widget on mobile devices."
+msgstr "Visa chattwidgeten på mobila enheter."
+
+#: admin/views/settings.php:447
+msgid "Do not store browser/device information in chat logs."
+msgstr "Spara inte webbläsar-/enhetsinformation i chattloggarna."
+
+#: admin/views/settings.php:439
+msgid "Do not store visitor IP addresses in chat logs. Recommended for GDPR compliance."
+msgstr "Spara inte besökarnas IP-adresser i chattloggarna. Rekommenderas för GDPR-efterlevnad."
+
+#. translators: %1$d: new FAQs created, %2$d: FAQs updated
+#: includes/class-chatyllo-ajax.php:437
+msgid "Done! %1$d new FAQs created, %2$d updated."
+msgstr "Klart! %1$d nya FAQ skapade, %2$d uppdaterade."
+
+#: admin/views/logs.php:69
+msgid "Duration"
+msgstr "Varaktighet"
+
+#: includes/class-chatyllo-ajax.php:61
+msgid "Empty message"
+msgstr "Tomt meddelande"
+
+#: admin/views/settings.php:128
+msgid "Enable Chatyllo"
+msgstr "Aktivera Chatyllo"
+
+#: admin/views/dashboard.php:349
+msgid "Enable the chatbot"
+msgstr "Aktivera chattboten"
+
+#: admin/views/knowledge.php:28
+msgid "Every 12 hours + manual anytime"
+msgstr "Var 12:e timme + manuellt när som helst"
+
+#: includes/chatyllo-premium__premium_only.php:166
+#: includes/class-chatyllo-proxy.php:39
+msgid "Every 5 minutes"
+msgstr "Var 5:e minut"
+
+#: admin/views/settings.php:257
+msgid "Exclude Pages"
+msgstr "Exkludera sidor"
+
+#: admin/views/settings.php:245
+msgid "Exclude Posts"
+msgstr "Exkludera inlägg"
+
+#: admin/views/stats.php:15
+msgid "Export"
+msgstr "Exportera"
+
+#: admin/views/settings.php:473
+msgid "Export / Import"
+msgstr "Exportera / Importera"
+
+#: admin/views/stats.php:14
+msgid "Export CSV"
+msgstr "Exportera CSV"
+
+#: admin/views/settings.php:478
+msgid "Export Data (JSON)"
+msgstr "Exportera data (JSON)"
+
+#: admin/views/settings.php:475
+msgid "Export your plugin configuration, FAQs, and statistics for backup or migration."
+msgstr "Exportera din tilläggskonfiguration, FAQ och statistik för säkerhetskopiering eller migrering."
+
+#: includes/class-chatyllo-admin.php:60
+#: includes/class-chatyllo-admin.php:61
+msgid "FAQ / Q&A"
+msgstr "FAQ / Frågor och svar"
+
+#: admin/views/faq.php:18
+msgid "FAQ / Smart Q&A"
+msgstr "FAQ / Smart frågor och svar"
+
+#: admin/views/dashboard.php:164
+msgid "FAQ Entries"
+msgstr "FAQ-poster"
+
+#: admin/views/dashboard.php:302
+msgid "FAQ Limit"
+msgstr "FAQ-gräns"
+
+#: admin/views/faq.php:194
+msgid "FAQ List"
+msgstr "FAQ-lista"
+
+#: admin/views/dashboard.php:299
+#: admin/views/faq.php:118
+msgid "FAQ Only"
+msgstr "Endast FAQ"
+
+#: admin/views/faq.php:23
+msgid "FAQ Only Mode"
+msgstr "Endast FAQ-läge"
+
+#: includes/class-chatyllo-ajax.php:159
+msgid "FAQ created."
+msgstr "FAQ skapad."
+
+#: includes/class-chatyllo-ajax.php:175
+msgid "FAQ deleted."
+msgstr "FAQ borttagen."
+
+#: admin/views/faq.php:165
+msgid "FAQ language."
+msgstr "FAQ-språk."
+
+#. translators: %d: FAQ limit number
+#: includes/class-chatyllo-ajax.php:147
+msgid "FAQ limit reached (%d). Upgrade your plan for unlimited FAQs."
+msgstr "FAQ-gränsen nådd (%d). Uppgradera ditt abonnemang för obegränsade FAQ."
+
+#: includes/class-chatyllo-ajax.php:156
+msgid "FAQ updated."
+msgstr "FAQ uppdaterad."
+
+#: admin/views/faq.php:33
+msgid "FAQs are powered by Chatyllo's built-in smart matching algorithm — no AI credits are consumed. They work on all plans, including Free. When AI responses are unavailable (daily/monthly limits reached, temporary service issues, or network errors), the chatbot automatically switches to FAQ mode. This ensures your visitors always get helpful answers."
+msgstr "FAQ drivs av Chatyllos inbyggda smarta matchningsalgoritm — inga AI-krediter förbrukas. De fungerar på alla abonnemang, inklusive Gratis. När AI-svar inte är tillgängliga (dagliga/månatliga gränser nådda, tillfälliga tjänsteproblem eller nätverksfel) växlar chattboten automatiskt till FAQ-läge. Detta säkerställer att dina besökare alltid får hjälpsamma svar."
+
+#: includes/chatyllo-premium__premium_only.php:305
+#: includes/chatyllo-premium__premium_only.php:383
+msgid "Failed to obtain API token."
+msgstr "Kunde inte hämta API-token."
+
+#: admin/views/logs.php:65
+msgid "First Message"
+msgstr "Första meddelandet"
+
+#: admin/views/settings.php:341
+msgid "First message shown when the chat opens. Leave empty for default."
+msgstr "Första meddelandet som visas när chatten öppnas. Lämna tomt för standard."
+
+#: admin/views/settings.php:276
+msgid "Footer Branding"
+msgstr "Sidfots-branding"
+
+#: admin/views/status.php:110
+msgid "For the best experience, keep your FAQ entries up to date — they serve as a reliable fallback whenever AI is not available."
+msgstr "För bästa upplevelse, håll dina FAQ-poster uppdaterade — de fungerar som en pålitlig reserv när AI inte är tillgängligt."
+
+#: admin/views/dashboard.php:237
+msgid "Force fresh AI responses"
+msgstr "Tvinga nya AI-svar"
+
+#: admin/views/dashboard.php:16
+msgid "Free"
+msgstr "Gratis"
+
+#: admin/views/dashboard.php:46
+#: admin/views/settings.php:25
+msgid "Free — FAQ Only"
+msgstr "Gratis — Endast FAQ"
+
+#: includes/chatyllo-premium__premium_only.php:96
+msgid "Freemius install ID not available. Please activate the plugin first."
+msgstr "Freemius installations-ID inte tillgängligt. Aktivera tillägget först."
+
+#: admin/views/settings.php:140
+msgid "Friendly"
+msgstr "Vänlig"
+
+#: admin/views/faq.php:61
+msgid "Generate"
+msgstr "Generera"
+
+#: admin/views/faq.php:50
+msgid "Generate FAQs with AI"
+msgstr "Generera FAQ med AI"
+
+#: admin/views/dashboard.php:118
+msgid "Get 300 AI responses/day, Knowledge Base indexing, custom post types, and remove Chatyllo branding."
+msgstr "Få 300 AI-svar/dag, kunskapsbasindexering, anpassade inläggstyper och ta bort Chatyllo-branding."
+
+#: admin/views/dashboard.php:342
+msgid "Getting Started"
+msgstr "Kom igång"
+
+#: admin/views/dashboard.php:350
+msgid "Go to Settings → Behavior and enable Chatyllo."
+msgstr "Gå till Inställningar → Beteende och aktivera Chatyllo."
+
+#: admin/views/settings.php:556
+msgid "Go to the Appearance tab. You can change the Primary Color (chat bubble, header, user messages), the Header & User Message text color, and the Widget Size (Small, Medium, Large). Changes apply immediately after saving."
+msgstr "Gå till fliken Utseende. Du kan ändra primärfärg (chattbubbla, huvud, användarmeddelanden), text­färg för huvud och användarmeddelanden samt widgetstorlek (Liten, Medel, Stor). Ändringar tillämpas direkt efter att du sparar."
+
+#: admin/views/settings.php:576
+msgid "Go to the Advanced tab. Enable \"Require consent before logging\" to show a privacy banner. Enable \"Anonymize IP\" (recommended). Add your Privacy Policy URL. Chatyllo also integrates with WordPress Privacy Tools and major cookie plugins (CookieYes, Complianz, CookieBot)."
+msgstr "Gå till fliken Avancerat. Aktivera \"Kräv samtycke innan loggning\" för att visa en integritetsbanderoll. Aktivera \"Anonymisera IP\" (rekommenderas). Lägg till din URL till integritetspolicyn. Chatyllo integreras även med WordPress integritetsverktyg och de stora cookie-tilläggen (CookieYes, Complianz, CookieBot)."
+
+#: admin/views/status.php:101
+msgid "Good to Know"
+msgstr "Bra att veta"
+
+#: admin/views/dashboard.php:357
+msgid "Greet visitors with a custom message."
+msgstr "Hälsa besökare med ett anpassat meddelande."
+
+#: admin/views/faq.php:158
+msgid "Group related FAQs."
+msgstr "Gruppera relaterade FAQ."
+
+#: admin/views/settings.php:68
+msgid "Header & User Message Color"
+msgstr "Färg för huvud och användarmeddelanden"
+
+#: admin/views/settings.php:536
+msgid "Hello!"
+msgstr "Hej!"
+
+#: includes/class-chatyllo-settings.php:199
+msgid "Hi there! 👋 How can I help you today?"
+msgstr "Hej! 👋 Hur kan jag hjälpa dig idag?"
+
+#: admin/views/settings.php:288
+msgid "Hidden"
+msgstr "Dold"
+
+#: admin/views/settings.php:390
+msgid "Hide on Pages"
+msgstr "Dölj på sidor"
+
+#: admin/views/settings.php:397
+msgid "Hide the widget on these specific pages (blacklist)."
+msgstr "Dölj widgeten på dessa specifika sidor (blacklist)."
+
+#: admin/views/faq.php:31
+msgid "How FAQ / Smart Q&A works"
+msgstr "Så fungerar FAQ / Smart frågor och svar"
+
+#: admin/views/settings.php:571
+msgid "How can I remove the Chatyllo branding?"
+msgstr "Hur tar jag bort Chatyllo-brandingen?"
+
+#: admin/views/settings.php:537
+msgid "How can I help you today?"
+msgstr "Hur kan jag hjälpa dig idag?"
+
+#: admin/views/settings.php:555
+msgid "How do I customize colors and size?"
+msgstr "Hur anpassar jag färger och storlek?"
+
+#: admin/views/settings.php:575
+msgid "How do I set up GDPR compliance?"
+msgstr "Hur ställer jag in GDPR-efterlevnad?"
+
+#: admin/views/settings.php:579
+msgid "How do Display Rules work?"
+msgstr "Hur fungerar visningsregler?"
+
+#: admin/views/settings.php:567
+msgid "How do FAQ and AI work together?"
+msgstr "Hur fungerar FAQ och AI tillsammans?"
+
+#: admin/views/settings.php:559
+msgid "How does the AI chatbot work?"
+msgstr "Hur fungerar AI-chattboten?"
+
+#: includes/class-chatyllo-settings.php:215
+msgid "I appreciate your question, but I'm here to help specifically with topics related to this website. Could you please ask something about our products, services, or content?"
+msgstr "Tack för din fråga, men jag är här för att hjälpa specifikt med ämnen som rör den här webbplatsen. Kan du ställa en fråga om våra produkter, tjänster eller innehåll?"
+
+#: includes/class-chatyllo-settings.php:231
+msgid "I'm sorry, I don't have an answer for that right now. Please try rephrasing your question or contact us directly."
+msgstr "Tyvärr har jag inget svar på det just nu. Försök formulera om din fråga eller kontakta oss direkt."
+
+#: admin/views/status.php:107
+msgid "If AI is temporarily unavailable, the chatbot automatically switches to FAQ mode — your visitors still get helpful answers from your manual Q&A pairs."
+msgstr "Om AI är tillfälligt otillgängligt växlar chattboten automatiskt till FAQ-läge — dina besökare får fortfarande hjälpsamma svar från dina manuella frågor och svar."
+
+#: admin/views/settings.php:218
+msgid "Include WooCommerce products (if available)."
+msgstr "Inkludera WooCommerce-produkter (om tillgängliga)."
+
+#: admin/views/settings.php:208
+msgid "Include blog posts in the AI knowledge base."
+msgstr "Inkludera blogginlägg i AI-kunskapsbasen."
+
+#: admin/views/settings.php:213
+msgid "Include pages in the AI knowledge base."
+msgstr "Inkludera sidor i AI-kunskapsbasen."
+
+#: admin/views/settings.php:223
+msgid "Include site name, description, menus, and contact info."
+msgstr "Inkludera webbplatsnamn, beskrivning, menyer och kontaktinformation."
+
+#: admin/views/settings.php:211
+msgid "Index Pages"
+msgstr "Indexera sidor"
+
+#: admin/views/settings.php:206
+msgid "Index Posts"
+msgstr "Indexera inlägg"
+
+#: admin/views/settings.php:221
+msgid "Index Site Info"
+msgstr "Indexera webbplatsinfo"
+
+#: admin/views/settings.php:216
+msgid "Index WooCommerce Products"
+msgstr "Indexera WooCommerce-produkter"
+
+#: admin/views/dashboard.php:370
+msgid "Index your content"
+msgstr "Indexera ditt innehåll"
+
+#: admin/views/dashboard.php:310
+msgid "Indexed Pages"
+msgstr "Indexerade sidor"
+
+#: admin/views/dashboard.php:314
+msgid "Indexed Posts"
+msgstr "Indexerade inlägg"
+
+#: admin/views/dashboard.php:318
+msgid "Indexed Products"
+msgstr "Indexerade produkter"
+
+#: admin/views/settings.php:344
+msgid "Input Placeholder"
+msgstr "Platshållartext"
+
+#: includes/chatyllo-premium__premium_only.php:325
+#: includes/chatyllo-premium__premium_only.php:399
+msgid "Invalid JSON from proxy"
+msgstr "Ogiltig JSON från proxy"
+
+#: admin/views/settings.php:461
+msgid "Keep data when plugin is deleted"
+msgstr "Behåll data när tillägget tas bort"
+
+#: admin/views/faq.php:146
+msgid "Keywords"
+msgstr "Nyckelord"
+
+#: admin/views/settings.php:38
+msgid "Knowledge"
+msgstr "Kunskap"
+
+#: admin/views/dashboard.php:223
+#: admin/views/dashboard.php:274
+#: admin/views/knowledge.php:10
+#: includes/class-chatyllo-admin.php:68
+#: includes/class-chatyllo-admin.php:69
+msgid "Knowledge Base"
+msgstr "Kunskapsbas"
+
+#: admin/views/dashboard.php:155
+msgid "Knowledge Entries"
+msgstr "Kunskapsposter"
+
+#: includes/class-chatyllo-ajax.php:365
+msgid "Knowledge base is empty. Please index your content first from the Knowledge Base page."
+msgstr "Kunskapsbasen är tom. Indexera först ditt innehåll från sidan Kunskapsbas."
+
+#: includes/class-chatyllo-admin.php:169
+msgid "Knowledge base rebuilt!"
+msgstr "Kunskapsbasen har byggts om!"
+
+#: includes/class-chatyllo-ajax.php:112
+msgid "Knowledge base rebuilt."
+msgstr "Kunskapsbasen har byggts om."
+
+#: admin/views/faq.php:213
+msgid "Lang"
+msgstr "Språk"
+
+#: admin/views/faq.php:163
+msgid "Language"
+msgstr "Språk"
+
+#: admin/views/settings.php:77
+msgid "Large"
+msgstr "Stor"
+
+#: admin/views/status.php:54
+msgid "Last 30 Days"
+msgstr "Senaste 30 dagarna"
+
+#: admin/views/stats.php:10
+msgid "Last 30 days"
+msgstr "Senaste 30 dagarna"
+
+#: admin/views/stats.php:9
+msgid "Last 7 days"
+msgstr "Senaste 7 dagarna"
+
+#: admin/views/stats.php:11
+msgid "Last 90 days"
+msgstr "Senaste 90 dagarna"
+
+#: admin/views/dashboard.php:322
+msgid "Last Indexed"
+msgstr "Senast indexerad"
+
+#. translators: %s: last checked timestamp
+#: admin/views/status.php:39
+msgid "Last checked: %s"
+msgstr "Senast kontrollerad: %s"
+
+#: admin/views/knowledge.php:21
+msgid "Last indexed:"
+msgstr "Senast indexerad:"
+
+#: admin/views/settings.php:491
+msgid "Last maintenance:"
+msgstr "Senaste underhåll:"
+
+#: admin/views/settings.php:423
+msgid "Link to your privacy policy. Shown in the chat widget consent notice."
+msgstr "Länk till din integritetspolicy. Visas i chattwidgetens samtyckesmeddelande."
+
+#: admin/views/logs.php:93
+msgid "Loading conversation..."
+msgstr "Laddar konversation..."
+
+#: admin/views/faq.php:219
+#: admin/views/logs.php:73
+msgid "Loading..."
+msgstr "Laddar..."
+
+#: admin/views/settings.php:167
+msgid "Log Conversations"
+msgstr "Logga konversationer"
+
+#: admin/views/dashboard.php:306
+msgid "Log Retention"
+msgstr "Logglagring"
+
+#: admin/views/settings.php:172
+msgid "Log Retention (days)"
+msgstr "Logglagring (dagar)"
+
+#. translators: %d: max retention days
+#: admin/views/logs.php:52
+msgid "Logs retained for %d days on your current plan."
+msgstr "Loggar sparas i %d dagar på ditt nuvarande abonnemang."
+
+#: admin/views/settings.php:65
+msgid "Main color for the chat bubble, header, and user messages."
+msgstr "Huvudfärg för chattbubblan, huvudet och användarmeddelanden."
+
+#: admin/views/settings.php:485
+msgid "Maintenance"
+msgstr "Underhåll"
+
+#: includes/class-chatyllo-ajax.php:722
+msgid "Maintenance completed successfully."
+msgstr "Underhåll slutfört."
+
+#: admin/views/dashboard.php:245
+msgid "Manage FAQ"
+msgstr "Hantera FAQ"
+
+#: admin/views/faq.php:201
+msgid "Manual"
+msgstr "Manuell"
+
+#: includes/class-chatyllo-ajax.php:105
+msgid "Manual reindex requires a Business plan or higher."
+msgstr "Manuell omindexering kräver ett Business-abonnemang eller högre."
+
+#: admin/views/settings.php:130
+msgid "Master switch to enable or disable the chatbot on your site."
+msgstr "Huvudbrytare för att aktivera eller inaktivera chattboten på din webbplats."
+
+#. translators: %d: max retention days for current plan
+#: admin/views/settings.php:178
+msgid "Max %d days on your current plan."
+msgstr "Max %d dagar på ditt nuvarande abonnemang."
+
+#: admin/views/settings.php:146
+msgid "Max Response Length"
+msgstr "Max svarslängd"
+
+#: admin/views/settings.php:150
+msgid "Maximum length of AI responses (100-800). Higher values give longer, more detailed answers."
+msgstr "Maximal längd på AI-svar (100-800). Högre värden ger längre och mer detaljerade svar."
+
+#: admin/views/settings.php:76
+msgid "Medium"
+msgstr "Medel"
+
+#: admin/views/settings.php:40
+msgid "Messages"
+msgstr "Meddelanden"
+
+#: includes/class-chatyllo-widget.php:151
+msgid "Minimize"
+msgstr "Minimera"
+
+#: admin/views/dashboard.php:298
+#: admin/views/logs.php:67
+#: includes/class-chatyllo-core.php:181
+msgid "Mode"
+msgstr "Läge"
+
+#: admin/views/dashboard.php:192
+msgid "Monthly"
+msgstr "Månatligen"
+
+#: admin/views/logs.php:66
+msgid "Msgs"
+msgstr "Medd."
+
+#: admin/views/dashboard.php:117
+msgid "Need more power? Upgrade to Business"
+msgstr "Behöver du mer kraft? Uppgradera till Business"
+
+#: admin/views/settings.php:492
+#: includes/class-chatyllo-ajax.php:723
+#: includes/class-chatyllo-indexer.php:479
+msgid "Never"
+msgstr "Aldrig"
+
+#: includes/class-chatyllo-widget.php:158
+msgid "New conversation"
+msgstr "Ny konversation"
+
+#: admin/views/settings.php:359
+msgid "No FAQ Match Message"
+msgstr "Meddelande vid ingen FAQ-träff"
+
+#: admin/views/dashboard.php:71
+msgid "No API key needed!"
+msgstr "Ingen API-nyckel behövs!"
+
+#: admin/views/settings.php:289
+msgid "No branding shown"
+msgstr "Ingen branding visas"
+
+#: admin/views/status.php:92
+msgid "No data"
+msgstr "Inga data"
+
+#: admin/views/faq.php:83
+msgid "Note:"
+msgstr "Obs:"
+
+#: admin/views/settings.php:157
+msgid "Number of previous messages the AI remembers in each conversation."
+msgstr "Antal tidigare meddelanden som AI kommer ihåg i varje konversation."
+
+#: admin/views/settings.php:349
+msgid "Off-Topic Response"
+msgstr "Svar vid irrelevant fråga"
+
+#: admin/views/dashboard.php:293
+msgid "Offline"
+msgstr "Offline"
+
+#: includes/class-chatyllo-core.php:93
+msgid "Once Weekly"
+msgstr "En gång per vecka"
+
+#: admin/views/knowledge.php:30
+msgid "Once every 7 days (automatic)"
+msgstr "En gång var 7:e dag (automatiskt)"
+
+#: admin/views/settings.php:531
+msgid "Online"
+msgstr "Online"
+
+#: admin/views/settings.php:387
+msgid "Only show the widget on these specific pages (whitelist). Leave empty to ignore."
+msgstr "Visa widgeten enbart på dessa specifika sidor (whitelist). Lämna tomt för att ignorera."
+
+#: admin/views/settings.php:407
+msgid "Only show the widget to users with these roles. Leave empty to show to everyone."
+msgstr "Visa widgeten enbart för användare med dessa roller. Lämna tomt för att visa för alla."
+
+#: admin/views/status.php:89
+msgid "Operational"
+msgstr "I drift"
+
+#: includes/class-chatyllo-settings.php:223
+msgid "Our AI assistant is currently unavailable. You can still browse our FAQ below or try again later."
+msgstr "Vår AI-assistent är för tillfället otillgänglig. Du kan fortfarande bläddra bland våra FAQ nedan eller försöka igen senare."
+
+#: admin/views/status.php:91
+msgid "Outage"
+msgstr "Avbrott"
+
+#: admin/views/knowledge.php:15
+msgid "Pages"
+msgstr "Sidor"
+
+#: admin/views/dashboard.php:230
+#: admin/views/dashboard.php:281
+msgid "Paid plan required"
+msgstr "Betalt abonnemang krävs"
+
+#: admin/views/settings.php:346
+msgid "Placeholder text in the message input field."
+msgstr "Platshållartext i meddelandefältet."
+
+#: admin/views/dashboard.php:264
+msgid "Plan"
+msgstr "Abonnemang"
+
+#: admin/views/settings.php:115
+msgid "Play a sound when new messages arrive."
+msgstr "Spela upp ett ljud när nya meddelanden anländer."
+
+#: admin/views/faq.php:76
+msgid "Please don't reload or navigate away from this page."
+msgstr "Ladda inte om och navigera inte bort från den här sidan."
+
+#: includes/class-chatyllo-chat.php:38
+msgid "Please type a message."
+msgstr "Skriv ett meddelande."
+
+#: includes/class-chatyllo-widget.php:157
+msgid "Please wait a moment before sending another message."
+msgstr "Vänta en stund innan du skickar ett nytt meddelande."
+
+#: admin/views/settings.php:55
+msgid "Position"
+msgstr "Position"
+
+#: admin/views/knowledge.php:16
+msgid "Posts"
+msgstr "Inlägg"
+
+#: admin/views/settings.php:281
+#: admin/views/settings.php:539
+#: includes/class-chatyllo-widget.php:155
+msgid "Powered by Chatyllo"
+msgstr "Powered by Chatyllo"
+
+#: admin/views/settings.php:325
+msgid "Powered by YourBrand"
+msgstr "Powered by DittVarumärke"
+
+#: admin/views/settings.php:466
+msgid "Preserve settings, FAQs, knowledge base, and chat logs if you delete and reinstall the plugin."
+msgstr "Bevara inställningar, FAQ, kunskapsbas och chattloggar om du tar bort och installerar om tillägget."
+
+#: admin/views/settings.php:541
+msgid "Preview updates when you save settings."
+msgstr "Förhandsvisningen uppdateras när du sparar inställningarna."
+
+#: admin/views/settings.php:63
+msgid "Primary Color"
+msgstr "Primärfärg"
+
+#: admin/views/faq.php:170
+msgid "Priority"
+msgstr "Prioritet"
+
+#: admin/views/settings.php:418
+msgid "Privacy & GDPR"
+msgstr "Integritet och GDPR"
+
+#: includes/class-chatyllo-widget.php:161
+msgid "Privacy Policy"
+msgstr "Integritetspolicy"
+
+#: admin/views/settings.php:421
+msgid "Privacy Policy URL"
+msgstr "URL till integritetspolicy"
+
+#: admin/views/knowledge.php:17
+msgid "Products"
+msgstr "Produkter"
+
+#: admin/views/settings.php:139
+msgid "Professional"
+msgstr "Professionell"
+
+#: includes/chatyllo-premium__premium_only.php:114
+msgid "Proxy activation failed."
+msgstr "Proxy-aktivering misslyckades."
+
+#. translators: %d: HTTP status code
+#: includes/chatyllo-premium__premium_only.php:319
+#: includes/chatyllo-premium__premium_only.php:393
+msgid "Proxy returned HTTP %d"
+msgstr "Proxy returnerade HTTP %d"
+
+#: admin/views/faq.php:134
+#: admin/views/faq.php:211
+msgid "Question"
+msgstr "Fråga"
+
+#: admin/views/dashboard.php:210
+msgid "Quick Actions"
+msgstr "Snabbåtgärder"
+
+#: admin/views/settings.php:549
+msgid "Quick Help"
+msgstr "Snabbhjälp"
+
+#: admin/views/dashboard.php:218
+msgid "Re-scan all content now"
+msgstr "Skanna om allt innehåll nu"
+
+#: admin/views/dashboard.php:217
+#: admin/views/knowledge.php:40
+msgid "Rebuild Knowledge Base"
+msgstr "Bygg om kunskapsbasen"
+
+#: includes/class-chatyllo-admin.php:168
+msgid "Rebuilding knowledge base..."
+msgstr "Bygger om kunskapsbasen..."
+
+#: admin/views/settings.php:103
+msgid "Recommended: square image, at least 80x80px."
+msgstr "Rekommenderat: fyrkantig bild, minst 80x80px."
+
+#: admin/views/status.php:20
+msgid "Refresh"
+msgstr "Uppdatera"
+
+#: admin/views/dashboard.php:56
+msgid "Refresh AI Status"
+msgstr "Uppdatera AI-status"
+
+#: admin/views/settings.php:101
+msgid "Remove"
+msgstr "Ta bort"
+
+#: admin/views/settings.php:426
+msgid "Require consent before logging"
+msgstr "Kräv samtycke innan loggning"
+
+#: admin/views/dashboard.php:186
+msgid "Resets daily"
+msgstr "Nollställs dagligen"
+
+#: admin/views/dashboard.php:197
+msgid "Resets monthly"
+msgstr "Nollställs månatligen"
+
+#: admin/views/stats.php:42
+msgid "Response Modes"
+msgstr "Svarslägen"
+
+#: admin/views/settings.php:496
+msgid "Run Maintenance Now"
+msgstr "Kör underhåll nu"
+
+#: admin/views/faq.php:184
+msgid "Save FAQ"
+msgstr "Spara FAQ"
+
+#: admin/views/settings.php:505
+msgid "Save Settings"
+msgstr "Spara inställningar"
+
+#: admin/views/settings.php:169
+msgid "Save chat conversations for review in Chat Logs."
+msgstr "Spara chattkonversationer för granskning i Chattloggar."
+
+#: chatyllo.php:198
+msgid "Scheduled maintenance in progress — our team is working on improvements"
+msgstr "Planerat underhåll pågår — vårt team arbetar med förbättringar"
+
+#: admin/views/settings.php:264
+msgid "Search and select pages to exclude from AI indexing."
+msgstr "Sök och välj sidor att exkludera från AI-indexering."
+
+#: admin/views/settings.php:252
+msgid "Search and select posts to exclude from AI indexing."
+msgstr "Sök och välj inlägg att exkludera från AI-indexering."
+
+#: admin/views/settings.php:235
+msgid "Search custom post types..."
+msgstr "Sök anpassade inläggstyper..."
+
+#: admin/views/settings.php:75
+msgid "See Plans"
+msgstr "Se abonnemang"
+
+#: admin/views/settings.php:240
+msgid "Select custom post types to include in the AI knowledge base."
+msgstr "Välj anpassade inläggstyper att inkludera i AI-kunskapsbasen."
+
+#: admin/views/faq.php:155
+msgid "Select or type new..."
+msgstr "Välj eller skriv ny..."
+
+#: includes/class-chatyllo-widget.php:149
+msgid "Send"
+msgstr "Skicka"
+
+#: admin/views/status.php:15
+#: includes/class-chatyllo-admin.php:95
+#: includes/class-chatyllo-admin.php:96
+msgid "Service Status"
+msgstr "Tjänstestatus"
+
+#: admin/views/status.php:108
+msgid "Service status is checked automatically every 5 minutes. You can also refresh manually using the button above."
+msgstr "Tjänstestatusen kontrolleras automatiskt var 5:e minut. Du kan även uppdatera manuellt med knappen ovan."
+
+#: admin/views/logs.php:64
+msgid "Session"
+msgstr "Session"
+
+#: admin/views/stats.php:69
+msgid "Session Quality"
+msgstr "Sessionskvalitet"
+
+#: admin/views/dashboard.php:356
+msgid "Set a welcome message"
+msgstr "Ställ in ett välkomstmeddelande"
+
+#: admin/views/dashboard.php:377
+msgid "Set privacy policy"
+msgstr "Ställ in integritetspolicy"
+
+#: admin/views/dashboard.php:241
+#: includes/class-chatyllo-admin.php:51
+#: includes/class-chatyllo-admin.php:52
+#: includes/class-chatyllo-admin.php:222
+msgid "Settings"
+msgstr "Inställningar"
+
+#: includes/class-chatyllo-admin.php:165
+msgid "Settings saved successfully!"
+msgstr "Inställningar sparade!"
+
+#: includes/class-chatyllo-ajax.php:95
+msgid "Settings saved."
+msgstr "Inställningar sparade."
+
+#: admin/views/settings.php:164
+msgid "Show animated dots while the bot is composing a response."
+msgstr "Visa animerade punkter medan boten skriver ett svar."
+
+#: admin/views/settings.php:380
+msgid "Show Only on Pages"
+msgstr "Visa bara på sidor"
+
+#: admin/views/settings.php:400
+msgid "Show for Roles"
+msgstr "Visa för roller"
+
+#: admin/views/settings.php:373
+msgid "Show on All Pages"
+msgstr "Visa på alla sidor"
+
+#: admin/views/settings.php:108
+msgid "Show on Mobile"
+msgstr "Visa på mobil"
+
+#: admin/views/settings.php:361
+msgid "Shown when no matching FAQ answer is found."
+msgstr "Visas när inget matchande FAQ-svar hittas."
+
+#: admin/views/settings.php:356
+msgid "Shown when the AI service is temporarily unavailable."
+msgstr "Visas när AI-tjänsten är tillfälligt otillgänglig."
+
+#: admin/views/settings.php:351
+msgid "Shown when users ask questions unrelated to your website."
+msgstr "Visas när användare ställer frågor som inte rör din webbplats."
+
+#: admin/views/settings.php:79
+msgid "Size of the floating chat bubble button."
+msgstr "Storlek på den flytande chattbubblan."
+
+#: admin/views/settings.php:75
+msgid "Small"
+msgstr "Liten"
+
+#: includes/class-chatyllo-widget.php:156
+msgid "Something went wrong. Please try again."
+msgstr "Något gick fel. Försök igen."
+
+#: admin/views/settings.php:113
+msgid "Sound Effects"
+msgstr "Ljudeffekter"
+
+#: admin/views/faq.php:214
+msgid "Source"
+msgstr "Källa"
+
+#: includes/class-chatyllo-widget.php:154
+msgid "Standard Mode"
+msgstr "Standardläge"
+
+#: admin/views/logs.php:63
+msgid "Started"
+msgstr "Startad"
+
+#: admin/views/dashboard.php:17
+msgid "Starter"
+msgstr "Starter"
+
+#: admin/views/settings.php:89
+#: admin/views/settings.php:136
+#: admin/views/settings.php:147
+#: admin/views/settings.php:154
+msgid "Starter+"
+msgstr "Starter+"
+
+#: admin/views/dashboard.php:289
+msgid "Starter+ required"
+msgstr "Starter+ krävs"
+
+#: admin/views/stats.php:5
+#: includes/class-chatyllo-admin.php:86
+#: includes/class-chatyllo-admin.php:87
+msgid "Statistics"
+msgstr "Statistik"
+
+#: admin/views/dashboard.php:259
+msgid "System Info"
+msgstr "Systeminfo"
+
+#: admin/views/settings.php:70
+msgid "Text color in the chat header and user message bubbles."
+msgstr "Textfärg i chatthuvudet och användarens meddelandebubblor."
+
+#: admin/views/settings.php:560
+msgid "The AI automatically reads your website content (pages, posts, products) and uses it to answer visitor questions. No API key is needed — everything is managed for you. Set the AI Tone (Professional, Friendly, Casual) and Memory in the Behavior tab. Requires a Starter plan or higher."
+msgstr "AI läser automatiskt ditt webbplatsinnehåll (sidor, inlägg, produkter) och använder det för att besvara besökarnas frågor. Ingen API-nyckel behövs — allt hanteras åt dig. Ställ in AI-ton (Professionell, Vänlig, Avslappnad) och Minne under fliken Beteende. Kräver ett Starter-abonnemang eller högre."
+
+#: admin/views/settings.php:564
+msgid "The Knowledge Base is the AI's brain. It indexes your pages, posts, WooCommerce products, and site info. Starter plans auto-index weekly, Business/Agency every 12 hours. Configure what to index in the Knowledge tab."
+msgstr "Kunskapsbasen är AI:ns hjärna. Den indexerar dina sidor, inlägg, WooCommerce-produkter och webbplatsinfo. Starter-abonnemang indexerar automatiskt veckovis, Business/Agency var 12:e timme. Konfigurera vad som ska indexeras under fliken Kunskap."
+
+#: admin/views/settings.php:572
+msgid "The \"Powered by Chatyllo\" footer can be hidden on Business plans or replaced with your own text on Agency plans. Go to the Branding tab to configure this."
+msgstr "Sidfoten \"Powered by Chatyllo\" kan döljas på Business-abonnemang eller ersättas med din egen text på Agency-abonnemang. Gå till fliken Branding för att konfigurera detta."
+
+#: admin/views/settings.php:143
+msgid "The communication style the AI assistant will use when responding."
+msgstr "Kommunikationsstilen som AI-assistenten kommer att använda i sina svar."
+
+#: admin/views/knowledge.php:12
+msgid "The knowledge base is auto-generated from your site content. Chatyllo reads your pages, posts, and products to understand your business."
+msgstr "Kunskapsbasen genereras automatiskt från ditt webbplatsinnehåll. Chatyllo läser dina sidor, inlägg och produkter för att förstå din verksamhet."
+
+#: admin/views/faq.php:136
+msgid "The question visitors might ask. Write it naturally."
+msgstr "Frågan som besökare kan tänkas ställa. Skriv den naturligt."
+
+#: admin/views/faq.php:141
+msgid "The response shown to visitors. Supports **bold** and *italic* formatting."
+msgstr "Svaret som visas för besökare. Stöder **fetstil** och *kursiv* formatering."
+
+#: includes/class-chatyllo-widget.php:159
+msgid "This chat may store messages to improve our service."
+msgstr "Denna chatt kan spara meddelanden för att förbättra vår tjänst."
+
+#: admin/views/knowledge.php:41
+msgid "This will re-scan all your content. Changes to posts/pages are also detected automatically."
+msgstr "Detta kommer att skanna om allt ditt innehåll. Ändringar i inlägg/sidor upptäcks även automatiskt."
+
+#: admin/views/status.php:84
+msgid "Today"
+msgstr "Idag"
+
+#: admin/views/logs.php:68
+msgid "Tokens"
+msgstr "Token"
+
+#: admin/views/stats.php:26
+msgid "Tokens Used"
+msgstr "Använda token"
+
+#: includes/class-chatyllo-ajax.php:67
+msgid "Too many requests. Please slow down."
+msgstr "För många förfrågningar. Vänligen ta det lugnt."
+
+#: admin/views/stats.php:48
+msgid "Top Pages"
+msgstr "Toppsidor"
+
+#: admin/views/dashboard.php:137
+#: admin/views/logs.php:20
+msgid "Total Chats (30d)"
+msgstr "Totalt chattar (30d)"
+
+#: admin/views/knowledge.php:14
+msgid "Total Entries"
+msgstr "Totalt poster"
+
+#: admin/views/faq.php:98
+msgid "Total FAQs"
+msgstr "Totalt FAQ"
+
+#: admin/views/stats.php:23
+msgid "Total Messages"
+msgstr "Totalt meddelanden"
+
+#: admin/views/settings.php:259
+#: admin/views/settings.php:382
+#: admin/views/settings.php:392
+msgid "Type to search pages..."
+msgstr "Skriv för att söka sidor..."
+
+#: admin/views/settings.php:247
+msgid "Type to search posts..."
+msgstr "Skriv för att söka inlägg..."
+
+#: includes/class-chatyllo-settings.php:207
+msgid "Type your message..."
+msgstr "Skriv ditt meddelande..."
+
+#: admin/views/settings.php:162
+msgid "Typing Indicator"
+msgstr "Skrivindikator"
+
+#: chatyllo.php:173
+msgid "Unable to connect to AI service — checking..."
+msgstr "Kan inte ansluta till AI-tjänsten — kontrollerar..."
+
+#: includes/class-chatyllo-ajax.php:90
+#: includes/class-chatyllo-ajax.php:101
+#: includes/class-chatyllo-ajax.php:120
+#: includes/class-chatyllo-ajax.php:129
+#: includes/class-chatyllo-ajax.php:168
+#: includes/class-chatyllo-ajax.php:181
+#: includes/class-chatyllo-ajax.php:189
+#: includes/class-chatyllo-ajax.php:204
+#: includes/class-chatyllo-ajax.php:353
+msgid "Unauthorized"
+msgstr "Obehörig"
+
+#: admin/views/dashboard.php:326
+#: admin/views/logs.php:34
+msgid "Unique Visitors"
+msgstr "Unika besökare"
+
+#: admin/views/dashboard.php:303
+#: admin/views/dashboard.php:307
+msgid "Unlimited"
+msgstr "Obegränsat"
+
+#: admin/views/dashboard.php:102
+msgid "Unlimited FAQ entries"
+msgstr "Obegränsade FAQ-poster"
+
+#: admin/views/logs.php:49
+msgid "Unlimited log retention (Agency plan)."
+msgstr "Obegränsad logglagring (Agency-abonnemang)."
+
+#: admin/views/settings.php:175
+msgid "Unlimited retention (Agency plan)."
+msgstr "Obegränsad lagring (Agency-abonnemang)."
+
+#: admin/views/settings.php:192
+msgid "Unlock AI Knowledge Base"
+msgstr "Lås upp AI-kunskapsbasen"
+
+#: admin/views/dashboard.php:98
+msgid "Unlock AI-Powered Responses"
+msgstr "Lås upp AI-drivna svar"
+
+#: admin/views/dashboard.php:269
+#: admin/views/faq.php:88
+#: admin/views/settings.php:89
+#: admin/views/settings.php:136
+#: admin/views/settings.php:147
+#: admin/views/settings.php:154
+#: admin/views/settings.php:196
+#: admin/views/settings.php:231
+#: admin/views/settings.php:313
+msgid "Upgrade"
+msgstr "Uppgradera"
+
+#: admin/views/knowledge.php:65
+#: admin/views/settings.php:196
+msgid "Upgrade Now"
+msgstr "Uppgradera nu"
+
+#: admin/views/knowledge.php:52
+msgid "Upgrade to Business"
+msgstr "Uppgradera till Business"
+
+#: admin/views/dashboard.php:122
+msgid "Upgrade to Business — $9.99/mo"
+msgstr "Uppgradera till Business — $9,99/mån"
+
+#: admin/views/faq.php:67
+msgid "Upgrade to Starter"
+msgstr "Uppgradera till Starter"
+
+#: admin/views/dashboard.php:108
+msgid "Upgrade to Starter — $4.99/mo"
+msgstr "Uppgradera till Starter — $4,99/mån"
+
+#: admin/views/knowledge.php:62
+msgid "Upgrade to any paid plan to unlock automatic content indexing and AI-powered responses based on your site content."
+msgstr "Uppgradera till valfritt betalt abonnemang för att låsa upp automatisk innehållsindexering och AI-drivna svar baserat på ditt webbplatsinnehåll."
+
+#: admin/views/settings.php:193
+msgid "Upgrade to let AI automatically learn from your pages, posts, and products. No API key needed — everything is managed for you."
+msgstr "Uppgradera för att låta AI automatiskt lära sig från dina sidor, inlägg och produkter. Ingen API-nyckel behövs — allt hanteras åt dig."
+
+#: admin/views/settings.php:100
+msgid "Upload Image"
+msgstr "Ladda upp bild"
+
+#: includes/class-chatyllo-core.php:179
+msgid "User Message"
+msgstr "Användarmeddelande"
+
+#: admin/views/settings.php:339
+msgid "Welcome Message"
+msgstr "Välkomstmeddelande"
+
+#: admin/views/status.php:106
+msgid "When AI is operational, your chatbot uses intelligent AI to answer visitor questions based on your website content."
+msgstr "När AI är i drift använder din chattbot intelligent AI för att besvara besökarnas frågor baserat på ditt webbplatsinnehåll."
+
+#: admin/views/settings.php:375
+msgid "When enabled, the widget shows everywhere. Disable to use the rules below."
+msgstr "När aktiverad visas widgeten överallt. Inaktivera för att använda reglerna nedan."
+
+#: admin/views/settings.php:431
+msgid "When enabled, visitors must accept a privacy notice before their conversations are logged. Chat still works without consent, but no data is stored."
+msgstr "När aktiverad måste besökare godkänna ett integritetsmeddelande innan deras konversationer loggas. Chatten fungerar fortfarande utan samtycke, men inga data sparas."
+
+#: admin/views/settings.php:60
+msgid "Where the chat widget appears on your site."
+msgstr "Var chattwidgeten visas på din webbplats."
+
+#: admin/views/settings.php:563
+msgid "What is the Knowledge Base?"
+msgstr "Vad är kunskapsbasen?"
+
+#: admin/views/settings.php:52
+msgid "Widget Appearance"
+msgstr "Widgetens utseende"
+
+#: admin/views/settings.php:517
+msgid "Widget Preview"
+msgstr "Förhandsvisa widget"
+
+#: admin/views/settings.php:73
+msgid "Widget Size"
+msgstr "Widgetstorlek"
+
+#: admin/views/faq.php:148
+msgid "Words that trigger this answer."
+msgstr "Ord som utlöser detta svar."
+
+#: admin/views/faq.php:140
+msgid "Write a clear, helpful answer..."
+msgstr "Skriv ett tydligt, hjälpsamt svar..."
+
+#: admin/views/settings.php:584
+msgid "Yes! Go to Advanced tab → Export Data (JSON) to download your settings, FAQs, and statistics. Statistics can also be exported as CSV from the Statistics page."
+msgstr "Ja! Gå till fliken Avancerat → Exportera data (JSON) för att ladda ner dina inställningar, FAQ och statistik. Statistik kan även exporteras som CSV från sidan Statistik."
+
+#: admin/views/dashboard.php:99
+msgid "You are using the free version with manual Q&A only. Upgrade to Starter to enable AI chatbot with 100 responses/day."
+msgstr "Du använder gratisversionen med enbart manuella frågor och svar. Uppgradera till Starter för att aktivera AI-chattboten med 100 svar/dag."
+
+#: admin/views/faq.php:38
+msgid "You can generate FAQs multiple times. Each generation analyzes your knowledge base and adds new Q&A pairs. Existing AI-generated FAQs are updated if needed — no duplicates are created. The more content you have indexed, the better and more complete the generated FAQs will be."
+msgstr "Du kan generera FAQ flera gånger. Varje generering analyserar din kunskapsbas och lägger till nya frågor och svar. Befintliga AI-genererade FAQ uppdateras vid behov — inga dubbletter skapas. Ju mer innehåll du har indexerat, desto bättre och mer kompletta blir de genererade FAQ."
+
+#. translators: %d: number of AI-generated FAQs
+#: admin/views/faq.php:86
+msgid "You have %d AI-generated FAQs that are currently inactive because you are on the Free plan. Upgrade to any paid plan to reactivate them."
+msgstr "Du har %d AI-genererade FAQ som för närvarande är inaktiva eftersom du är på gratisabonnemanget. Uppgradera till valfritt betalt abonnemang för att återaktivera dem."
+
+#: admin/views/knowledge.php:49
+msgid "Your Starter plan auto-indexes content every 7 days. Upgrade to Business for manual reindex anytime and 12-hour auto-updates."
+msgstr "Ditt Starter-abonnemang indexerar automatiskt innehåll var 7:e dag. Uppgradera till Business för manuell omindexering när som helst och automatiska uppdateringar var 12:e timme."
+
+#: admin/views/settings.php:326
+msgid "Your custom text to display in the chat footer."
+msgstr "Din anpassade text att visa i chattens sidfot."
+
+#: admin/views/settings.php:296
+msgid "Your own branding text"
+msgstr "Din egen brandingtext"
+
+#: admin/views/settings.php:580
+msgid "By default the widget shows on all pages. Disable \"Show on All Pages\" to use rules: whitelist specific pages, blacklist pages, or restrict by user role. Use the search-and-pick selectors to easily find pages."
+msgstr "Som standard visas widgeten på alla sidor. Inaktivera \"Visa på alla sidor\" för att använda regler: vitlista specifika sidor, svartlista sidor eller begränsa efter användarroll. Använd sök-och-välj-väljarna för att enkelt hitta sidor."
+
+#: admin/views/settings.php:568
+msgid "FAQs use a smart keyword matching algorithm that works on ALL plans — no AI credits consumed. When AI is unavailable (limits reached, maintenance), the chatbot automatically switches to FAQ mode. Keep your FAQs updated for the best fallback experience."
+msgstr "FAQ använder en smart nyckelordsmatchningsalgoritm som fungerar på ALLA abonnemang — inga AI-krediter förbrukas. När AI inte är tillgängligt (gränser nådda, underhåll) växlar chattboten automatiskt till FAQ-läge. Håll dina FAQ uppdaterade för bästa reservupplevelse."
+
+#: admin/views/dashboard.php:307
+msgid "days"
+msgstr "dagar"
+
+#: admin/views/faq.php:135
+msgid "e.g. What are your shipping options?"
+msgstr "t.ex. Vilka fraktalternativ har ni?"
+
+#: includes/class-chatyllo-widget.php:152
+msgid "is typing..."
+msgstr "skriver..."
+
+#: includes/class-chatyllo-core.php:219
+msgid "When visitors use the Chatyllo chat widget on this site, the following data may be collected:"
+msgstr "När besökare använder Chatyllos chattwidget på denna webbplats kan följande data samlas in:"
+
+#: includes/class-chatyllo-core.php:221
+msgid "<strong>Chat messages:</strong> The text of conversations between visitors and the chatbot is stored in the site database for quality improvement and support purposes."
+msgstr "<strong>Chattmeddelanden:</strong> Texten i konversationer mellan besökare och chattboten lagras i webbplatsens databas för kvalitetsförbättring och supportändamål."
+
+#: includes/class-chatyllo-core.php:222
+msgid "<strong>Session identifier:</strong> A randomly generated session ID is stored in the browser's localStorage to maintain conversation continuity. This is not linked to any personal account."
+msgstr "<strong>Sessionsidentifierare:</strong> Ett slumpmässigt genererat sessions-ID lagras i webbläsarens localStorage för att upprätthålla konversationskontinuitet. Detta är inte kopplat till något personligt konto."
+
+#: includes/class-chatyllo-core.php:223
+msgid "<strong>IP address:</strong> Visitor IP addresses may be collected in hashed (anonymized) form, or not collected at all if the site administrator has enabled IP anonymization."
+msgstr "<strong>IP-adress:</strong> Besökarnas IP-adresser kan samlas in i hashad (anonymiserad) form, eller inte samlas in alls om webbplatsadministratören har aktiverat IP-anonymisering."
+
+#: includes/class-chatyllo-core.php:224
+msgid "<strong>Browser information:</strong> Browser type and device information may be collected for analytics purposes, unless the site administrator has enabled browser anonymization."
+msgstr "<strong>Webbläsarinformation:</strong> Webbläsartyp och enhetsinformation kan samlas in för analysändamål, såvida inte webbplatsadministratören har aktiverat webbläsaranonymisering."
+
+#: includes/class-chatyllo-core.php:225
+msgid "<strong>Page URL:</strong> The page where the chat conversation took place is recorded."
+msgstr "<strong>Sidans URL:</strong> Sidan där chattkonversationen ägde rum registreras."
+
+#: includes/class-chatyllo-core.php:227
+msgid "<strong>External service:</strong> For AI-powered responses (premium plans only), chat messages and website content context are sent to the Chatyllo AI proxy server (wpezo.com) for processing. No visitor personal data (IP, browser info) is sent to this service."
+msgstr "<strong>Extern tjänst:</strong> För AI-drivna svar (enbart betalda abonnemang) skickas chattmeddelanden och webbplatsinnehållskontext till Chatyllos AI-proxyserver (wpezo.com) för bearbetning. Inga personuppgifter om besökare (IP, webbläsarinfo) skickas till denna tjänst."
+
+#: includes/class-chatyllo-core.php:228
+msgid "<strong>Data retention:</strong> Chat logs are automatically deleted based on the site's configured retention period (30 to 180 days, depending on the plan). Site administrators can manually delete all chat data at any time."
+msgstr "<strong>Datalagring:</strong> Chattloggar raderas automatiskt baserat på webbplatsens konfigurerade lagringsperiod (30 till 180 dagar, beroende på abonnemang). Webbplatsadministratörer kan manuellt radera all chattdata när som helst."
+
+#: includes/class-chatyllo-core.php:229
+msgid "<strong>Consent:</strong> If the site administrator has enabled the consent requirement, a privacy notice is displayed in the chat widget before any data is logged. Visitors can use the chat without accepting, but their conversations will not be stored."
+msgstr "<strong>Samtycke:</strong> Om webbplatsadministratören har aktiverat samtyckeskravet visas ett integritetsmeddelande i chattwidgeten innan några data loggas. Besökare kan använda chatten utan att godkänna, men deras konversationer kommer inte att sparas."
